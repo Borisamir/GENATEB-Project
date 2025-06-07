@@ -1,0 +1,71 @@
+# COMO REALIZAR ESTE TRABAJO:
+A continuación, se explican los criterios a seguir en este proyecto. Quien no sigua los criterios del proyecto, será castigado con una **noche con Niel y Kahoot!**
+
+## GENERAL:
+Nombra a etiquetas, clases, identificadores (**id**) y variables en ingles.
+
+```js
+const my_var = "my_var is a english name";
+```
+
+La identacion debe ser de 4 espacios hacia la derecha.
+
+> Usa la tecla **TAB** para saltar 4 espacios
+
+```js
+function my_function() {
+.... my_var = value;
+.... 
+}
+```
+
+Comenta siempre parte de un codigo **importante** que no entiendas o para explicar su funcionamiento.
+
+```js
+//
+// No se lo que hace este codigo, lo saque de ChatGTP :D
+//
+(() => {
+  const _ = [(() => 42)(), +"42", ~-1].map(x => x + []);
+  eval(_[1] + (_[2][1] + _[0])[1] + "rt('¡Hola!')");
+})();
+```
+
+## HTML:
+Toda la estructura de la pagina debe ir dentro del ```<body>```.
+
+```html
+<body>
+    <my_tag>
+    </my_tag>
+</body>
+```
+
+Los nombres de clases deben tener un guion por cada espacio, al igual que los identificadores (**id**).
+
+```html
+<my_tag class="my-tag-class">
+```
+
+## CSS:
+Usa un espacio por cada palabra.
+
+```css
+my_tag {
+    propertie: value;
+}
+```
+
+Sigue el orden de la estructura HTML.
+
+> Aqui ``my_second_tag`` en la estructura HTML, esta despues ```my_tag```
+
+```css
+my_tag {
+    ...
+}
+
+my_second_tag {
+    ...
+}
+```

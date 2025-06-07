@@ -1,0 +1,47 @@
+.texto-header:hover { /*hover:El css se activa cuando pasa el mouse*/
+    text-decoration: underline; /*Esto genera un subrayado en el texto*/
+    text-decoration-color:cornflowerblue ;/*Esto es el color del subrayado*/
+    cursor:pointer;
+}
+
+.lista{
+    list-style-type: none;
+    display: flex;
+    gap:30px;
+    margin-left: 300px;
+}
+
+.lista li a {
+    text-decoration: none;
+    color:#083D29;
+    font-weight: bold;
+    font-family:'Inter',sans-serif ;
+}
+
+header {
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:10px 40px;
+    background-color: white;
+}
+
+.tamaño-imagen {
+    height: 59px;
+    width: 247.8px;
+}
+
+.social a img{
+    height: 20px;
+    margin:0;
+}
+
+.social{
+    display:flex;
+    align-items: center;
+    gap:10px;
+    margin-right:100px;
+    margin-top:5px;
+
+}
+
