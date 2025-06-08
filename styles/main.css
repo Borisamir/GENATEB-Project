@@ -1,0 +1,119 @@
+main {
+    background-color: #f6f6ee;
+}
+
+
+/* SLIDER */
+.slider-container {
+    height: 822px;
+    max-width: 1440px;
+    position: relative;
+    margin: 0 auto;
+}
+
+.slider-container .slide {
+    height: 100%;
+    position: relative;
+}
+
+.slider-container .slide img {
+    width: 100%;
+    height: 100%;
+    /* object-fit: cover; */
+}
+
+.slider-container .slide .content {
+    position: absolute;
+    top: 0;
+    text-transform: uppercase;
+}
+
+.slider-container .slide .content p {
+    font-size: 64px;
+    color: #083d29;
+}
+
+.slider-container .slide .content .quote {
+    display: block;
+    width: 137px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 8px;
+    background-color: #009951;
+    color: #f5f5f5;
+}
+
+.slider-container .slide .content .contact {
+    display: block;
+    width: 84px;
+    height: 84px;
+}
+
+.nav-buttons {
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.nav-buttons .directions {
+    display: flex;
+    grid-row: 2;
+    justify-content: space-between;
+}
+
+.nav-buttons .directions a {
+    display: block;
+    width: 97px;
+    height: 97px;
+}
+
+.nav-buttons .directions a img {
+    width: 100%;
+    height: 100%;
+}
+
+.nav-buttons .directions .right-arrow {
+    transform: scaleX(-1);
+}
+
+.nav-buttons .indicators {
+    display: flex;
+    align-items: end;
+    align-self: end;
+    justify-self: center;
+    grid-row: 3;
+    width: 321px;
+    height: 20px;
+    margin-bottom: 32px;
+    box-shadow: 0 4px 4px 0 #00000040;
+}
+
+.nav-buttons .indicators * {
+    flex: auto;
+    height: 12px;
+}
+
+.nav-buttons .indicators *:hover {
+    height: 20px;
+}
+
+.nav-buttons .indicators .ind-1 {
+    background-color: #000000;
+}
+
+.nav-buttons .indicators .ind-2 {
+    background-color: #083d29;
+}
+
+.nav-buttons .indicators .ind-3 {
+    background-color: #009951;
+}
+
+/* END-SLIDER */

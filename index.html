@@ -3,45 +3,162 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="styles\header-footer.css">
+    <link rel="stylesheet" href="styles\main.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cal+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
     <title>Ocupacional</title>
 </head>
 <body>
-    <header>
-        <div class="tamaño-imagen">
-            <img src="recursos\Logos\Logo.png" alt="Logo de Genateb">
-        </div>
-        <nav><!--Esta etiqueta sirve para definir un bloque de navegacion-->
-            <ul class="lista">
-                <li><a class="texto-header" href="#">Inicio</a></li><!--Clase texto_header sirve para que las palabras se subrayen al pasar el mouse encima-->
-                <li><a class="texto-header" href="#">Nosotros</a></li><!--a href="#" se refiere a que un no tiene links pero se definiran despues-->
-                <li><a class="texto-header" href="#">Servicio</a></li>
-                <li><a class="texto-header" href="#">Blog</a></li>
-            </ul>
-        </nav>
-        <div class="social">
-            <a href="#"><img src="recursos\Logos\Logo_Facebook.png" alt="Facebook"></a>
-            <a href="#"><img src="recursos\Logos\Logo_Instagram.png" alt="Instagram"></a>
-            <a href="#"><img src="recursos\Logos\Logo_Whatsapp.png" alt="Whatsapp"></a>
+    <header> <!--Funciona como un div grande que guarda lo introductorio-->
+        <div class="container">
+            <div class="brand-container">
+                <img src="recursos\Logos\brand.svg" alt="genateb">
+            </div>
+            <nav class="menu-container"> <!--Esta etiqueta sirve para definir un bloque de navegacion-->
+                <ul class="pages">
+                    <li><a href="#">inicio</a></li> <!--Clase texto_header sirve para que las palabras se subrayen al pasar el mouse encima-->
+                    <li><a href="#">nosotros</a></li> <!--a href="#" se refiere a que un no tiene links pero se definiran despues-->
+                    <li><a href="#">servicio</a></li>
+                    <li><a href="#">blog</a></li>
+                </ul>
+                <ul class="social-nets">
+                    <li><a href="#" target="_blank"><img src="recursos\Logos\Logo_Facebook.svg" width="9" alt="facebook"></a></li>
+                    <li><a href="https://www.instagram.com/genateb/" target="_blank"><img src="recursos\Logos\Logo_Instagram.svg" width="17" alt="instagram"></a></li>
+                    <li><a href="https://www.linkedin.com/company/genateb-sac/?trk=public_post_feed-actor-name&originalSubdomain=pe" target="_blank"><img src="recursos\Logos\Logo_Linkedin.svg" width="20" alt="linkedin"></a></li>
+                    <li><a href="https://wa.link/drs6v5" target="_blank"><img src="recursos\Logos\Logo_Whatsapp.svg" width="19" alt="whatsapp"></a></li>
+                </ul>
+            </nav>
         </div>
     </header>
-    <footer> 
-        <img src="recursos/logos/LOGO POSITIVO-04 1.png">
-        <div class="footer-section">
-            <h3>Servicios</h3>
+    <main>
+        <section class="slider-container">
+            <div class="slide">
+                <img src="recursos/Body/Slider_1.png" alt="slider-1">
+                <div class="content">
+                    <p>monitoreo de agentes ocupacionales</p>
+                    <a href="#" class="quote">cotizar</a>
+                    <a href="https://wa.link/drs6v5" class="contact"><img src="recursos/Logos/slider-whatsapp.svg"></a>
+                </div>
+            </div>
+            <!-- <div class="slide">
+                <img src="recursos/Body/Slider_2.png" alt="slider-1">
+                <p>monitoreo de calidad ambiental</p>
+                <a href="#">cotizar</a>
+                <a href="#"><img src="recursos/Logos/slider-whatsapp.svg"></a>
+            </div>
+            <div class="slide">
+                <img src="recursos/Body/Slider_3.png" alt="slider-1">
+                <p>capacitaciones</p>
+                <a href="#">cotizar</a>
+                <a href="#"><img src="recursos/Logos/slider-whatsapp.svg"></a>
+            </div> -->
+            <div class="nav-buttons">
+                <div class="directions">
+                    <a href="#"><img src="recursos/Body/Flecha_Izquierda.png" alt="left-arrow"></a>
+                    <a href="#"><img src="recursos/Body/Flecha_Izquierda.png" class="right-arrow" alt="right-arrow"></a>
+                </div>
+                <div class="indicators">
+                    <div class="ind-1"></div>
+                    <div class="ind-2"></div>
+                    <div class="ind-3"></div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <div>
+        <div>
+            <form action="/procesor-formulario" method="post">
+                <label for="nombre">Nombre y Apellidos</label><br>
+                <input type="text" id="nombre" name="nombre">
+                <label for="correo_electronico">Correo Electronico</label>
+                <input type="text" id="correo_electronico" name="correo_electronico">
+                <label for="telefono">Numero de telefono</label>
+                <input type="number" id="telefono" name="telefono">
+                <label for="tipo_servicio">Tipo de servicio que le interesa</label>
+                <select id="tipo_servicio" name="tipo_servicio">
+                    <option value="Monitoreo de agentes ocupacionales"></option>
+                    <option value="Monitoreo de calidad ambiental"></option>
+                    <option value="Elaboracion de Instrumentos de Gestion Ambiental"></option>
+                    <option value="Estudios Complementarios"></option>
+                    <option value="Seguridad y Salud en el trabajo"></option>
+                    <option value="Capacitaciones"></option>
+                </select>
+                <label for="mensaje">Mensaje o Consulta</label>
+                <input type="text" id="mensaje" name="mensaje">
+                <label>
+                    <input type="checkbox" name="terminos">Acepto terminos y condiciones
+                </label>
+                <button type="submit">
+                    <img src="recursos\Body\Enviar.png" alt="Enviar">
+                </button>
+            </form>
+        </div>
+        <img src="recursos\Body\Imagen_Señor.png" alt="Trabajador">
+    </div>
+    <footer>
+        <div class="container">
+            <img src="recursos\Logos\Logo_Blanco.svg" class="logo-blanco" alt="genateb">
+            <div class="footer-section">
+                <h3 class="titulo-footer" style="margin-bottom: 20px;">Servicios</h3>
+                <ul class="tamaño-letra-footer">
+                    <li>Monitoreo de agentes ocupacionales</li>
+                    <li>Monitoreo de calidad ambiental</li>
+                    <li>Elaboracion de istrucciones de Gestion Ambiental</li>
+                    <li>Permisologia Ambiental minera</li>
+                    <li>Estudios Complementarios</li>
+                    <li>Seguridad y salud en el trabajo</li>
+                    <li>Capacitaciones</li>
+                </ul>
+            </div> 
+            <div class="footer-section">
+                <h3 class="titulo-footer" style="margin-bottom:20px">Sedes</h3>
+                <ul>
+                    <li class="item-sede">
+                        <img src="recursos\Logos\Logo_Mapa.svg" class="icono-mapa">
+                        Huaraz:
+                        <div class="direccion">
+                            Mlc.Nor.Este Rio Quilcay Lote 14
+                            Apv.Sagrado Corazon de Jesus
+                            (Pasando Torreros Nuñez).
+                        </div>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="item-sede">
+                        <img src="recursos\Logos\Logo_Mapa.svg" class="icono-mapa">
+                        Lima:
+                        <div class="direccion">
+                            Jr.Fitzcarrald 1504, Los Olivos.
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3 class="titulo-footer" style="margin-bottom:20px">Contacto</h3>
+                <ul>
+                    <li class="item-sede">
+                        <img src="recursos\Logos\Logo_Telefono.svg" class="icono-mapa">
+                        933 257 830
+                    </li>
+                    <li class="item-sede">
+                        <img src="recursos\Logos\Logo_Correo.svg" class="icono-mapa">
+                        comercial@genateb.com
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="imagenes-footer">
             <ul>
-                <li><a href="#">de agentes ocupacionales</a></li>
-                <li><a href="#"> de calidad ambiental</a></li>
-                <li><a href="#">Elaboracion de istrucciones de Gestion Ambiental</a></li>
-                <li><a href="#">Permisologia Ambiental minera </a></li>
-                <li><a href="#">Estudios Complementarios</a> </li>
-                <li><a href="#"> Seguridad y salud en el trabajo</a></li>
-                <li><a href="#">Capacitaciones</a></li>
+                <li><a href="#" target="_blank"><img src="recursos\Logos\Logo_Facebook.svg" width="9" alt="facebook"></a></li>
+                <li><a href="https://www.instagram.com/genateb/" target="_blank"><img src="recursos\Logos\Logo_Instagram.svg" width="17" alt="instagram"></a></li>
+                <li><a href="https://www.linkedin.com/company/genateb-sac/?trk=public_post_feed-actor-name&originalSubdomain=pe" target="_blank"><img src="recursos\Logos\Logo_Linkedin.svg" width="20" alt="linkedin"></a></li>
+                <li><a href="https://wa.link/drs6v5" target="_blank"><img src="recursos\Logos\Logo_Whatsapp.svg" width="19" alt="whatsapp"></a></li>
             </ul>
-        </div> 
-        <div  class="footer-section">
-            <h3>Sedes</h3>
+        </div>
+        <div class="copyright">
+            <small><a href="https://genateb.com/">&copy genateb s.a.c.</a> todos los derechos reservados.</small>
+        </div>
     </footer>
 </body>
 </html>

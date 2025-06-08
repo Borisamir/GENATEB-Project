@@ -2,7 +2,7 @@
 A continuación, se explican los criterios a seguir en este proyecto. Quien no sigua los criterios del proyecto, será castigado con una **noche con Niel y Kahoot!**
 
 ## GENERAL:
-Nombra a etiquetas, clases, identificadores (**id**) y variables en ingles.
+Nombra clases, identificadores (**id**) y variables en ingles.
 
 ```js
 const my_var = "my_var is a english name";
