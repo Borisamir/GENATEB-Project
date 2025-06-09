@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Cal Sans", sans-serif;
+    font-size: 16px;
+}
+
+body {
+    --page-size: 1440px;
+    --page-size-r: calc(var(--page-size) - 380px);
+}
+
+.center {
+    max-width: var(--page-size);
+    margin: 0 auto;
+}
+
+.center > .slide > .content {
+    max-width: var(--page-size-r);
+    margin: 0 auto;
+}
+
+.center-r {
+    max-width: var(--page-size-r);
+    margin: 0 auto;
+}
+
+

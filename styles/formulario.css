@@ -1,3 +1,86 @@
-.formulario{
-    background-color: #009951;
+.formulario {
+    background-color:green;
+    padding:30px;
+    border-radius: 10px;
+    width:100%;
+    box-shadow:0 4px 8px rgba(0,0,0,0.2);
+    /*transition:max-height 0.3s ease;*/
+    /*overflow:hidden;*/
+    max-height: 1000px;
+    margin-top:200px;
+}
+
+.formulario.expandido{
+    max-height: 1000px;
+}
+
+.formulario form{
+    display:flex;
+    flex-direction: column;
+    gap:10px;
+}
+
+.formulario label{
+    color:black;
+    font-weight: bold;
+    font-family: "Inter", sans-serif;
+}
+
+.formulario input,
+.formulario select{
+    padding:10px;
+    border:none;
+    border-radius:5px;
+    font-family:inherit;
+}
+
+.formulario input[type="checkbox"]{
+    width: auto;
+    margin-right: 8px;
+}
+
+.formulario button{
+    margin-top:15px;
+    border:none;
+    background:transparent;
+    cursor:pointer;
+    align-self:flex-start;
+}
+
+.formulario button img{
+    width:520px;
+    height: auto;
+    margin-top:10px;
+}
+
+
+.container-formulario{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: flex-start;
+    max-width: 1200px;
+    margin:0 auto;
+    padding:40px 20px;
+}
+
+.container-formulario img{
+    width:40%;
+    height:auto;
+    object-fit: contain;
+}
+
+.formulario-texto{
+    display:flex;
+    flex-direction:column;
+    width:50%;
+}
+
+.titulo-contacto{
+    font-family: 'Inter', sans-serif;
+    font-size:32px;
+    text-align:center;
+    margin-bottom: -140px;
+    padding-top: 80px;
+
 }

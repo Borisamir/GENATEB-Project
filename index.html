@@ -3,17 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles\header-footer.css">
-    <link rel="stylesheet" href="styles\main.css">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/formulario.css">
+    <link rel="stylesheet" href="styles/global.css">
+    <link rel="stylesheet" href="styles/header-footer.css">
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles\nuestros_clientes.css">
+    <link rel="stylesheet" href="styles\nuestros_servicios.css">
     <link href="https://fonts.googleapis.com/css2?family=Cal+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&display=swap" rel="stylesheet">
     <title>Ocupacional</title>
 </head>
 <body>
     <header> <!--Funciona como un div grande que guarda lo introductorio-->
-        <div class="container">
+        <div class="container center-r">
             <div class="brand-container">
-                <img src="recursos\Logos\brand.svg" alt="genateb">
+                <img src="recursos/Logos/brand.svg" alt="genateb">
             </div>
             <nav class="menu-container"> <!--Esta etiqueta sirve para definir un bloque de navegacion-->
                 <ul class="pages">
@@ -23,22 +27,24 @@
                     <li><a href="#">blog</a></li>
                 </ul>
                 <ul class="social-nets">
-                    <li><a href="#" target="_blank"><img src="recursos\Logos\Logo_Facebook.svg" width="9" alt="facebook"></a></li>
-                    <li><a href="https://www.instagram.com/genateb/" target="_blank"><img src="recursos\Logos\Logo_Instagram.svg" width="17" alt="instagram"></a></li>
-                    <li><a href="https://www.linkedin.com/company/genateb-sac/?trk=public_post_feed-actor-name&originalSubdomain=pe" target="_blank"><img src="recursos\Logos\Logo_Linkedin.svg" width="20" alt="linkedin"></a></li>
-                    <li><a href="https://wa.link/drs6v5" target="_blank"><img src="recursos\Logos\Logo_Whatsapp.svg" width="19" alt="whatsapp"></a></li>
+                    <li><a href="#" target="_blank"><img src="recursos/Logos/Logo_Facebook.svg" width="9" alt="facebook"></a></li>
+                    <li><a href="https://www.instagram.com/genateb/" target="_blank"><img src="recursos/Logos/Logo_Instagram.svg" width="17" alt="instagram"></a></li>
+                    <li><a href="https://www.linkedin.com/company/genateb-sac/?trk=public_post_feed-actor-name&originalSubdomain=pe" target="_blank"><img src="recursos/Logos/Logo_Linkedin.svg" width="20" alt="linkedin"></a></li>
+                    <li><a href="https://wa.link/drs6v5" target="_blank"><img src="recursos/Logos/Logo_Whatsapp.svg" width="19" alt="whatsapp"></a></li>
                 </ul>
             </nav>
         </div>
     </header>
     <main>
-        <section class="slider-container">
+        <section class="slider-container center">
             <div class="slide">
                 <img src="recursos/Body/Slider_1.png" alt="slider-1">
                 <div class="content">
-                    <p>monitoreo de agentes ocupacionales</p>
-                    <a href="#" class="quote">cotizar</a>
-                    <a href="https://wa.link/drs6v5" class="contact"><img src="recursos/Logos/slider-whatsapp.svg"></a>
+                    <p>monitoreo<br>de agentes<br>ocupacionales</p>
+                    <div>
+                        <a href="https://wa.link/drs6v5" class="quote" target="_blank">cotizar</a>
+                        <a href="https://wa.link/drs6v5" class="contact" target="_blank"><img src="recursos/Logos/slider-whatsapp.svg" alt="whatsapp"></a>
+                    </div>
                 </div>
             </div>
             <!-- <div class="slide">
@@ -66,23 +72,89 @@
             </div>
         </section>
     </main>
-    <div>
+    <div class="container-servicios">
         <div>
-            <form action="/procesor-formulario" method="post">
-                <label for="nombre">Nombre y Apellidos</label><br>
+            <h2 class="texto-servicio">Nuestro Servicios</h2>
+            <div class="fila-servicio">
+                <div class="servicio-item">
+                    <img src="recursos\Servicios_Imagenes\imagen_monitoreo_ocupacionales.png" alt="Ocupacional">
+                    <p class="texto-sobre-imagen">Monitoreo de agentes<br>ocupacionales</p>
+                    <a href="#" class="boton-sobre-imagen">
+                        <img src="recursos\Body\boton_ver_mas.png" alt="Ver mas">
+                    </a>
+                </div>
+                <div class="servicio-item">
+                    <img src="recursos\Servicios_Imagenes\imagen_monitoreo_ambientales.png" alt="Ambiental">
+                    <p class="texto-sobre-imagen">Monitero de agentes<br>ambientales</p>
+                    <a href="#" class="boton-sobre-imagen">
+                        <img src="recursos\Body\boton_ver_mas.png" alt="Ver mas">
+                    </a>
+                </div>
+                <div class="servicio-item">
+                    <img src="recursos\Servicios_Imagenes\imagen_elaboracion_ambiental.png" alt="Elaboracion">
+                    <p class="texto-sobre-imagen" style="width:400px">Elaboracion de instrumentos<br>de gestion ambiental</p>
+                    <a href="#" class="boton-sobre-imagen">
+                        <img src="recursos\Body\boton_ver_mas.png" alt="Ver mas">
+                    </a>
+                </div>
+            </div>
+            <div class="fila-servicio">
+                <div class="servicio-item">
+                    <img src="recursos\Servicios_Imagenes\imagen_permisologia_minera.png" alt="Minera">
+                    <p class="texto-sobre-imagen" style="width:400px">Permisologia ambiental<br>minera</p>
+                    <a href="#" class="boton-sobre-imagen">
+                        <img src="recursos\Body\boton_ver_mas.png" alt="Ver mas">
+                    </a>
+                </div>
+                <div class="servicio-item">
+                    <img src="recursos\Servicios_Imagenes\imagen_seguridad_salud.png" alt="Seguridad">
+                    <p class="texto-sobre-imagen">Seguridad y salud<br> en el trabajo</p>
+                    <a href="#" class="boton-sobre-imagen">
+                        <img src="recursos\Body\boton_ver_mas.png" alt="Ver mas">
+                    </a>
+                </div>
+                <div class="servicio-item">
+                    <img src="recursos\Servicios_Imagenes\imagen_capacitaciones.png" alt="Capacitacion">
+                    <p class="texto-sobre-imagen">Capacitaciones</p>
+                    <a href="#" class="boton-sobre-imagen">
+                        <img src="recursos\Body\boton_ver_mas.png" alt="Ver mas">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-clientes">
+        <div>
+            <h2 class="texto-cliente">NUESTROS CLIENTES</h2>
+            <div class="imagenes-cliente">
+            <img src="recursos\Logos\Aenor.png" alt="Aenor">
+            <img src="recursos\Logos\Applus.png" alt="Appplus">
+            <img src="recursos\Logos\Abz.png" alt="Abz">
+            <img src="recursos\Logos\Contugas.png" alt="Confugas">
+            <img src="recursos\Logos\Oss.png" alt="Oss">
+            <img src="recursos\Logos\Abai.png" alt="Abai">
+            </div>
+        </div>
+    </div>
+    <div class="container-formulario">
+        <div class="formulario-texto">
+            <h2 class="titulo-contacto" >CONTACTANOS</h2>
+            <div class="formulario">
+                <form action="/procesor-formulario" method="post">
+                <label for="nombre">Nombre y Apellidos</label>
                 <input type="text" id="nombre" name="nombre">
                 <label for="correo_electronico">Correo Electronico</label>
                 <input type="text" id="correo_electronico" name="correo_electronico">
                 <label for="telefono">Numero de telefono</label>
-                <input type="number" id="telefono" name="telefono">
+                <input type="text" id="telefono" name="telefono">
                 <label for="tipo_servicio">Tipo de servicio que le interesa</label>
                 <select id="tipo_servicio" name="tipo_servicio">
-                    <option value="Monitoreo de agentes ocupacionales"></option>
-                    <option value="Monitoreo de calidad ambiental"></option>
-                    <option value="Elaboracion de Instrumentos de Gestion Ambiental"></option>
-                    <option value="Estudios Complementarios"></option>
-                    <option value="Seguridad y Salud en el trabajo"></option>
-                    <option value="Capacitaciones"></option>
+                    <option value="Monitoreo_agentes_ocupacionales">Monitoreo de agentes ocupacionales</option>
+                    <option value="Monitoreo_calidad_ambiental">Monitoreo de calidad ambiental</option>
+                    <option value="Elaboracion_Instrumentos_Gestion_Ambiental">Elaboracion de Instrumentos de Gestion Ambiental</option>
+                    <option value="Estudios_Complementarios">Estudios Complementarios</option>
+                    <option value="Seguridad_Salud ">Seguridad y Salud en el trabajo</option>
+                    <option value="Capacitaciones">Capacitaciones</option>
                 </select>
                 <label for="mensaje">Mensaje o Consulta</label>
                 <input type="text" id="mensaje" name="mensaje">
@@ -92,12 +164,13 @@
                 <button type="submit">
                     <img src="recursos\Body\Enviar.png" alt="Enviar">
                 </button>
-            </form>
+                </form>
+            </div>
         </div>
-        <img src="recursos\Body\Imagen_Señor.png" alt="Trabajador">
+        <img src="recursos\Body\Imagen_Señor.png" style="position:relative; top:90px;" alt="Trabajador">
     </div>
     <footer>
-        <div class="container">
+        <div class="container center-r">
             <img src="recursos\Logos\Logo_Blanco.svg" class="logo-blanco" alt="genateb">
             <div class="footer-section">
                 <h3 class="titulo-footer" style="margin-bottom: 20px;">Servicios</h3>
@@ -150,10 +223,10 @@
         </div>
         <div class="imagenes-footer">
             <ul>
-                <li><a href="#" target="_blank"><img src="recursos\Logos\Logo_Facebook.svg" width="9" alt="facebook"></a></li>
-                <li><a href="https://www.instagram.com/genateb/" target="_blank"><img src="recursos\Logos\Logo_Instagram.svg" width="17" alt="instagram"></a></li>
-                <li><a href="https://www.linkedin.com/company/genateb-sac/?trk=public_post_feed-actor-name&originalSubdomain=pe" target="_blank"><img src="recursos\Logos\Logo_Linkedin.svg" width="20" alt="linkedin"></a></li>
-                <li><a href="https://wa.link/drs6v5" target="_blank"><img src="recursos\Logos\Logo_Whatsapp.svg" width="19" alt="whatsapp"></a></li>
+                <li><a href="#" target="_blank"><img src="recursos\Logos\Logo_Facebook_Blanco.svg" width="9" alt="facebook"></a></li>
+                <li><a href="https://www.instagram.com/genateb/" target="_blank"><img src="recursos\Logos\Logo_Instagram_Blanco.svg" width="17" alt="instagram"></a></li>
+                <li><a href="https://www.linkedin.com/company/genateb-sac/?trk=public_post_feed-actor-name&originalSubdomain=pe" target="_blank"><img src="recursos\Logos\Logo_Linkedin_Blanco.svg" width="20" alt="linkedin"></a></li>
+                <li><a href="https://wa.link/drs6v5" target="_blank"><img src="recursos\Logos\Logo_Whatsapp_Blanco.svg" width="19" alt="whatsapp"></a></li>
             </ul>
         </div>
         <div class="copyright">

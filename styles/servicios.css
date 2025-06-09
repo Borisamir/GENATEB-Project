@@ -1,0 +1,12 @@
+top-banner{
+background-image:url(Servicios.png);
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+width: 100%;
+height: 300px;
+margin: 0;
+
+padding: 20px;
+
+}
