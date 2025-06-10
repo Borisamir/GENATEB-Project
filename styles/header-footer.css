@@ -1,14 +1,10 @@
 /* HEADER */
-header {
-    padding: 0 30px;
-    background-color: #ffffff;
-}
-
-header .container {
+.h-container {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    height: 100px;
+    height: var(--header-height);
+    position: relative;
 }
 
 .brand-container {
@@ -18,17 +14,19 @@ header .container {
 
 .menu-container {
     display: flex;
+    align-items: center;
     gap: 100px;
 }
 
 .menu-container ul {
     display: inherit;
-    align-items: center;
     list-style-type: none;
 }
 
 .menu-container ul li a {
-    /* display: block; */
+    display: block;
+    border-top: 2px solid transparent;
+    border-bottom: 2px solid transparent;
     font-family: "Inter", sans-serif;
     font-size: 13px;
     font-weight: 700;
@@ -38,24 +36,58 @@ header .container {
     cursor: pointer; /* Cambia el signo de flecha por una mano*/
 }
 
-.menu-container ul li a:hover { /* hover:El css se activa cuando pasa el mouse*/
-    text-decoration: underline; /* Esto genera un subrayado en el texto*/
-    text-decoration-color: #31955B; /* Esto es el color del subrayado*/
-    color: #31955B;
-}
-
 .menu-container .pages {
     gap: 30px; /* Espacio entre cajas flex */
+}
+
+.menu-container .pages li a:hover {
+    border-bottom-color: #31955b;
+    color: #31955b;
 }
 
 .menu-container .social-nets {
     gap: 8px;
 }
 
+.menu-container .social-nets li a {
+    border-width: 0;
+}
+
 .menu-container .social-nets li a img {
     display: block;
     height: 20px;
     filter: invert(45%) sepia(26%) saturate(970%) hue-rotate(92deg) brightness(102%) contrast(89%);
+}
+
+.menu-container .menu-icon {
+    display: none;
+    gap: 10px;
+    width: 40px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.menu-container .menu-icon span {
+    width: 100%;
+    background-color: #000000; 
+}
+
+.menu-container #menu-toggle:checked ~ .menu-icon span:nth-child(1) {
+    transform: translateX(12%) rotate(42deg);
+    transform-origin: 0 50%;
+}
+
+.menu-container #menu-toggle:checked ~ .menu-icon span:nth-child(2) {
+    width: 0;
+}
+
+.menu-container #menu-toggle:checked ~ .menu-icon span:nth-child(3) {
+    transform: translateX(12%) rotate(-42deg);
+    transform-origin: 0 50%;
+}
+
+.menu-container #menu-toggle:checked ~ .pages {
+    display: flex;
 }
 /* END-HEADER */
 

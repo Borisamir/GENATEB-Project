@@ -1,0 +1,41 @@
+.container-informacion{
+    display:flex;
+    background-color: #02542D;
+    width: auto;
+    height: 70px;
+    flex-direction: row;
+    
+}
+
+.informacion{
+    display: flex;
+    margin-left: 150px;
+    margin-top: 20px;
+}
+
+.informacion h3{
+    display: flex;
+    color:#FFFFFF;
+    margin-top:5px;
+    font-style: 'Inter','sans-serif';
+    
+    
+}
+
+.informacion img{
+    width: 28px;
+    height: 28px;
+}
+
+.imagen{
+    display:flex
+
+}
+
+.imagen img{
+    display: flex;
+    width: 137px;
+    height: 40px;
+    margin-left: 50px;
+    margin-top: 14px;
+}

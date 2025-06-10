@@ -3,78 +3,169 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles/formulario.css">
+    <link rel="stylesheet" href="styles\index_styles\formulario.css">
     <link rel="stylesheet" href="styles/global.css">
     <link rel="stylesheet" href="styles/header-footer.css">
+    <link rel="stylesheet" href="styles/header-footer-rs.css">
     <link rel="stylesheet" href="styles/main.css">
-    <link rel="stylesheet" href="styles\nuestros_clientes.css">
-    <link rel="stylesheet" href="styles\nuestros_servicios.css">
+    <link rel="stylesheet" href="styles\index_styles\nuestros_clientes.css">
+    <link rel="stylesheet" href="styles\index_styles\nuestros_servicios_index.css">
+    <link rel="stylesheet" href="styles\index_styles\necesitas_ayuda.css">
+    <link rel="stylesheet" href="styles\index_styles\nuestros_logros.css">
+    <link rel="stylesheet" href="styles\index_styles\informacion.css">
     <link href="https://fonts.googleapis.com/css2?family=Cal+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+    <script src="main.js" defer></script>
     <title>Ocupacional</title>
 </head>
 <body>
     <header> <!--Funciona como un div grande que guarda lo introductorio-->
-        <div class="container center-r">
+        <div class="h-container center-r">
             <div class="brand-container">
                 <img src="recursos/Logos/brand.svg" alt="genateb">
             </div>
             <nav class="menu-container"> <!--Esta etiqueta sirve para definir un bloque de navegacion-->
-                <ul class="pages">
+                <input type="checkbox" id="menu-toggle" hidden>
+                <label for="menu-toggle" class="menu-icon">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </label>
+                <ul class="pages" id="menu">
                     <li><a href="#">inicio</a></li> <!--Clase texto_header sirve para que las palabras se subrayen al pasar el mouse encima-->
                     <li><a href="#">nosotros</a></li> <!--a href="#" se refiere a que un no tiene links pero se definiran despues-->
                     <li><a href="#">servicio</a></li>
                     <li><a href="#">blog</a></li>
                 </ul>
                 <ul class="social-nets">
-                    <li><a href="#" target="_blank"><img src="recursos/Logos/Logo_Facebook.svg" width="9" alt="facebook"></a></li>
-                    <li><a href="https://www.instagram.com/genateb/" target="_blank"><img src="recursos/Logos/Logo_Instagram.svg" width="17" alt="instagram"></a></li>
-                    <li><a href="https://www.linkedin.com/company/genateb-sac/?trk=public_post_feed-actor-name&originalSubdomain=pe" target="_blank"><img src="recursos/Logos/Logo_Linkedin.svg" width="20" alt="linkedin"></a></li>
-                    <li><a href="https://wa.link/drs6v5" target="_blank"><img src="recursos/Logos/Logo_Whatsapp.svg" width="19" alt="whatsapp"></a></li>
+                    <li><a href="https://www.facebook.com/p/Constructora-Consultora-Genateb-SAC-100059934199973/" target="_blank"><img src="recursos/Logos/Logo_Facebook.svg" alt="facebook"></a></li>
+                    <li><a href="https://www.instagram.com/genateb/" target="_blank"><img src="recursos/Logos/Logo_Instagram.svg" alt="instagram"></a></li>
+                    <li><a href="https://www.linkedin.com/company/genateb-sac/?trk=public_post_feed-actor-name&originalSubdomain=pe" target="_blank"><img src="recursos/Logos/Logo_Linkedin.svg" alt="linkedin"></a></li>
+                    <li><a href="https://wa.link/drs6v5" target="_blank"><img src="recursos/Logos/Logo_Whatsapp.svg" alt="whatsapp"></a></li>
                 </ul>
             </nav>
         </div>
     </header>
     <main>
         <section class="slider-container center">
-            <div class="slide">
-                <img src="recursos/Body/Slider_1.png" alt="slider-1">
-                <div class="content">
-                    <p>monitoreo<br>de agentes<br>ocupacionales</p>
-                    <div>
-                        <a href="https://wa.link/drs6v5" class="quote" target="_blank">cotizar</a>
-                        <a href="https://wa.link/drs6v5" class="contact" target="_blank"><img src="recursos/Logos/slider-whatsapp.svg" alt="whatsapp"></a>
+            <div class="slider">
+                <div class="slide" id="slide-1">
+                    <img src="recursos/Body/Slider_1.png" alt="slider-1">
+                    <div class="content">
+                        <p>monitoreo<br>de agentes<br>ocupacionales</p>
+                        <div>
+                            <a href="https://wa.link/drs6v5" class="quote" target="_blank">cotizar</a>
+                            <a href="https://wa.link/drs6v5" class="contact" target="_blank"><img src="recursos/Logos/slider-whatsapp.svg" alt="whatsapp"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="slide" id="slide-2">
+                    <img src="recursos/Body/Slider_2.png" alt="slider-2">
+                    <div class="content">
+                        <p>monitoreo<br>de calidad<br>ambiental</p>
+                        <div>
+                            <a href="https://wa.link/drs6v5" class="quote" target="_blank">cotizar</a>
+                            <a href="https://wa.link/drs6v5" class="contact" target="_blank"><img src="recursos/Logos/slider-whatsapp.svg" alt="whatsapp"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="slide" id="slide-3">
+                    <img src="recursos/Body/Slider_3.png" alt="slider-3">
+                    <div class="content">
+                        <p>capacitaciones</p>
+                        <div>
+                            <a href="https://wa.link/drs6v5" class="quote" target="_blank">cotizar</a>
+                            <a href="https://wa.link/drs6v5" class="contact" target="_blank"><img src="recursos/Logos/slider-whatsapp.svg" alt="whatsapp"></a>
+                        </div>
                     </div>
                 </div>
             </div>
-            <!-- <div class="slide">
-                <img src="recursos/Body/Slider_2.png" alt="slider-1">
-                <p>monitoreo de calidad ambiental</p>
-                <a href="#">cotizar</a>
-                <a href="#"><img src="recursos/Logos/slider-whatsapp.svg"></a>
-            </div>
-            <div class="slide">
-                <img src="recursos/Body/Slider_3.png" alt="slider-1">
-                <p>capacitaciones</p>
-                <a href="#">cotizar</a>
-                <a href="#"><img src="recursos/Logos/slider-whatsapp.svg"></a>
-            </div> -->
             <div class="nav-buttons">
                 <div class="directions">
                     <a href="#"><img src="recursos/Body/Flecha_Izquierda.png" alt="left-arrow"></a>
                     <a href="#"><img src="recursos/Body/Flecha_Izquierda.png" class="right-arrow" alt="right-arrow"></a>
                 </div>
                 <div class="indicators">
-                    <div class="ind-1"></div>
-                    <div class="ind-2"></div>
-                    <div class="ind-3"></div>
+                    <a href="#slide-1" class="ind-1"></a>
+                    <a href="#slide-2" class="ind-2"></a>
+                    <a href="#slide-3" class="ind-3"></a>
                 </div>
             </div>
         </section>
     </main>
+    <div class="container-informacion">
+        <div class="informacion" style="margin-right:200px">
+            <img src="recursos\Logos\mapa_blanco.png">
+            <h3 style='font-size: 17px;font-weight:100;'>Jr.Fitzcarrald 1504,Los Olivos.</h3>
+        </div>
+        <div class="informacion" style="margin-left:100px">
+            <img src="recursos\Logos\mensaje_blanco.png" style="margin-right:5px">
+            <h3 style='font-size: 17px;font-weight:100'>comercial@genateb.com</h3>
+        </div>
+        <div class="informacion" style="margin-left:100px">
+            <img src="recursos\Logos\whatsapp_blanco.png"style="margin-right:5px">
+            <h3 style='font-size: 17px; font-weight:100'>933 257 830</h3>
+        </div>
+        <div class="imagen">
+            <img src="recursos\Body\Boton_Cotiza.png">
+        </div>
+    </div>
+    <div class="contenedor_logros">
+        <div class="logros-texto">
+            <h3 style="font-size:38px;color:#083D29;font-weight:100;margin-bottom:20px;">NUESTROS LOGROS</h3>
+            <h2 style="color:#757575;font-weight:100;font-size:18px">Vamos 7 años asesorando en permisos ambientales y sociales</h2>
+            <h2 style="color:#757575;font-weight:100;font-size:18px">a lo largo y ancho del Peru brindado.</h2>
+        </div>
+    <div class="logros-contenido">
+        <div class="logros-cifras">
+            <div class="logro">
+                <img src="recursos\Body\imagen_pulgar_arriba.png" style="width:60px ; height:60px;margin-left:30px">
+                <div class="logro-texto">
+                    <h3>+7</h3>
+                    <h2>Años de experiencia</h2>
+                </div>
+            </div>
+            <div class="logro">
+                <img src="recursos\Body\imagen_edificio.png" style="width:60px ; height:60px;margin-left:30px">
+                <div class="logro-texto">
+                    <h3>+100</h3>
+                    <h2>Empresas atendidas</h2>
+                </div>
+            </div>
+            <div class="logro">
+                <img src="recursos\Body\imagen_hombre_estrella.png" style="width:60px ; height:60px;margin-top:50px;margin-left:30px">
+                <div class="logro-texto">
+                    <h3 style="margin-top:50px">+30</h3>
+                    <h2>Capacitaciones tecnicas</h2>
+                </div>
+            </div>
+            <div class="logro">
+                <img src="recursos\Body\imagen_estrella_pulgar.png" style="width:60px ; height:60px;margin-top:50px;margin-left:30px">
+                <div class="logro-texto">
+                    <h3 style="margin-top:50px">100%</h3>
+                    <h2>Satisfaccion</h2>
+                </div>
+            </div>
+        </div>
+        <div class="logros-imagen">
+            <img src="recursos\Body\imagen_señor_3.png">
+        </div>
+    </div>
+</div>
+    <div class="container-ayuda">
+        <div class="container-texto">
+            <h2 class="estilo-texto-ayuda">¿Necesitas Ayuda?</h2>
+            <h3 class="estilo-texto-nosotros">Nuestros especialistas se comunicaran los mas pronto contigo.</h3>
+        </div>
+        <div class="container-imagen">
+            <a href="#">
+                <img src="recursos\Body\boton_escribenos.png" alt="Escribenos" class="estilo-imagen">
+            </a>
+        </div>
+    </div>
     <div class="container-servicios">
         <div>
-            <h2 class="texto-servicio">Nuestro Servicios</h2>
+            <h2 class="texto-servicio">NUESTROS SERVICIOS</h2>
             <div class="fila-servicio">
                 <div class="servicio-item">
                     <img src="recursos\Servicios_Imagenes\imagen_monitoreo_ocupacionales.png" alt="Ocupacional">
@@ -124,15 +215,22 @@
         </div>
     </div>
     <div class="container-clientes">
-        <div>
-            <h2 class="texto-cliente">NUESTROS CLIENTES</h2>
+        <h2 class="texto-cliente">NUESTROS CLIENTES</h2>
+        <div class="slider">
             <div class="imagenes-cliente">
-            <img src="recursos\Logos\Aenor.png" alt="Aenor">
-            <img src="recursos\Logos\Applus.png" alt="Appplus">
-            <img src="recursos\Logos\Abz.png" alt="Abz">
-            <img src="recursos\Logos\Contugas.png" alt="Confugas">
-            <img src="recursos\Logos\Oss.png" alt="Oss">
-            <img src="recursos\Logos\Abai.png" alt="Abai">
+            <div class="slide"><img src="recursos\Logos\Aenor.png" alt="Aenor"></div>
+            <div class="slide"><img src="recursos\Logos\Applus.png" alt="Appplus"></div>
+            <div class="slide"><img src="recursos\Logos\Abz.png" alt="Abz"></div>
+            <div class="slide"><img src="recursos\Logos\Contugas.png" alt="Confugas"></div>
+            <div class="slide"><img src="recursos\Logos\Oss.png" alt="Oss"></div>
+            <div class="slide"><img src="recursos\Logos\Abai.png" alt="Abai"></div>
+            
+            <div class="slide"><img src="recursos\Logos\Aenor.png" alt="Aenor"></div>
+            <div class="slide"><img src="recursos\Logos\Applus.png" alt="Appplus"></div>
+            <div class="slide"><img src="recursos\Logos\Abz.png" alt="Abz"></div>
+            <div class="slide"><img src="recursos\Logos\Contugas.png" alt="Confugas"></div>
+            <div class="slide"><img src="recursos\Logos\Oss.png" alt="Oss"></div>
+            <div class="slide"><img src="recursos\Logos\Abai.png" alt="Abai"></div>
             </div>
         </div>
     </div>
