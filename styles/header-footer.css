@@ -142,6 +142,10 @@ footer > a {
     color: #ffffff;
 }
 
+.footer-section .list-img {
+    gap: 10px;
+}
+
 .footer-section .list-img li {
     display: flex;
     align-items: center;
