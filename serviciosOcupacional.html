@@ -9,29 +9,36 @@
     <title>Monitoreo de servcios ocupacionales</title>
 </head>
 <body>
-    <header>
-        <div class="container">
+    <header> <!--Funciona como un div grande que guarda lo introductorio-->
+        <div class="h-container center-r">
             <div class="brand-container">
-                <img src="recursos\Logos\brand.svg" alt="genateb">
+                <img src="recursos/Logos/brand.svg" alt="genateb">
             </div>
             <nav class="menu-container"> <!--Esta etiqueta sirve para definir un bloque de navegacion-->
-                <ul class="pages">
+                <input type="checkbox" id="menu-toggle" hidden>
+                <label for="menu-toggle" class="menu-icon">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </label>
+                <ul class="pages" id="menu">
                     <li><a href="#">inicio</a></li> <!--Clase texto_header sirve para que las palabras se subrayen al pasar el mouse encima-->
-                    <li><a href="Nosotros.html">nosotros</a></li> <!--a href="#" se refiere a que un no tiene links pero se definiran despues-->
+                    <li><a href="#">nosotros</a></li> <!--a href="#" se refiere a que un no tiene links pero se definiran despues-->
                     <li><a href="#">servicio</a></li>
                     <li><a href="#">blog</a></li>
                 </ul>
                 <ul class="social-nets">
-                    <li><a href="#" target="_blank"><img src="recursos\Logos\Logo_Facebook.svg" width="9" alt="facebook"></a></li>
-                    <li><a href="https://www.instagram.com/genateb/" target="_blank"><img src="recursos\Logos\Logo_Instagram.svg" width="17" alt="instagram"></a></li>
-                    <li><a href="https://www.linkedin.com/company/genateb-sac/?trk=public_post_feed-actor-name&originalSubdomain=pe" target="_blank"><img src="recursos\Logos\Logo_Linkedin.svg" width="20" alt="linkedin"></a></li>
-                    <li><a href="https://wa.link/drs6v5" target="_blank"><img src="recursos\Logos\Logo_Whatsapp.svg" width="19" alt="whatsapp"></a></li>
+                    <li><a href="https://www.facebook.com/p/Constructora-Consultora-Genateb-SAC-100059934199973/" target="_blank"><img src="recursos/Logos/Logo_Facebook.svg" alt="facebook"></a></li>
+                    <li><a href="https://www.instagram.com/genateb/" target="_blank"><img src="recursos/Logos/Logo_Instagram.svg" alt="instagram"></a></li>
+                    <li><a href="https://www.linkedin.com/company/genateb-sac/?trk=public_post_feed-actor-name&originalSubdomain=pe" target="_blank"><img src="recursos/Logos/Logo_Linkedin.svg" alt="linkedin"></a></li>
+                    <li><a href="https://wa.link/drs6v5" target="_blank"><img src="recursos/Logos/Logo_Whatsapp.svg" alt="whatsapp"></a></li>
                 </ul>
             </nav>
         </div>
     </header>
+    
 
-        <img src="recursos/imagen_agentes_ocupacionales.png" alt="imagen_agentes_ocupacionales">
+        <img src="recursos/Servicios_Imagenes/imagen_agentes_ocupacionales.png" alt="imagen_agentes_ocupacionales">
         <h2>MONITOREO DE ANGENTES OCUPACIONALES</h2>
         <p>Realizamos el monitoreo y evaluación, de aquellos factores/agentes de riesgo que pueden llegar a perjudicar la salud de los trabajadores. </p>
         <a href="#" class ="btn">COTIZAR AQUI </a>
@@ -40,11 +47,11 @@
             <h3>AGENTES FÍSICOS </h3>
             <div class="agentes-grid">
             <div class = "agentes-item">
-                <img src="recursos/Servicios_Imagenes/imagen_agentes_ocupacionales.png" alt="Sonometria">
+                <img src="recursos/Servicios_Imagenes/Sonometria.png" alt="Sonometria">
                 <P>Sonometria</P>
             </div>
             <div class ="agentes-item">
-    <img src="recursos/Servicios_Imagenes/dosimetria.png" alt="dosimetria">
+    <img src="Servicios_Imagenes/dosimetria.png" alt="dosimetria">
     <P>Dosimetria</P>
 </div>
 <div class ="agentes-item">

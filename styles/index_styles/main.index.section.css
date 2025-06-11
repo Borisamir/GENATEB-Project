@@ -1,0 +1,243 @@
+/* CONTENEDOR LOGROS*/
+.contenedor-logros {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    align-items: center;
+    height: 630px;
+}
+
+.contenedor-logros .logros-texto {
+    margin-bottom: 63px;
+    font-weight: 400;
+}
+
+.contenedor-logros .logros-texto h3 {
+    margin-bottom: 17px;
+    font-size: 40px;
+    color: #083d29;
+}
+
+.contenedor-logros .logros-texto h2 {
+    font-size: 20px;
+    color: #757575;
+}
+
+.contenedor-logros .logros-cifras {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    flex:1;
+    column-gap: 30px;
+    row-gap: 53px;
+}
+
+.logros-cifras .logro {
+    display: flex;
+    align-items: flex-end;
+    gap: 20px;
+}
+
+.logros-cifras .logro img {
+    display: block;
+    width: 70px;
+    height: 70px;
+}
+
+.logros-cifras .logro .logro-texto{
+    line-height: 30px;
+    color: #000000;
+}
+
+.logros-cifras .logro .logro-texto h3 {
+    font-size: 40px;
+}
+
+.logros-cifras .logro .logro-texto h2 {
+    font-size: 20px;
+}
+
+.contenedor-logros > img {
+    display: block;
+    width: 397px;
+    height: 627px;;
+}
+/* END-CONTENEDOR LOGROS*/
+
+/* CONTAINER SERVICIOS */
+.container-servicios {
+    height: 1057px;
+}
+
+.container-servicios .texto-servicio {
+    margin-top: 120px;
+    margin-bottom: 67px;
+    font-size: 40px;
+    font-weight: 400;
+    text-align: center;
+    color: #083d29;
+}
+
+.services {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    column-gap: 14px;
+    row-gap: 38px;
+}
+
+.services .servicio-item {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-end;
+    gap: 20px;
+    width: 344px;
+    height: 360px;
+    position: relative;
+    border-radius: 16px;
+    overflow: hidden;
+}
+
+.services .servicio-item::after {
+    content: "";
+    width: 100%;
+    height: 216px;
+    position: absolute;
+    background: linear-gradient(180deg,
+        rgba(255, 255, 255, 0) 8.65%,
+        rgba(8, 61, 41, 0.22) 28.41%,
+        rgba(8, 61, 41, 0.625) 56.45%,
+        rgba(8, 61, 41, 0.75) 79.59%);
+}
+
+.services .servicio-item img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.services .servicio-item .texto-sobre-imagen {
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    color: #ffffff;
+}
+
+.services .servicio-item .boton-sobre-imagen {
+    width: 122px;
+    margin-bottom: 45px;
+    color: #1e1e1e;
+}
+
+.services .servicio-item .texto-sobre-imagen,
+.services .servicio-item .boton-sobre-imagen {
+    z-index: 1;
+}
+/* END-CONTAINER SERVICIOS */
+
+/* CONTAINER FORMULARIO */
+.container-formulario {
+    height: 1217px;
+    position: relative;
+}
+
+.container-formulario img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.formulario-texto {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 611px;
+    position: relative;
+}
+
+.formulario-texto .titulo-contacto {
+    margin-top: 120px;
+    font-size: 40px;
+    text-align:center;
+    color: #083d29;
+}
+
+.formulario-texto .form {
+    display: grid;
+    gap: 24px;
+    padding: 24px;
+    background-color: #009951;
+    border-radius: 8px;
+    color: #1e1e1e;
+}
+
+.formulario-texto .form label,
+.formulario-texto .form label:not(.terms) > * {
+    font-family: "Noto Sans", sans-serif;
+}
+
+.formulario-texto .form label:not(.terms) > * {
+    width: 100%;
+}
+
+.formulario-texto .form label input:not(input[type="checkbox"]),
+.formulario-texto .form label select {
+    height: 40px;
+    margin-top: 8px;
+    padding: 0 16px;
+    border-radius: 8px;
+    background-color: #ffffff;
+    color: #333333;
+    outline: none;
+}
+
+.formulario-texto .form .terms {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 12px;
+}
+
+.formulario-texto .form .terms input {
+    width: 16px;
+    height: 16px;
+    appearance: none;
+    border: 2px solid #2c2c2c;
+    border-radius: 5px;
+    background-color: transparent;
+}
+
+.formulario-texto .form .terms input:checked {
+    background-color: #2c2c2c;
+}
+
+.formulario-texto .form button {
+    height: 44px;
+    border-radius: 8px;
+    background-color: #ffffff;
+    font-size: 20px;
+    text-transform: capitalize;
+    color: #02542d;
+    cursor: pointer;
+}
+/* END-CONTAINER FORMULARIO */
+
+/*Boton */
+
+.zona-boton-footer{
+    position: relative;
+    height: 0px;
+}
+
+.container-boton{
+    position: absolute;
+    bottom: -40px;
+    left:51%;
+    transform: translateX(-50%);
+    z-index:20
+}
+
+.container-boton a{
+    width: 50px;
+    cursor: pointer;
+}
