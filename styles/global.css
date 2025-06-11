@@ -41,9 +41,11 @@ main {
 
 /*  */
 .green-button {
+    display: block;
     height: 40px;
     border-radius: 8px;
     background-color: #009951;
+    border-top: 1px solid #02542D;
     line-height: 40px;
     text-align: center;
     text-decoration: none;
