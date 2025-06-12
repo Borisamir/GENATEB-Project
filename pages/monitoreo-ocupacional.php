@@ -17,7 +17,7 @@
             <div class="monitoreos-text">
                 <h2>monitoreo de agentes ocupacionales</h2>
                 <p>realizamos el monitoreo y evaluación, de aquellos factores/agentes de riesgo que pueden llegar a perjudicar la salud de los trabajadores.</p>
-                <a href="#" class="green-button">cotiza aqui</a>
+                <a href="https://wa.link/drs6v5" class="green-button">cotiza aqui</a>
             </div>
             <div>
                 <div class="monitoreo-content center-r">

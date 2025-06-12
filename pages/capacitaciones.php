@@ -26,7 +26,7 @@
         </div>
         <div class="contenedor-monitoreo">
             <div class="contenedor-boton">
-                <a class="boton-verde">
+                <a href="https://wa.link/drs6v5" class="boton-verde">
                     COTIZA AQUI
                 </a>
             </div>
@@ -48,11 +48,6 @@
                 </a>
             </div>
         </div>
-
-
-
-
-
     <?php include_once "../footer.php"; ?>
 </body>
 </html>

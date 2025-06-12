@@ -11,8 +11,8 @@
                 <span></span>
             </label>
             <ul class="pages" id="menu">
-                <li><a href="#">inicio</a></li>
-                <li><a href="#">nosotros</a></li>
+                <li><a href="/GENATE_WEB/index.php">inicio</a></li>
+                <li><a href="/GENATE_WEB/pages/nosotros.php">nosotros</a></li>
                 <li><a href="/GENATE_WEB/pages/servicios.php">servicio</a></li>
                 <li><a href="#">blog</a></li>
             </ul>

@@ -5,13 +5,13 @@
         <div class="footer-section">
             <h3 class="titulo-footer">Servicios</h3>
             <ul class="tamaño-letra-footer">
-                <li><a href="#">Monitoreo de agentes ocupacionales</a></li>
-                <li><a href="#">Monitoreo de calidad ambiental</a></li>
-                <li><a href="#">Elaboracion de istrucciones de Gestion Ambiental</a></li>
-                <li><a href="#">Permisologia Ambiental minera</a></li>
-                <li><a href="#">Estudios Complementarios</a></li>
-                <li><a href="#">Seguridad y salud en el trabajo</a></li>
-                <li><a href="#">Capacitaciones</a></li>
+                <li><a href="pages\monitoreo-ocupacional.php">Monitoreo de agentes ocupacionales</a></li>
+                <li><a href="pages\monitoreo_ambiental.php">Monitoreo de calidad ambiental</a></li>
+                <li><a href="pages\elaboracion_instrumentos.php">Elaboracion de istrucciones de Gestion Ambiental</a></li>
+                <li><a href="pages\permisología-ambiental-minera.php">Permisologia Ambiental minera</a></li>
+                <li><a href="pages\estudios_complementarios.php">Estudios Complementarios</a></li>
+                <li><a href="pages\sst.php">Seguridad y salud en el trabajo</a></li>
+                <li><a href="pages\capacitaciones.php">Capacitaciones</a></li>
             </ul>
         </div>
         <div class="footer-section footer-sedes">
@@ -43,7 +43,7 @@
     </div>
     <div class="imagenes-footer">
         <ul>
-            <li><a href="#" target="_blank"><img src="/GENATE_WEB/recursos\Logos\Logo_Facebook_Blanco.svg" alt="facebook"></a></li>
+            <li><a href="https://www.facebook.com/p/Constructora-Consultora-Genateb-SAC-100059934199973/" target="_blank"><img src="/GENATE_WEB/recursos\Logos\Logo_Facebook_Blanco.svg" alt="facebook"></a></li>
             <li><a href="https://www.instagram.com/genateb/" target="_blank"><img src="/GENATE_WEB/recursos\Logos\Logo_Instagram_Blanco.svg" alt="instagram"></a></li>
             <li><a href="https://www.linkedin.com/company/genateb-sac/?trk=public_post_feed-actor-name&originalSubdomain=pe" target="_blank"><img src="/GENATE_WEB/recursos\Logos\Logo_Linkedin_Blanco.svg" alt="linkedin"></a></li>
             <li><a href="https://wa.link/drs6v5" target="_blank"><img src="/GENATE_WEB/recursos\Logos\Logo_Whatsapp_Blanco.svg" alt="whatsapp"></a></li>

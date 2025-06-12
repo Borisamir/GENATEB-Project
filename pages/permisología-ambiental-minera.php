@@ -3,11 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <?php include_once "/GENATE_WEB/global.php"; ?>
+    <?php include_once "../global.php"; ?>
     <title>Permisología ambiental minera</title>
 </head>
 <body>
-    <?php include_once "/GENATE_WEB/header.php"; ?>
+    <?php include_once "../header.php"; ?>
     <main>
         <div class="contenedor-banner">
             <div class="contenedor-imagen">
@@ -26,7 +26,7 @@
         </div>
         <div class="contenedor-monitoreo">
             <div class="contenedor-boton">
-                <a class="boton-verde">
+                <a href="https://wa.link/drs6v5" class="boton-verde">
                     COTIZA AQUI
                 </a>
             </div>
@@ -57,21 +57,21 @@
                 <div class="servicio-item">
                     <img src="..\recursos\Servicios_Imagenes\imagen_monitoreo_ocupacionales.png" alt="Ocupacional">
                     <p class="texto-sobre-imagen">Monitoreo de agentes ocupacionales</p>
-                    <a href="#" class="green-button boton-sobre-imagen">ver más</a>
+                    <a href="..\pages\monitoreo-ocupacional.php" class="green-button boton-sobre-imagen">ver más</a>
                 </div>
                 <div class="servicio-item">
                     <img src="..\recursos\Servicios_Imagenes\imagen_monitoreo_ambientales.png" alt="Elaboracion">
                     <p class="texto-sobre-imagen">Monitoreo de agentes<br>ambientales</p>
-                    <a href="#" class="green-button boton-sobre-imagen">ver más</a>
+                    <a href="..\pages\monitoreo_ambiental.php" class="green-button boton-sobre-imagen">ver más</a>
                 </div>
                 <div class="servicio-item">
                     <img src="..\recursos\Servicios_Imagenes\imagen_elaboracion_ambiental.png" alt="Minera">
                     <p class="texto-sobre-imagen">Elaboracion de instrumentos<br>de gestion ambiental</p>
-                    <a href="#" class="green-button boton-sobre-imagen">ver más</a>
+                    <a href="..\pages\elaboracion_instrumentos.php" class="green-button boton-sobre-imagen">ver más</a>
                 </div>
             </div>
         </section>
     </main>
-    <?php include_once "/GENATE_WEB/footer.php"; ?>
+    <?php include_once "../footer.php"; ?>
 </body>
 </html>

@@ -26,7 +26,7 @@
         </div>
         <div class="contenedor-monitoreo">
             <div class="contenedor-boton">
-                <a class="boton-verde">
+                <a href="https://wa.link/drs6v5" class="boton-verde">
                     COTIZA AQUI
                 </a>
             </div>
@@ -89,6 +89,26 @@
                 <h2>Auditorias y/o<br>homologaciones<br>vigentes</h2>
             </div>
         </div>
+        <section class="container-servicios center-r" style="height:528px">
+            <h2 class="texto-servicio">OTROS SERVICIOS</h2>
+            <div class="services">
+                <div class="servicio-item">
+                    <img src="..\recursos\Servicios_Imagenes\imagen_monitoreo_ocupacionales.png" alt="Ocupacional">
+                    <p class="texto-sobre-imagen">Monitoreo de agentes ocupacionales</p>
+                    <a href="..\pages\monitoreo-ocupacional.php" class="green-button boton-sobre-imagen">ver más</a>
+                </div>
+                <div class="servicio-item">
+                    <img src="..\recursos\Servicios_Imagenes\imagen_monitoreo_ambientales.png" alt="Elaboracion">
+                    <p class="texto-sobre-imagen">Monitoreo de agentes<br>ambientales</p>
+                    <a href="..\pages\monitoreo_ambiental.php" class="green-button boton-sobre-imagen">ver más</a>
+                </div>
+                <div class="servicio-item">
+                    <img src="..\recursos\Servicios_Imagenes\imagen_elaboracion_ambiental.png" alt="Minera">
+                    <p class="texto-sobre-imagen">Elaboracion de instrumentos<br>de gestion ambiental</p>
+                    <a href="..\pages\elaboracion_instrumentos.php" class="green-button boton-sobre-imagen">ver más</a>
+                </div>
+            </div>
+        </section>
     </main>
     <?php include_once "../footer.php"; ?>
 </body>

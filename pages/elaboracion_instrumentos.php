@@ -27,7 +27,7 @@
         </div>
         <div class="contenedor-monitoreo">
             <div class="contenedor-boton">
-                <a class="boton-verde">
+                <a  href="https://wa.link/drs6v5"class="boton-verde">
                     COTIZA AQUI
                 </a>
             </div>
@@ -66,17 +66,17 @@
                 <div class="servicio-item">
                     <img src="/GENATE_WEB/recursos\Servicios_Imagenes\imagen_monitoreo_ocupacionales.png" alt="Ocupacional">
                     <p class="texto-sobre-imagen">Monitoreo de agentes ocupacionales</p>
-                    <a href="#" class="green-button boton-sobre-imagen">ver más</a>
+                    <a href="..\pages\monitoreo-ocupacional.php" class="green-button boton-sobre-imagen">ver más</a>
                 </div>
                 <div class="servicio-item">
                     <img src="/GENATE_WEB/recursos\Servicios_Imagenes\imagen_monitoreo_ambientales.png" alt="Elaboracion">
                     <p class="texto-sobre-imagen">Monitoreo de agentes<br>ambientales</p>
-                    <a href="#" class="green-button boton-sobre-imagen">ver más</a>
+                    <a href="..\pages\monitoreo_ambiental.php" class="green-button boton-sobre-imagen">ver más</a>
                 </div>
                 <div class="servicio-item">
                     <img src="/GENATE_WEB/recursos\Servicios_Imagenes\imagen_permisologia_minera.png" alt="Minera">
                     <p class="texto-sobre-imagen">Permisologia ambiental<br>minera</p>
-                    <a href="#" class="green-button boton-sobre-imagen">ver más</a>
+                    <a href="..\pages\permisología-ambiental-minera.php" class="green-button boton-sobre-imagen">ver más</a>
                 </div>
             </div>
         </section>
