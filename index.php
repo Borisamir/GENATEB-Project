@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="styles/index_styles/main.index.css">
     <link rel="stylesheet" href="styles/index_styles/main.index.slider.css">
     <link rel="stylesheet" href="styles/index_styles/main.index.section.css">
+    <script src="main.js" defer></script>
 </head>
 <body>
     <?php include_once "header.php"; ?>
@@ -19,7 +20,7 @@
                     <div class="content">
                         <p>monitoreo<br>de agentes<br>ocupacionales</p>
                         <div>
-                            <a href="https://wa.link/drs6v5" class="quote" target="_blank">cotizar</a>
+                            <a href="https://wa.link/drs6v5" class="quote green-button" target="_blank">cotizar</a>
                             <a href="https://wa.link/drs6v5" class="contact" target="_blank"><img src="recursos/Logos/slider-whatsapp.svg" alt="whatsapp"></a>
                         </div>
                     </div>
@@ -29,7 +30,7 @@
                     <div class="content">
                         <p>monitoreo<br>de calidad<br>ambiental</p>
                         <div>
-                            <a href="https://wa.link/drs6v5" class="quote" target="_blank">cotizar</a>
+                            <a href="https://wa.link/drs6v5" class="quote green-button" target="_blank">cotizar</a>
                             <a href="https://wa.link/drs6v5" class="contact" target="_blank"><img src="recursos/Logos/slider-whatsapp.svg" alt="whatsapp"></a>
                         </div>
                     </div>
@@ -39,7 +40,7 @@
                     <div class="content">
                         <p>capacitaciones</p>
                         <div>
-                            <a href="https://wa.link/drs6v5" class="quote" target="_blank">cotizar</a>
+                            <a href="https://wa.link/drs6v5" class="quote green-button" target="_blank">cotizar</a>
                             <a href="https://wa.link/drs6v5" class="contact" target="_blank"><img src="recursos/Logos/slider-whatsapp.svg" alt="whatsapp"></a>
                         </div>
                     </div>
@@ -47,11 +48,11 @@
             </div>
             <div class="nav-buttons">
                 <div class="directions">
-                    <a href="#"><img src="recursos/Body/Flecha_Izquierda.png" alt="left-arrow"></a>
-                    <a href="#"><img src="recursos/Body/Flecha_Izquierda.png" class="right-arrow" alt="right-arrow"></a>
+                    <a href="#" id="left-arrow"><img src="recursos/Body/Flecha_Izquierda.png" alt="left-arrow"></a>
+                    <a href="#" id="right-arrow"><img src="recursos/Body/Flecha_Izquierda.png" alt="right-arrow"></a>
                 </div>
                 <div class="indicators">
-                    <a href="#slide-1" class="ind-1"></a>
+                    <a href="#slide-1" class="ind-1 active"></a>
                     <a href="#slide-2" class="ind-2"></a>
                     <a href="#slide-3" class="ind-3"></a>
                 </div>
@@ -72,7 +73,7 @@
                     <h3>933 257 830</h3>
                 </div>
             </div>
-            <a href="https://wa.link/drs6v5" target="_blank">COTIZA AQUI</a>
+            <a href="https://wa.link/drs6v5" class="green-button" target="_blank">COTIZA AQUI</a>
         </div>
         <section class="contenedor-logros center-r">
             <div>

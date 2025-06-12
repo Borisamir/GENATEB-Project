@@ -3,7 +3,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    height: var(--header-height);
+    height: var(--height-header);
     position: relative;
 }
 
@@ -27,7 +27,7 @@
     display: block;
     border-top: 2px solid transparent;
     border-bottom: 2px solid transparent;
-    font-family: "Inter", sans-serif;
+    font-family: var(--font-inter);
     font-size: 13px;
     font-weight: 700;
     text-decoration: none;

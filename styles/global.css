@@ -14,10 +14,11 @@ html {
 body {
     --page-size: 1440px;
     --page-sides: 0 30px;
-    --header-height: 100px;
+    --height-header: 100px;
+    --font-inter: "Inter", sans-serif;
 }
 
-/*  */
+/* CENTER */
 .center {
     max-width: var(--page-size);
     margin: 0 auto;
@@ -29,29 +30,31 @@ body {
     margin: 0 auto;
 }
 
-/* HEADER */
+/* BUTTON */
+.green-button {
+    display: block;
+    height: 40px;
+    border-radius: 8px;
+    background-color: #009951;
+    border: 1px solid #02542D;
+    line-height: 40px;
+    font-family: var(--font-inter);
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #f5f5f5;
+}
+
+/* BODY */
 header {
-    margin: var(--page-sides);
+    padding: var(--page-sides);
     background-color: #ffffff;
 }
 
 main {
     background-color: #f6f6ee;
 }
-
-/*  */
-.green-button {
-    display: block;
-    height: 40px;
-    border-radius: 8px;
-    background-color: #009951;
-    border-top: 1px solid #02542D;
-    line-height: 40px;
-    text-align: center;
-    text-decoration: none;
-    text-transform: uppercase;
-    color: #f5f5f5;
-}
+/* END-BODY */
 
 /* BANNER */
 .banner {
