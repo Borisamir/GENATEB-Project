@@ -64,7 +64,8 @@
 
 /* CONTAINER SERVICIOS */
 .container-servicios {
-    height: 1057px;
+    /* height: 1057px; */
+    padding-bottom: 103px;
 }
 
 .container-servicios .texto-servicio {
@@ -107,7 +108,9 @@
         rgba(8, 61, 41, 0.22) 28.41%,
         rgba(8, 61, 41, 0.625) 56.45%,
         rgba(8, 61, 41, 0.75) 79.59%);
+    transition: height .2s ease-in-out;
 }
+
 
 .services .servicio-item img {
     width: 100%;
@@ -127,11 +130,20 @@
     width: 122px;
     margin-bottom: 45px;
     color: #1e1e1e;
+    transition: transform .2s ease-in-out;
 }
 
 .services .servicio-item .texto-sobre-imagen,
 .services .servicio-item .boton-sobre-imagen {
     z-index: 1;
+}
+
+.services .servicio-item:hover::after {
+    height: 316px;
+}
+
+.services .servicio-item:hover > a {
+    transform: scale(1.2);
 }
 /* END-CONTAINER SERVICIOS */
 

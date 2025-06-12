@@ -1,52 +1,16 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles\index_styles\formulario.css">
-    <link rel="stylesheet" href="styles/global.css">
-    <link rel="stylesheet" href="styles/header-footer.css">
-    <link rel="stylesheet" href="styles/header-footer-rs.css">
+    <title>Ocupacional</title>
+    <?php include_once "global.php"; ?>
     <link rel="stylesheet" href="styles/index_styles/main.index.css">
     <link rel="stylesheet" href="styles/index_styles/main.index.slider.css">
     <link rel="stylesheet" href="styles/index_styles/main.index.section.css">
-    <link rel="stylesheet" href="styles\index_styles\nuestros_clientes.css">
-    <link rel="stylesheet" href="styles\index_styles\nuestros_servicios_index.css">
-    <link rel="stylesheet" href="styles\index_styles\necesitas_ayuda.css">
-    <link rel="stylesheet" href="styles\index_styles\nuestros_logros.css">
-    <link href="https://fonts.googleapis.com/css2?family=Cal+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&display=swap" rel="stylesheet">
-    <script src="main.js" defer></script>
-    <title>Ocupacional</title>
 </head>
 <body>
-    <header> <!--Funciona como un div grande que guarda lo introductorio-->
-        <div class="h-container center-r">
-            <div class="brand-container">
-                <img src="recursos/Logos/brand.svg" alt="genateb">
-            </div>
-            <nav class="menu-container"> <!--Esta etiqueta sirve para definir un bloque de navegacion-->
-                <input type="checkbox" id="menu-toggle" hidden>
-                <label for="menu-toggle" class="menu-icon">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </label>
-                <ul class="pages" id="menu">
-                    <li><a href="#">inicio</a></li> <!--Clase texto_header sirve para que las palabras se subrayen al pasar el mouse encima-->
-                    <li><a href="#">nosotros</a></li> <!--a href="#" se refiere a que un no tiene links pero se definiran despues-->
-                    <li><a href="#">servicio</a></li>
-                    <li><a href="#">blog</a></li>
-                </ul>
-                <ul class="social-nets">
-                    <li><a href="https://www.facebook.com/p/Constructora-Consultora-Genateb-SAC-100059934199973/" target="_blank"><img src="recursos/Logos/Logo_Facebook.svg" alt="facebook"></a></li>
-                    <li><a href="https://www.instagram.com/genateb/" target="_blank"><img src="recursos/Logos/Logo_Instagram.svg" alt="instagram"></a></li>
-                    <li><a href="https://www.linkedin.com/company/genateb-sac/?trk=public_post_feed-actor-name&originalSubdomain=pe" target="_blank"><img src="recursos/Logos/Logo_Linkedin.svg" alt="linkedin"></a></li>
-                    <li><a href="https://wa.link/drs6v5" target="_blank"><img src="recursos/Logos/Logo_Whatsapp.svg" alt="whatsapp"></a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
+    <?php include_once "header.php"; ?>
     <main>
         <section class="slider-container center">
             <div class="slider">
@@ -155,7 +119,7 @@
                     <h2 class="estilo-texto-ayuda">¿Necesitas Ayuda?</h2>
                     <h3 class="estilo-texto-nosotros">Nuestros especialistas se comunicaran los mas pronto contigo.</h3>
                 </div>
-                <a href="#" class="green-button">escríbenos</a>
+                <a href="https://wa.link/drs6v5" class="green-button">escríbenos</a>
             </div>
         </div>
         <section class="container-servicios center-r">
@@ -164,32 +128,32 @@
                 <div class="servicio-item">
                     <img src="recursos\Servicios_Imagenes\imagen_monitoreo_ocupacionales.png" alt="Ocupacional">
                     <p class="texto-sobre-imagen">Monitoreo de agentes ocupacionales</p>
-                    <a href="#" class="green-button boton-sobre-imagen">ver más</a>
+                    <a href="pages\monitoreo-ocupacional.php" class="green-button boton-sobre-imagen">ver más</a>
                 </div>
                 <div class="servicio-item">
                     <img src="recursos\Servicios_Imagenes\imagen_monitoreo_ambientales.png" alt="Ambiental">
                     <p class="texto-sobre-imagen">Monitero de agentes<br>ambientales</p>
-                    <a href="#" class="green-button boton-sobre-imagen">ver más</a>
+                    <a href="pages\monitoreo_ambiental.php" class="green-button boton-sobre-imagen">ver más</a>
                 </div>
                 <div class="servicio-item">
                     <img src="recursos\Servicios_Imagenes\imagen_elaboracion_ambiental.png" alt="Elaboracion">
                     <p class="texto-sobre-imagen">Elaboracion de instrumentos<br>de gestion ambiental</p>
-                    <a href="#" class="green-button boton-sobre-imagen">ver más</a>
+                    <a href="pages\elaboracion_instrumentos.php" class="green-button boton-sobre-imagen">ver más</a>
                 </div>
                 <div class="servicio-item">
                     <img src="recursos\Servicios_Imagenes\imagen_permisologia_minera.png" alt="Minera">
                     <p class="texto-sobre-imagen">Permisologia ambiental<br>minera</p>
-                    <a href="#" class="green-button boton-sobre-imagen">ver más</a>
+                    <a href="pages\permisología-ambiental-minera.php" class="green-button boton-sobre-imagen">ver más</a>
                 </div>
                 <div class="servicio-item">
                     <img src="recursos\Servicios_Imagenes\imagen_seguridad_salud.png" alt="Seguridad">
                     <p class="texto-sobre-imagen">Seguridad y salud<br> en el trabajo</p>
-                    <a href="#" class="green-button boton-sobre-imagen">ver más</a>
+                    <a href="pages\sst.php" class="green-button boton-sobre-imagen">ver más</a>
                 </div>
                 <div class="servicio-item">
                     <img src="recursos\Servicios_Imagenes\imagen_capacitaciones.png" alt="Capacitacion">
                     <p class="texto-sobre-imagen">Capacitaciones</p>
-                    <a href="#" class="green-button boton-sobre-imagen">ver más</a>
+                    <a href="pages\capacitaciones.php" class="green-button boton-sobre-imagen">ver más</a>
                 </div>
             </div>
         </section>
@@ -217,7 +181,7 @@
             <div class="form-content center-r">
                 <div class="formulario-texto">
                     <h2 class="titulo-contacto" >CONTACTANOS</h2>
-                    <form class="form" action="/procesor-formulario" method="post">
+                    <form class="form" action="contact.php" method="post">
                         <label for="nombre">
                             Nombre y Apellidos
                             <input type="text" id="nombre" name="nombre">
@@ -254,60 +218,6 @@
             </div>
         </section>
     </main>
-    <footer>
-        <a href="#"><img src="recursos\Body\Boton_Salto.png" style="margin-left:90px"></a>
-        <div class="footer-content center-r">
-            <img src="recursos\Logos\Logo_Blanco.svg" class="logo-blanco" alt="genateb">
-            <div class="footer-section">
-                <h3 class="titulo-footer">Servicios</h3>
-                <ul class="tamaño-letra-footer">
-                    <li><a href="#">Monitoreo de agentes ocupacionales</a></li>
-                    <li><a href="#">Monitoreo de calidad ambiental</a></li>
-                    <li><a href="#">Elaboracion de istrucciones de Gestion Ambiental</a></li>
-                    <li><a href="#">Permisologia Ambiental minera</a></li>
-                    <li><a href="#">Estudios Complementarios</a></li>
-                    <li><a href="#">Seguridad y salud en el trabajo</a></li>
-                    <li><a href="#">Capacitaciones</a></li>
-                </ul>
-            </div>
-            <div class="footer-section footer-sedes">
-                <h3 class="titulo-footer">Sedes</h3>
-                <ul class="list-img list-img-1">
-                    <li class="item-sede">
-                        <img src="recursos\Logos\Logo_Mapa.svg" class="icono-mapa">
-                        Huaraz:<br>Mlc.Nor.Este Rio Quilcay Lote 14 Apv.Sagrado Corazon de Jesus (Pasando Torreros Nuñez).
-                    </li>
-                    <li class="item-sede">
-                        <img src="recursos\Logos\Logo_Mapa.svg" class="icono-mapa">
-                        Lima:<br>Jr.Fitzcarrald 1504, Los Olivos.
-                    </li>
-                </ul>
-            </div>
-            <div class="footer-section">
-                <h3 class="titulo-footer">Contacto</h3>
-                <ul class="list-img">
-                    <li class="item-sede">
-                        <img src="recursos\Logos\Logo_Telefono.svg" class="icono-mapa">
-                        <a href="#">933 257 830</a>
-                    </li>
-                    <li class="item-sede">
-                        <img src="recursos\Logos\Logo_Correo.svg" class="icono-mapa">
-                        <a href="#">comercial@genateb.com</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-        <div class="imagenes-footer">
-            <ul>
-                <li><a href="#" target="_blank"><img src="recursos\Logos\Logo_Facebook_Blanco.svg" alt="facebook"></a></li>
-                <li><a href="https://www.instagram.com/genateb/" target="_blank"><img src="recursos\Logos\Logo_Instagram_Blanco.svg" alt="instagram"></a></li>
-                <li><a href="https://www.linkedin.com/company/genateb-sac/?trk=public_post_feed-actor-name&originalSubdomain=pe" target="_blank"><img src="recursos\Logos\Logo_Linkedin_Blanco.svg" alt="linkedin"></a></li>
-                <li><a href="https://wa.link/drs6v5" target="_blank"><img src="recursos\Logos\Logo_Whatsapp_Blanco.svg" alt="whatsapp"></a></li>
-            </ul>
-        </div>
-        <div class="copyright">
-            <small><a href="https://genateb.com/">&copy genateb s.a.c.</a> todos los derechos reservados.</small>
-        </div>
-    </footer>
+    <?php include_once "footer.php"; ?>
 </body>
 </html>

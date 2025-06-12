@@ -58,8 +58,17 @@
 }
 
 .monitoreos-text a {
-    margin-top: 18px;
     width: 137px;
+    margin-top: 18px;
+}
+
+.monitoreos > div:not(.monitoreos-text, div:nth-child(2)) {
+    margin-top: 61px;
+    border-top: 3px dashed #083D29;
+}
+
+.monitoreo-content h3 {
+    margin: 45px 0;
 }
 
 .monitoreo-content h3,
@@ -73,18 +82,33 @@
 
 .monitoreo-content ul {
     display: flex;
-    justify-content: center;
     flex-wrap: wrap;
+    justify-content: center;
+    row-gap: 50px;
     list-style-type: none;
 }
 
 .monitoreo-content ul li {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     width: 24%;
+}
+
+.monitoreo-content ul li img {
+    margin: 0 auto;
 }
 
 .monitoreo-content ul li p {
     text-align: center;
     text-transform: capitalize;
     color: #757575;
+}
+
+.monitoreo-content ul li p span {
+    text-transform: uppercase;
+    font-size: inherit;
+    font-weight: inherit;
+    color: inherit;
 }
 /* END-MONITOREOS */
