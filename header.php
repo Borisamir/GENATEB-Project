@@ -1,3 +1,5 @@
+<?php include_once "/GENATE_WEB/env." ?>
+
 <header>
     <div class="h-container center-r">
         <div class="brand-container">

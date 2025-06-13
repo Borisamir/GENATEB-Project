@@ -44,7 +44,7 @@
     align-self: end;
     font-size: 64px;
     font-weight: 400;
-    line-height: 38px;
+    line-height: 50px; /*original 38px*/
     text-align: right;
     color: #083d29;
 }

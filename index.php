@@ -185,19 +185,19 @@
                     <form class="form" action="contact.php" method="post" onsubmit="return Validar()">
                         <label for="nombre">
                             Nombre y Apellidos
-                            <input type="text" id="nombre" name="nombre">
+                            <input type="text" id="nombre" name="name">
                         </label>
                         <label for="correo_electronico">
                             Correo Electronico
-                            <input type="text" id="correo_electronico" name="correo_electronico">
+                            <input type="text" id="correo_electronico" name="email">
                         </label>
                         <label for="telefono">
                             Numero de telefono
-                            <input type="number" id="telefono" name="telefono">
+                            <input type="number" id="telefono" name="phone">
                         </label>
                         <label for="tipo_servicio">
                             Tipo de servicio que le interesa
-                            <select id="tipo_servicio" name="tipo_servicio">
+                            <select id="tipo_servicio" name="service">
                                 <option value="Monitoreo_agentes_ocupacionales">Monitoreo de agentes ocupacionales</option>
                                 <option value="Monitoreo_calidad_ambiental">Monitoreo de calidad ambiental</option>
                                 <option value="Elaboracion_Instrumentos_Gestion_Ambiental">Elaboracion de Instrumentos de Gestion Ambiental</option>
@@ -208,10 +208,10 @@
                         </label>
                         <label for="mensaje">
                             Mensaje o consulta
-                            <input type="text" id="mensaje" name="mensaje">
+                            <input type="text" id="mensaje" name="message">
                         </label>
                         <label class="terms">
-                            <input type="checkbox" name="terminos">Acepto terminos y condiciones
+                            <input type="checkbox" name="terms">Acepto terminos y condiciones
                         </label>
                         <button type="submit">enviar</button>
                         <div id="mensaje-error" style="color: red; margin-top: 10px;font-size:20px"></div>

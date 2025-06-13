@@ -161,12 +161,12 @@
                 <div class="servicio-item">
                     <img src="../recursos\Servicios_Imagenes\imagen_elaboracion_ambiental.png" alt="Elaboracion">
                     <p class="texto-sobre-imagen">Elaboracion de instrumentos<br>de gestion ambiental</p>
-                    <a href="pages\elaboracion_instrumentos.php" class="green-button boton-sobre-imagen">ver más</a>
+                    <a href="..\pages\elaboracion_instrumentos.php" class="green-button boton-sobre-imagen">ver más</a>
                 </div>
                 <div class="servicio-item">
                     <img src="../recursos\Servicios_Imagenes\imagen_permisologia_minera.png" alt="Minera">
                     <p class="texto-sobre-imagen">Permisologia ambiental<br>minera</p>
-                    <a href="pages\permisología-ambiental-minera.php" class="green-button boton-sobre-imagen">ver más</a>
+                    <a href="..\pages\permisología-ambiental-minera.php" class="green-button boton-sobre-imagen">ver más</a>
                 </div>
             </div>
         </section>
