@@ -1,3 +1,5 @@
+<?php include_once "index.env.php" ?>
+
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -5,9 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ocupacional</title>
     <?php include_once "global.php"; ?>
-    <link rel="stylesheet" href="styles/index_styles/main.index.css">
-    <link rel="stylesheet" href="styles/index_styles/main.index.slider.css">
-    <link rel="stylesheet" href="styles/index_styles/main.index.section.css">
+    <link rel="stylesheet" href="<?php echo $_ENV["ROOT"]; ?>/styles/index_styles/main.index.css">
+    <link rel="stylesheet" href="<?php echo $_ENV["ROOT"]; ?>/styles/index_styles/main.index.slider.css">
+    <link rel="stylesheet" href="<?php echo $_ENV["ROOT"]; ?>/styles/index_styles/main.index.section.css">
     <script src="main.js" defer></script>
 </head>
 <body>
@@ -198,11 +200,12 @@
                         <label for="tipo_servicio">
                             Tipo de servicio que le interesa
                             <select id="tipo_servicio" name="service">
-                                <option value="Monitoreo_agentes_ocupacionales">Monitoreo de agentes ocupacionales</option>
-                                <option value="Monitoreo_calidad_ambiental">Monitoreo de calidad ambiental</option>
-                                <option value="Elaboracion_Instrumentos_Gestion_Ambiental">Elaboracion de Instrumentos de Gestion Ambiental</option>
-                                <option value="Estudios_Complementarios">Estudios Complementarios</option>
-                                <option value="Seguridad_Salud ">Seguridad y Salud en el trabajo</option>
+                                <option value="Monitoreo de agentes ocupacionales">Monitoreo de agentes ocupacionales</option>
+                                <option value="Monitoreo de calidad ambiental">Monitoreo de calidad ambiental</option>
+                                <option value="Elaboración de instrumentos de Gestión Ambiental">Elaboracion de Instrumentos de Gestion Ambiental</option>
+                                <option value="Permisología Ambiental Minera">Permisologia Ambiental Minera</option>
+                                <option value="Estudios Complementarios">Estudios Complementarios</option>
+                                <option value="Seguridad y Salud en el Trabajo">Seguridad y Salud en el trabajo</option>
                                 <option value="Capacitaciones">Capacitaciones</option>
                             </select>
                         </label>
