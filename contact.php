@@ -2,7 +2,9 @@
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
 
-require __DIR__ . '/vendor/autoload.php'; // Asegúrate de tener PHPMailer instalado
+require __DIR__ . "/vendor/autoload.php";
+
+$mail = new PHPMailer(true);
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $nombre = strip_tags(trim($_POST["nombre"] ?? ''));
@@ -13,7 +15,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $terminos = isset($_POST["terminos"]) ? "Sí" : "No";
 
     if ($nombre && $correo && $mensaje) {
-        $mail = new PHPMailer(true);
 
         try {
             // Configuración SMTP: Cambia estos valores según tu proveedor

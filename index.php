@@ -120,7 +120,7 @@
                     <h2 class="estilo-texto-ayuda">¿Necesitas Ayuda?</h2>
                     <h3 class="estilo-texto-nosotros">Nuestros especialistas se comunicaran los mas pronto contigo.</h3>
                 </div>
-                <a href="https://wa.link/drs6v5" class="green-button">escríbenos</a>
+                <a href="https://wa.link/drs6v5" target="_blank" class="green-button">escríbenos</a>
             </div>
         </div>
         <section class="container-servicios center-r">
@@ -182,7 +182,7 @@
             <div class="form-content center-r">
                 <div class="formulario-texto">
                     <h2 class="titulo-contacto" >CONTACTANOS</h2>
-                    <form class="form" action="contact.php" method="post">
+                    <form class="form" action="contact.php" method="post" onsubmit="return Validar()">
                         <label for="nombre">
                             Nombre y Apellidos
                             <input type="text" id="nombre" name="nombre">
@@ -214,6 +214,7 @@
                             <input type="checkbox" name="terminos">Acepto terminos y condiciones
                         </label>
                         <button type="submit">enviar</button>
+                        <div id="mensaje-error" style="color: red; margin-top: 10px;font-size:20px"></div>
                     </form>
                 </div>
             </div>

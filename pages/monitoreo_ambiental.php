@@ -1,18 +1,19 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <?php include_once "../global.php"; ?>
-   <title>Monitoreo Ambiental</title>
+    <link rel="stylesheet" href="../styles/index_styles/main.index.section.css">
+    <link rel="stylesheet" href="../styles/ambiental_styles/banner.rs.css">
+    <link rel="stylesheet" href="../styles/ambiental_styles/h-f.css">
+    <title>Monitoreo Ambiental</title>
 </head>
 <body>
     <?php include_once "../header.php"; ?>
     <main>
-        <div class="contenedor-banner">
-            <div class="contenedor-imagen">
-                <img src="..\recursos\Imagenes_Monitoreo_Ambiental\Banner_Monitoreo.png">
-            </div>
+        <div class="banner center">
+            <img src="..\recursos\Imagenes_Monitoreo_Ambiental\Banner_Monitoreo.png" alt="monitoreo ambiental">
         </div>
         <div class="contenedor-monitoreo">
             <div class="contenedor-texto">
@@ -109,7 +110,7 @@
                 <h2>Aguas superficiales,<br>subterranea,consumo<br>humano y efluentes.</h2>
             </div>
         </div>
-        <section class="container-servicios center-r" style="height:528px">
+        <section class="container-servicios center-r" style="height:802px">
             <h2 class="texto-servicio">OTROS SERVICIOS</h2>
             <div class="services">
                 <div class="servicio-item">

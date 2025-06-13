@@ -123,3 +123,86 @@
     align-items: flex-start;
     gap:15px
 }
+
+@media screen and (max-width: 768px) {
+
+    /* ======================== BANNER ======================== */
+    .contenedor_banner {
+        flex-direction: column;
+        min-width: 100%;
+        min-height: auto;
+    }
+
+    .contenedor-imagen img {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+    }
+
+    /* ======================== MONITOREO ======================== */
+    .contenedor-monitoreo {
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+    }
+
+    .contenedor-texto {
+        flex-direction: column;
+        text-align: center;
+        padding: 0 10px;
+    }
+
+    .contenedor-texto h2 {
+        font-size: 24px;
+        margin-top: 20px;
+    }
+
+    .contenedor-parrafo {
+        flex-direction: column;
+        text-align: center;
+        margin-top: 20px;
+        padding: 0 15px;
+    }
+
+    .contenedor-parrafo h2 {
+        font-size: 16px;
+    }
+
+    .contenedor-boton {
+        justify-content: center;
+        margin-top: 20px;
+    }
+
+    .boton-verde {
+        width: auto;
+        padding: 10px 20px;
+        font-size: 14px;
+    }
+
+    .contenedor-texto-aire {
+        margin-right: 0;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .contenedor-texto-aire h2 {
+        font-size: 20px;
+        margin-top: 10px;
+    }
+
+    .contenedor-imagen-texto {
+        flex-direction: column;
+        gap: 20px;
+        padding: 20px;
+    }
+
+    .imagen-texto h2 {
+        font-size: 18px;
+    }
+
+    .fila {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+}

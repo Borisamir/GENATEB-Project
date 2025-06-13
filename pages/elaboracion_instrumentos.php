@@ -27,7 +27,7 @@
         </div>
         <div class="contenedor-monitoreo">
             <div class="contenedor-boton">
-                <a  href="https://wa.link/drs6v5"class="boton-verde">
+                <a href="https://wa.link/drs6v5" class="boton-verde">
                     COTIZA AQUI
                 </a>
             </div>
@@ -60,7 +60,7 @@
                 <h2>Informe de gestion<br>ambiental<br>(IGA)</h2>
             </div>
         </div>
-        <section class="container-servicios center-r" style="height:528px">
+        <section class="container-servicios center-r" style="height:802px">
             <h2 class="texto-servicio">OTROS SERVICIOS</h2>
             <div class="services">
                 <div class="servicio-item">

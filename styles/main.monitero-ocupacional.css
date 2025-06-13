@@ -1,68 +1,17 @@
-/* BANNER */
-.banner {
-    height: 478px;
-    position: relative;
-}
-
-.banner::after {
-    content: "";
-    width: 100%;
-    height: 298px;
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    background: linear-gradient(180deg,
-        rgba(255, 255, 255, 0) 8.65%,
-        rgba(8, 61, 41, 0.22) 28.41%,
-        rgba(8, 61, 41, 0.625) 56.45%,
-        rgba(8, 61, 41, 0.75) 79.59%);
-}
-
-.banner img {
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
-}
-/* END-BANNER */
-
-/* MONITOREOS */
-.monitoreos {
+main > div {
     background-color: #ffffff;
 }
 
-.monitoreos-text {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    text-transform: uppercase;
+.sd-section {
+    padding-bottom: 0;
 }
 
-.monitoreos-text h2 {
-    margin-bottom: 30px;
-    font-family: "Inter", sans-serif;
-    font-size: 35px;
-    font-weight: 700;
-    color: #083d29;
+/* MONITOREOS */
+.monitoreos {
+    padding-bottom: 100px;
 }
 
-.monitoreos-text p {
-    width: 485px;
-    font-size: 20px;
-    text-transform: lowercase;
-    color: #3e4851;
-}
-
-.monitoreos-text p::first-letter {
-    text-transform: capitalize;
-}
-
-.monitoreos-text a {
-    width: 137px;
-    margin-top: 18px;
-}
-
-.monitoreos > div:not(.monitoreos-text, div:nth-child(2)) {
+.monitoreos > div:not(.sd-section, div:nth-child(2)) {
     margin-top: 61px;
     border-top: 3px dashed #083D29;
 }
@@ -73,11 +22,11 @@
 
 .monitoreo-content h3,
 .monitoreo-content ul li p {
-    font-family: "Inter", sans-serif;
+    font-family: var(--font-inter);
     font-size: 25px;
     font-weight: 700;
-    color: #083d29;
     text-transform: uppercase;
+    color: #083d29;
 }
 
 .monitoreo-content ul {
@@ -92,16 +41,16 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    width: 24%;
+    width: 25%;
 }
 
 .monitoreo-content ul li img {
-    margin: 0 auto;
+    margin: auto;
 }
 
 .monitoreo-content ul li p {
     text-align: center;
-    text-transform: capitalize;
+    text-transform: none;
     color: #757575;
 }
 
@@ -110,5 +59,15 @@
     font-size: inherit;
     font-weight: inherit;
     color: inherit;
+}
+
+.monitoreo-content.mc-3 ul,
+.monitoreo-content.mc-4 ul {
+    gap: 100px;
+}
+
+.monitoreo-content.mc-2 ul li,
+.monitoreo-content.mc-5 ul li {
+    width: 33%;
 }
 /* END-MONITOREOS */

@@ -4,7 +4,7 @@
         <img src="/GENATE_WEB/recursos\Logos\Logo_Blanco.svg" class="logo-blanco" alt="genateb">
         <div class="footer-section">
             <h3 class="titulo-footer">Servicios</h3>
-            <ul class="tamaño-letra-footer">
+            <ul>
                 <li><a href="pages\monitoreo-ocupacional.php">Monitoreo de agentes ocupacionales</a></li>
                 <li><a href="pages\monitoreo_ambiental.php">Monitoreo de calidad ambiental</a></li>
                 <li><a href="pages\elaboracion_instrumentos.php">Elaboracion de istrucciones de Gestion Ambiental</a></li>
@@ -16,14 +16,20 @@
         </div>
         <div class="footer-section footer-sedes">
             <h3 class="titulo-footer">Sedes</h3>
-            <ul class="list-img list-img-1">
+            <ul class="list-img">
                 <li class="item-sede">
                     <img src="/GENATE_WEB/recursos\Logos\Logo_Mapa.svg" class="icono-mapa">
-                    Huaraz:<br>Mlc.Nor.Este Rio Quilcay Lote 14 Apv.Sagrado Corazon de Jesus (Pasando Torreros Nuñez).
+                    <div>
+                        Huaraz:<br>
+                        Mlc.Nor.Este Rio Quilcay Lote 14 Apv.Sagrado Corazon de Jesus (Pasando Torreros Nuñez).
+                    </div>
                 </li>
                 <li class="item-sede">
                     <img src="/GENATE_WEB/recursos\Logos\Logo_Mapa.svg" class="icono-mapa">
-                    Lima:<br>Jr.Fitzcarrald 1504, Los Olivos.
+                    <div>
+                        Lima:<br>
+                        <a href="https://maps.app.goo.gl/Bq24E8GxnZ2U4q5N9" target="_blank">Jr.Fitzcarrald 1504, Los Olivos.</a>
+                    </div>
                 </li>
             </ul>
         </div>

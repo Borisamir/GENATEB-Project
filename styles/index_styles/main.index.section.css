@@ -56,6 +56,8 @@
 .contenedor-logros img {
     width: 100%;
     height: 100%;
+    /* object-fit: cover; */
+    /* margin-top: -29px; */
 }
 /* END-CONTENEDOR LOGROS*/
 
@@ -245,4 +247,87 @@
 .container-boton a{
     width: 50px;
     cursor: pointer;
+}
+
+
+/* ===================== MEDIA QUERIES PARA CELULARES ===================== */
+@media screen and (max-width: 768px) {
+    /* Logros */
+    .contenedor-logros {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        padding: 20px;
+        text-align: center;
+    }
+
+    .contenedor-logros .logros-texto h3 {
+        font-size: 28px;
+    }
+
+    .contenedor-logros .logros-texto h2 {
+        font-size: 16px;
+    }
+
+    .contenedor-logros .logros-cifras {
+        grid-template-columns: 1fr;
+        row-gap: 30px;
+    }
+
+    .logros-cifras .logro {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .logros-cifras .logro .logro-texto h3 {
+        font-size: 28px;
+    }
+
+    .logros-cifras .logro .logro-texto h2 {
+        font-size: 16px;
+    }
+
+    /* Servicios */
+    .services {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .services .servicio-item {
+        width: 90%;
+        height: auto;
+    }
+
+    .services .servicio-item img {
+        object-fit: cover;
+    }
+
+    /* Formulario */
+    .container-formulario {
+        height: auto;
+    }
+
+    .container-formulario img {
+        display: none;
+    }
+
+    .formulario-texto {
+        width: 100%;
+        padding: 20px;
+    }
+
+    .formulario-texto .titulo-contacto {
+        font-size: 28px;
+    }
+
+    .formulario-texto .form {
+        padding: 16px;
+    }
+
+    /* Botón flotante footer */
+    .container-boton {
+        bottom: -30px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
 }

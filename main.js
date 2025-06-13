@@ -67,3 +67,35 @@ indicators.forEach(function(ind) {
         this.classList.add("active");
     });
 })
+
+
+/*Verificacion datos */
+function Validar(){
+    const nombre_apellido=document.getElementById("nombre").value.trim();
+    const correo=document.getElementById("correo_electronico").value.trim();
+    const telefono=document.getElementById("telefono").value.trim();
+
+    const Letras=/^[a-zA-ZÁÉÍÓÚáéíóúÑñ\s]+$/;
+    const correoValido=/^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+
+    document.getElementById("mensaje-error").innerText="";
+
+    if(!Letras.test(nombre_apellido)){
+       document.getElementById("mensaje-error").innerText="Error: Nombre y Apellido solo deben contener Letras.";
+       return false;
+    }
+
+    if(!correoValido.test(correo)){
+       document.getElementById("mensaje-error").innerText="Error: Ingrese un correo valido.";
+       return false;
+    }
+
+    if(telefono && !/^\d{7,9}$/.test(telefono)){
+       document.getElementById("mensaje-error").innerText="Error: El numero debe tener entre 7 y 9 digitos.";
+       return false;
+    }
+
+    alert("El Formulario ha sido enviado correctamente");
+    return true;
+
+}

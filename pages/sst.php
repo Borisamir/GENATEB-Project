@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <?php include_once "../global.php"; ?>
+    <link rel="stylesheet" href="../styles/index_styles/main.index.section.css">
     <title>Seguridad y salud en el trabajo</title>
 </head>
 <body>
@@ -89,7 +90,7 @@
                 <h2>Auditorias y/o<br>homologaciones<br>vigentes</h2>
             </div>
         </div>
-        <section class="container-servicios center-r" style="height:528px">
+        <section class="container-servicios center-r" style="height:802px">
             <h2 class="texto-servicio">OTROS SERVICIOS</h2>
             <div class="services">
                 <div class="servicio-item">
