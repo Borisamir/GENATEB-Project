@@ -4,7 +4,7 @@
         width: 50vw;
         height: 100vh;
         position: fixed;
-        top: var(--hw-c-height);
+        top: var(--hw-height);
         left: 0;
         background-color: #ffffff;
         z-index: 2; /* TEMP */
@@ -21,29 +21,19 @@
     }
 
     .menu-container ul {
+        --ul-line-height: 70px;
+        /* --- */
         flex-direction: column;
         gap: 0;
 
         & li a {
-            --c-line-height: 70px;
-            /* --- */
-            padding-left: 20px;
+            padding-left: var(--page-sides);
         }
     }
 
     .menu-container ul li:nth-child(3) .submenu {
-        --sm-c-height: 280px;
-        /* --- */
         width: 100%;
         position: initial;
-
-        & li {
-            margin-left: 40px;
-
-            & a {
-                padding-left: 0;
-            }
-        }
     }
 
     .menu-container .pages {

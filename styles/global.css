@@ -3,6 +3,7 @@
 
 :root {
     --center: 1440px;
+    --page-sides: 30px;
     --font-inter: "Inter", sans-serif;
     --font-cal-sans: "Cal Sans", sans-serif;
 }
@@ -21,7 +22,6 @@ html {
 }
 
 body {
-    --page-sides: 0 30px;
     --height-header: 100px;
 }
 
