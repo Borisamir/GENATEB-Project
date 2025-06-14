@@ -15,7 +15,7 @@
                     <li><a href="<?php echo $_ENV["ROOT"]; ?>/">inicio</a></li>
                     <li><a href="<?php echo $_ENV["PAGES"]; ?>/nosotros.php">nosotros</a></li>
                     <li>
-                        <a href="#">servicios</a>
+                        <a href="<?php echo $_ENV["PAGES"]; ?>/servicios.php">servicios</a>
                         <ul class="submenu">
                             <li><a href="<?php echo $_ENV["PAGES"]; ?>">monitoreo de agentes ocupacionales</a></li>
                             <li><a href="<?php echo $_ENV["PAGES"]; ?>">monitoreo de agentes ambientales</a></li>

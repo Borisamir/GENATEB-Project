@@ -4,7 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <?php include_once "../global.php"; ?>
-    <link rel="stylesheet" href="<?php echo $_ENV["STYLES"]; ?>\index_styles\main.index.section.css">
+    <link rel="stylesheet" href="<?php echo $_ENV["STYLES"]; ?>/index/main.index.section.css">
+    <link rel="stylesheet" href="<?php echo $_ENV["STYLES"]; ?>/ambiental_styles/banner.rs.css">
+    <link rel="stylesheet" href="<?php echo $_ENV["STYLES"]; ?>/ambiental_styles/h-f.css">
    <title>Elaboracion de instrumentos</title>
 </head>
 <body>
@@ -22,7 +24,7 @@
         </div>
         <div class="contenedor-monitoreo">
             <div class="contenedor-parrafo" >
-                <h2>Desarrollamos estudios y documentos tecnicos requeridos por la<br> normativa ambiental peruana</h2>
+                <p>Desarrollamos estudios y documentos tecnicos requeridos por la<br> normativa ambiental peruana</p>
             </div>
         </div>
         <div class="contenedor-monitoreo">
@@ -35,29 +37,29 @@
         <div class="contenedor-imagen-texto">
             <div class="imagen-texto" style="width: 300px;margin-top:50px">
                 <img src="/GENATE_WEB/recursos\Imagenes_Elaboracion_Instrumentos\Eia.png" style="width: 187px;height: 100px;">
-                <h2>Estudios de Impacto<br>Ambiental<br>(EIA)</h2>
+                <p>Estudios de Impacto<br>Ambiental<br>(EIA)</p>
             </div>
             <div class="imagen-texto" style="width: 300px;margin-top:50px">
                 <img src="/GENATE_WEB/recursos\Imagenes_Elaboracion_Instrumentos\Hoja_Estadistica.png" style="width: 109px;height: 109px;">
-                <h2>Evaluacion Ambiental<br>Preliminar y Planes de<br>Manejo(EVAP Y PMA)</h2>
+                <p>Evaluacion Ambiental<br>Preliminar y Planes de<br>Manejo(EVAP Y PMA)</p>
             </div>
             <div class="imagen-texto" style="width: 300px;margin-top:50px">
                 <img src="/GENATE_WEB/recursos\Imagenes_Elaboracion_Instrumentos\Hoja_Planta.png" style="width: 116px;height: 115px;">
-                <h2>Declaracion de Impacto<br>y Adecuacion Ambiental<br>(DIA,DAA)</h2>
+                <p>Declaracion de Impacto<br>y Adecuacion Ambiental<br>(DIA,DAA)</p>
             </div>
         </div>
         <div class="contenedor-imagen-texto">
             <div class="imagen-texto" style="width: 300px;margin-top:50px">
                 <img src="/GENATE_WEB/recursos\Imagenes_Elaboracion_Instrumentos\Hoja_Logro.png" style="width: 118px;height: 118px;">
-                <h2>Instrumentos Tecnicos<br>Sustentatorios<br>(ITS)</h2>
+                <p>Instrumentos Tecnicos<br>Sustentatorios<br>(ITS)</p>
             </div>
             <div class="imagen-texto" style="width: 300px;margin-top:50px">
                 <img src="/GENATE_WEB/recursos\Imagenes_Elaboracion_Instrumentos\Hoja_Mas.png" style="width: 93px;height: 118px;" >
-                <h2>Ficha Tecnica<br>Sociambiental<br>(FITSA)</h2>
+                <p>Ficha Tecnica<br>Sociambiental<br>(FITSA)</p>
             </div>
             <div class="imagen-texto" style="width: 300px;margin-top:50px">
                 <img src="/GENATE_WEB/recursos\Imagenes_Elaboracion_Instrumentos\Hoja_Check.png" style="width: 128px;height: 128px;">
-                <h2>Informe de gestion<br>ambiental<br>(IGA)</h2>
+                <p>Informe de gestion<br>ambiental<br>(IGA)</p>
             </div>
         </div>
         <section class="container-servicios center-r" style="height:802px">

@@ -22,7 +22,7 @@
         </div>
         <div class="contenedor-monitoreo">
             <div class="contenedor-parrafo" >
-                <h2>Brindamos asesoria y gestion integral en la obtencion de permisos,<br>licencias y autorizaciones ambientales requeridas para proyectos mineros.</h2>
+                <p>Brindamos asesoria y gestion integral en la obtencion de permisos,<br>licencias y autorizaciones ambientales requeridas para proyectos mineros.</p>
             </div>
         </div>
         <div class="contenedor-monitoreo">
@@ -35,21 +35,21 @@
         <div class="contenedor-imagen-texto" >
             <div class="imagen-texto" style="width: 500x;margin-left:100px">
                 <img src="..\recursos\Imagenes_Permisologia_Ambiental\Estadistica.png" style="width: 163px;height: 130px;margin-bottom:20px">
-                <h2>Inicio de actividades de<br>Exploracion y Explotacion</h2>
+                <p>Inicio de actividades de<br>Exploracion y Explotacion</p>
             </div>
             <div class="imagen-texto" style="width: 500px;">
                 <img src="..\recursos\Imagenes_Permisologia_Ambiental\Logro.png" style="width: 131px;height: 131px;margin-bottom:20px">
-                <h2>Certificado de inexistencia de restos<br>arqueologicos, (CIRA)Diagnosticos<br>arqueologicos superficiales</h2>
+                <p>Certificado de inexistencia de restos<br>arqueologicos, (CIRA)Diagnosticos<br>arqueologicos superficiales</p>
             </div>
         </div>
         <div class="contenedor-imagen-texto">
             <div class="imagen-texto" style="width: 400x;margin-left:200px">
                 <img src="..\recursos\Imagenes_Permisologia_Ambiental\Sello.png" style="width: 142px;height: 142px;margin-bottom:20px">
-                <h2>Autorizaciones de uso de aguas,<br>licencia de uso de agua,<br>autorizaciones de vertimiento</h2>
+                <p>Autorizaciones de uso de aguas,<br>licencia de uso de agua,<br>autorizaciones de vertimiento</p>
             </div>
             <div class="imagen-texto" style="width: 400px;margin-right:200px;margin-top:12px">
                 <img src="..\recursos\Imagenes_Permisologia_Ambiental\Mina.png" style="width: 132px;height: 132px;margin-bottom:20px">
-                <h2>Conseciones de beneficio,<br>procesamiento y transporte de<br>mineral.</h2>
+                <p>Conseciones de beneficio,<br>procesamiento y transporte de<br>mineral.</p>
             </div>
         </div>
         <section class="container-servicios center-r" style="height:802px">
