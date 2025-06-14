@@ -127,6 +127,7 @@ html {
 /* BODY */
 header {
     padding: 0 var(--page-sides);
+    position: relative;
     background-color: #ffffff;
 }
 

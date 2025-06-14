@@ -32,7 +32,6 @@
         display: block;
         font-size: 13px;
         text-decoration: none;
-        text-transform: uppercase;
         color: #083d29;
     }
 
@@ -42,6 +41,43 @@
 }
 
 /* .header-wrapper */
+#menu-toggle:checked ~ .menu-icon span {
+    background-color: #31955b;
+}
+
+#menu-toggle:checked ~ .menu-icon span:nth-child(1) {
+    transform-origin: 0 50%;
+    transform: translateX(11%) rotate(40deg);
+}
+
+#menu-toggle:checked ~ .menu-icon span:nth-child(2) {
+    width: 0;
+}
+
+#menu-toggle:checked ~ .menu-icon span:nth-child(3) {
+    transform-origin: 0 50%;
+    transform: translateX(11%) rotate(-40deg);
+}
+
+#menu-toggle:checked ~ .menu-container {
+    display: initial;
+}
+
+.menu-icon {
+    width: 40px;
+    height: 30px;
+    display: none;
+    gap: 8px;
+    cursor: pointer;
+}
+
+.menu-icon span {
+    width: 100%;
+    background-color: #000000; 
+    border-radius: 50px;
+    transition: .1s ease-in-out;
+}
+
 .menu-container {
     position: relative;
 }
@@ -86,40 +122,16 @@
     height: 20px;
 
     & img {
-        filter: invert(45%) sepia(26%) saturate(970%) hue-rotate(92deg) brightness(102%) contrast(89%);
+        filter:
+            invert(53%)
+            sepia(28%)
+            saturate(927%)
+            hue-rotate(92deg)
+            brightness(86%)
+            contrast(87%);
     }
 }
 
-.menu-container .menu-icon {
-    display: none;
-    gap: 10px;
-    width: 40px;
-    height: 30px;
-    cursor: pointer;
-}
-
-.menu-container .menu-icon span {
-    width: 100%;
-    background-color: #000000; 
-}
-
-.menu-container #menu-toggle:checked ~ .menu-icon span:nth-child(1) {
-    transform: translateX(12%) rotate(42deg);
-    transform-origin: 0 50%;
-}
-
-.menu-container #menu-toggle:checked ~ .menu-icon span:nth-child(2) {
-    width: 0;
-}
-
-.menu-container #menu-toggle:checked ~ .menu-icon span:nth-child(3) {
-    transform: translateX(12%) rotate(-42deg);
-    transform-origin: 0 50%;
-}
-
-.menu-container #menu-toggle:checked ~ .pages {
-    display: flex;
-}
 /* END-HEADER */
 
 /* FOOTER */
@@ -151,9 +163,10 @@
     grid-template-columns: repeat(4, 1fr);
     gap: 30px;
 
-    & img {
+    & > img {
         width: 226px;
         height: 58px;
+        object-fit: cover;
     }
 
     & div h3 {
@@ -204,6 +217,7 @@
     width: 25px;
     height: 25px;
 }
+/* .footer-wrapper */
 
 .copyright {
     padding: 15px 0;

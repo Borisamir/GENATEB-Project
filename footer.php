@@ -5,16 +5,16 @@
                 <img src="<?php echo $_ENV["RESOURCES"]; ?>\Body\Boton_Salto.png" alt="regresar">
             </a>
             <div class="footer-section center-r">
-                <img src="<?php echo $_ENV["RESOURCES"]; ?>\Logos\Logo_Blanco.svg" alt="genateb">
+                <img src="<?php echo $_ENV["RESOURCES"]; ?>\Logos\brand-white.png" alt="genateb">
                 <div>
                     <h3>Servicios</h3>
                     <ul class="font-inter">
                         <li><a href="<?php echo $_ENV["PAGES"]; ?>/monitoreo-ocupacional.php">Monitoreo de agentes ocupacionales</a></li>
                         <li><a href="<?php echo $_ENV["PAGES"]; ?>/monitoreo_ambiental.php">Monitoreo de calidad ambiental</a></li>
-                        <li><a href="<?php echo $_ENV["PAGES"]; ?>/elaboracion_instrumentos.php">Elaboración de instrumentos de Gestión Ambiental</a></li>
-                        <li><a href="<?php echo $_ENV["PAGES"]; ?>/permisología-ambiental-minera.php">Permisología Ambiental Minera</a></li>
+                        <li><a href="<?php echo $_ENV["PAGES"]; ?>/elaboracion_instrumentos.php">Elaboración de instrumentos de gestión ambiental</a></li>
+                        <li><a href="<?php echo $_ENV["PAGES"]; ?>/permisología-ambiental-minera.php">Permisología ambiental minera</a></li>
                         <li><a href="<?php echo $_ENV["PAGES"]; ?>/estudios_complementarios.php">Estudios complementarios</a></li>
-                        <li><a href="<?php echo $_ENV["PAGES"]; ?>/sst.php">Seguridad y Salud en el Trabajo</a></li>
+                        <li><a href="<?php echo $_ENV["PAGES"]; ?>/sst.php">Seguridad y salud en el trabajo</a></li>
                         <li><a href="<?php echo $_ENV["PAGES"]; ?>/capacitaciones.php">Capacitaciones</a></li>
                     </ul>
                 </div>
@@ -47,10 +47,10 @@
             </div>
         </div>
         <ul class="social-list">
-            <li><a href="<?php echo $_ENV["FACEBOOK_LINK"]; ?>" target="_blank"><img src="<?php echo $_ENV["RESOURCES"]; ?>\Logos\Logo_Facebook_Blanco.svg" alt="facebook"></a></li>
-            <li><a href="<?php echo $_ENV["INSTAGRAM_LINK"]; ?>" target="_blank"><img src="<?php echo $_ENV["RESOURCES"]; ?>\Logos\Logo_Instagram_Blanco.svg" alt="instagram"></a></li>
-            <li><a href="<?php echo $_ENV["LINKEDIN_LINK"]; ?>" target="_blank"><img src="<?php echo $_ENV["RESOURCES"]; ?>\Logos\Logo_Linkedin_Blanco.svg" alt="linkedin"></a></li>
-            <li><a href="<?php echo $_ENV["WHATSAPP_LINK"]; ?>" target="_blank"><img src="<?php echo $_ENV["RESOURCES"]; ?>\Logos\Logo_Whatsapp_Blanco.svg" alt="whatsapp"></a></li>
+            <li><a href="<?php echo $_ENV["FACEBOOK_LINK"]; ?>" target="_blank"><img src="<?php echo $_ENV["RESOURCES"]; ?>\Logos\logo-facebook.svg" alt="facebook"></a></li>
+            <li><a href="<?php echo $_ENV["INSTAGRAM_LINK"]; ?>" target="_blank"><img src="<?php echo $_ENV["RESOURCES"]; ?>\Logos\logo-instagram.svg" alt="instagram"></a></li>
+            <li><a href="<?php echo $_ENV["LINKEDIN_LINK"]; ?>" target="_blank"><img src="<?php echo $_ENV["RESOURCES"]; ?>\Logos\logo-linkedin.svg" alt="linkedin"></a></li>
+            <li><a href="<?php echo $_ENV["WHATSAPP_LINK"]; ?>" target="_blank"><img src="<?php echo $_ENV["RESOURCES"]; ?>\Logos\logo-whatsapp.svg" alt="whatsapp"></a></li>
         </ul>
     </div>
     <div class="copyright">
