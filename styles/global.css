@@ -21,10 +21,6 @@ html {
     scroll-behavior: smooth;
 }
 
-body {
-    --height-header: 100px;
-}
-
 /* CENTER */
 .center {
     max-width: var(--center);
@@ -35,6 +31,22 @@ body {
 .center-r {
     max-width: calc(var(--center) - 380px);
     margin: 0 auto;
+}
+
+/* SOCIAL */
+.social-list {
+    display: flex;
+    gap: 10px;
+    list-style-type: none;
+}
+
+.social-list li a {
+    display: block;
+
+    & img {
+        width: 100%;
+        height: 100%;
+    }
 }
 
 /* BANNER */
@@ -114,7 +126,7 @@ body {
 
 /* BODY */
 header {
-    padding: 0 30px;
+    padding: 0 var(--page-sides);
     background-color: #ffffff;
 }
 
@@ -124,6 +136,5 @@ main {
 
 footer {
     position: relative;
-    background-color: #052323;
 }
 /* END-BODY */

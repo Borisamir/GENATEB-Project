@@ -29,14 +29,12 @@
                     <li><a href="#">blog</a></li>
                 </ul>
             </nav>
-            <div class="social-container">
-                <ul>
-                    <li><a href="<?php echo $_ENV["FACEBOOK_LINK"]; ?>" target="_blank"><img src="<?php echo $_ENV["RESOURCES"]; ?>/Logos/Logo_Facebook.svg" alt="facebook"></a></li>
-                    <li><a href="<?php echo $_ENV["INSTAGRAM_LINK"]; ?>" target="_blank"><img src="<?php echo $_ENV["RESOURCES"]; ?>/Logos/Logo_Instagram.svg" alt="instagram"></a></li>
-                    <li><a href="<?php echo $_ENV["LINKEDIN_LINK"]; ?>" target="_blank"><img src="<?php echo $_ENV["RESOURCES"]; ?>/Logos/Logo_Linkedin.svg" alt="linkedin"></a></li>
-                    <li><a href="<?php echo $_ENV["WHATSAPP_LINK"]; ?>" target="_blank"><img src="<?php echo $_ENV["RESOURCES"]; ?>/Logos/Logo_Whatsapp.svg" alt="whatsapp"></a></li>
-                </ul>
-            </div>
+            <ul class="social-list">
+                <li><a href="<?php echo $_ENV["FACEBOOK_LINK"]; ?>" target="_blank"><img src="<?php echo $_ENV["RESOURCES"]; ?>/Logos/Logo_Facebook.svg" alt="facebook"></a></li>
+                <li><a href="<?php echo $_ENV["INSTAGRAM_LINK"]; ?>" target="_blank"><img src="<?php echo $_ENV["RESOURCES"]; ?>/Logos/Logo_Instagram.svg" alt="instagram"></a></li>
+                <li><a href="<?php echo $_ENV["LINKEDIN_LINK"]; ?>" target="_blank"><img src="<?php echo $_ENV["RESOURCES"]; ?>/Logos/Logo_Linkedin.svg" alt="linkedin"></a></li>
+                <li><a href="<?php echo $_ENV["WHATSAPP_LINK"]; ?>" target="_blank"><img src="<?php echo $_ENV["RESOURCES"]; ?>/Logos/Logo_Whatsapp.svg" alt="whatsapp"></a></li>
+            </ul>
         </div>
     </div>
 </header>

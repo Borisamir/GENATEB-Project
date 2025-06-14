@@ -1,8 +1,10 @@
 @media (max-width: 1030px) {
+    /* HEADER */
     /* .header-wrapper */
     .menu-container  {
         width: 50vw;
         height: 100vh;
+        display: none; /* TEMP */
         position: fixed;
         top: var(--hw-height);
         left: 0;
@@ -67,4 +69,24 @@
     .menu-container .menu-icon {
         display: grid;
     }
+    /* END-HEADER */
+
+    /* FOOTER */
+    /* .footer-wrapper */
+    .footer-container .footer-section {
+        grid-template-columns: 1fr;
+
+        & > * {
+            margin: 0 auto;
+        }
+    }
+
+    .footer-container .footer-section div {
+        width: 300px;
+
+        & h3 {
+            text-align: center;
+        }
+    }
+    /* END-FOOTER */
 }
