@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <?php include_once "../global.php"; ?>
-    <link rel="stylesheet" href="../styles/index_styles/main.index.section.css">
+    <link rel="stylesheet" href="<?php echo $_ENV["STYLES"]; ?>/index_styles/main.index.section.css">
     <title>Capacitaciones</title>
 </head>
 <body>
@@ -12,7 +12,7 @@
     <main>
         <div class="contenedor-banner">
             <div class="contenedor-imagen">
-                <img src="..\recursos\Imagenes_Capacitaciones\Banner_Capacitacional.png">
+                <img src="<?php echo $_ENV["RESOURCES"]; ?>\Imagenes_Capacitaciones\Banner_Capacitacional.png">
             </div>
         </div>
         <div class="contenedor-monitoreo">

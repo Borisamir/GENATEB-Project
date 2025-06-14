@@ -6,16 +6,16 @@
     <?php include_once "../global.php"; ?>
     <title>Servicios</title>
     <!-- Enlace a tu CSS principal servicios -->
-    <link rel="stylesheet" href="../styles\main.servicios.css"> 
+    <link rel="stylesheet" href="<?php echo $_ENV["STYLES"]; ?>\main.servicios.css"> 
     <!-- CONTAINER SERVICIOS -->
-    <link rel="stylesheet" href="../styles/index_styles/main.index.section.css">
+    <link rel="stylesheet" href="<?php echo $_ENV["STYLES"]; ?>/index/main.index.section.css">
 </head>
 <body>
     <?php include_once "../header.php"; ?>
     <main>
         <!-- Encabezado con imagen -->
         <div class="banner center">
-            <img src="../recursos\Body\imagen_laboratorio.jpeg" alt="laboratorio">
+            <img src="<?php echo $_ENV["RESOURCES"]; ?>\Body\imagen_laboratorio.jpeg" alt="laboratorio">
         </div>   
         <!-- Sección services -->
         <section class="sd-section">

@@ -2,19 +2,19 @@ main {
     background-color: #ffffff;
 }
 
-/* Video simulación */
+/* Video simulación 
 .video-placeholder {
     display: flex;
     justify-content: center;
     width: 100%;
-    margin-bottom: 45px;
+    margin-bottom: 1000px;
 }
 
 .video-placeholder video {
     width: 1220px;
     height: 100%;
 }
-
+*/
 /* Sección Pilares */
 .pilares {
     padding: 85px 0 ;
@@ -101,4 +101,63 @@ main {
     color: #083d29;
 }
 
+/*adaptable*/
 
+@media (max-width: 900px) {
+    .pilares-content {
+        padding: 20px;
+        grid-template-columns: 1fr; 
+        gap: 30px;
+    }
+    .pilares-content .pilar {
+        display: flex;
+        align-items: flex-start;  
+        gap: 50px;                
+        margin-bottom: 30px;
+    }
+    .pilares-content .pilar-image {
+        width: 70px;
+        height: 70px;
+        margin: 0;
+        flex-shrink: 0;
+        margin-right: 20px;
+    }
+    .pilares-content .pilar h4,
+    .pilares-content .pilar p {
+    font-size: 15px;
+    margin: 10px 0;
+    }
+    /*text-align: left;
+    /*color: #fbf6f0;
+}
+/*
+.pilares-content .pilar p {
+    font-size: 20px;
+    text-align: justify;
+    color: #fbf6f0;
+}*/
+    /*
+    .pilares-content .pilar h4 {
+        margin-left: 0;
+        margin-bottom: 10px;
+        font-size: 20px;
+        text-align: left;
+    }
+    .pilares-content .pilar p {
+        font-size: 13px;
+        text-align: left;
+    }
+    */
+    /*valores*/
+    .valores-content .valor img {
+    
+        width: 90px;
+        height: 90px;
+    }
+    /*texto */
+    .valores-content .valor strong {
+        padding: 20px;
+        font-size: 18px;
+    }
+
+}

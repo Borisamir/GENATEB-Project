@@ -4,14 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <?php include_once "../global.php"; ?>
-    <link rel="stylesheet" href="../styles/main.nosotros.css">
+    <link rel="stylesheet" href="<?php echo $_ENV["STYLES"]; ?>/main.nosotros.css">
     <title>Nosotros</title>
 </head>
 <body>
     <?php include_once "../header.php"; ?>
     <main>
         <div class="banner center">
-            <img src="../recursos\Body\imagen_señor_2.jpeg" alt="banner-nosotros">
+            <img src="<?php echo $_ENV["RESOURCES"]; ?>\Body\imagen_señor_2.jpeg" alt="banner-nosotros">
         </div>
         <!-- Sección Nosotros -->
         <section class="sd-section">

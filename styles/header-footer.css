@@ -1,48 +1,83 @@
 /* HEADER */
-.h-container {
+.header-wrapper {
+    height: 100px;
     display: flex;
-    align-items: center;
     justify-content: space-between;
-    height: var(--height-header);
-    position: relative;
 }
 
-.brand-container {
+.header-wrapper .brand {
     width: 248px;
-    height: 59px;
+    height: 60px;
+    align-self: center;
+
+    & img {
+        width: 100%;
+        height: 100%;
+    }
 }
 
-.menu-container {
+.header-wrapper div:last-child {
     display: flex;
-    align-items: center;
     gap: 100px;
 }
 
-.menu-container ul {
-    display: inherit;
+.header-wrapper div:last-child > * > ul {
+    height: 100%;
+    display: flex;
+    gap: 30px;
     list-style-type: none;
+    
+    
+    & li:hover > a {
+        color: #31955b;
+    } 
 }
 
-.menu-container ul li a {
-    display: block;
-    border-top: 2px solid transparent;
-    border-bottom: 2px solid transparent;
-    font-family: var(--font-inter);
-    font-size: 13px;
-    font-weight: 700;
-    text-decoration: none;
-    text-transform: uppercase;
-    color: #083d29;
-    cursor: pointer; /* Cambia el signo de flecha por una mano*/
+/* .header-wrapper */
+.menu-container {
+    position: relative;
 }
 
-.menu-container .pages {
-    gap: 30px; /* Espacio entre cajas flex */
+.menu-container ul {
+    list-style-type: none;
+
+    & li:hover {
+        box-shadow: 0 -3px 0 0 #31955b inset;
+    }
+
+    & li a {
+        --c-line-height: 100px;
+        /* --- */
+        display: block;
+        font-size: 13px;
+        line-height: var(--c-line-height);
+        text-decoration: none;
+        text-transform: uppercase;
+        color: #083d29;
+    }
 }
 
-.menu-container .pages li a:hover {
-    border-bottom-color: #31955b;
-    color: #31955b;
+.menu-container ul li:nth-child(3) .submenu {
+    width: 150%;
+    height: 0;
+    overflow: hidden;
+    position: absolute;
+    background-color: #ffffff;
+    z-index: 2;
+
+    & li a {
+        --c-line-height: 60px;
+        /* --- */
+        padding: 0 20px;
+    }
+}
+
+.menu-container ul li:nth-child(3):hover .submenu {
+    height: auto;
+}
+
+.social-container {
+
 }
 
 .menu-container .social-nets {

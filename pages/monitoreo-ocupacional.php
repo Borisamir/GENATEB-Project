@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <?php include_once "../global.php"; ?>
-    <link rel="stylesheet" href="../styles/index_styles/main.index.section.css">
-    <link rel="stylesheet" href="../styles/main.monitero-ocupacional.css">
+    <link rel="stylesheet" href="<?php echo $_ENV["STYLES"]; ?>/index_styles/main.index.section.css">
+    <link rel="stylesheet" href="<?php echo $_ENV["STYLES"]; ?>/main.monitero-ocupacional.css">
     <title>Monitoreo Ocupacional</title>
 </head>
 <body>
@@ -13,7 +13,7 @@
     <main>
         <div>
             <div class="banner center">
-                <img src="../recursos\Body\banner-ocupacional.png" alt="banner-ocupacional">
+                <img src="<?php echo $_ENV["RESOURCES"]; ?>\Body\banner-ocupacional.png" alt="banner-ocupacional">
             </div>
             <section class="monitoreos">
                 <div class="sd-section">

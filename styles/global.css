@@ -1,8 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,700;1,14..32,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cal+Sans&display=swap');
+
+:root {
+    --center: 1440px;
+    --font-inter: "Inter", sans-serif;
+    --font-cal-sans: "Cal Sans", sans-serif;
+}
+
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: "Cal Sans", sans-serif;
+    font-family: var(--font-cal-sans);
     font-size: 16px;
     font-weight: 400;
 }
@@ -12,21 +21,19 @@ html {
 }
 
 body {
-    --page-size: 1440px;
     --page-sides: 0 30px;
     --height-header: 100px;
-    --font-inter: "Inter", sans-serif;
 }
 
 /* CENTER */
 .center {
-    max-width: var(--page-size);
+    max-width: var(--center);
     margin: 0 auto;
 }
 
 .center > .slider > .slide > .content,
 .center-r {
-    max-width: calc(var(--page-size) - 380px);
+    max-width: calc(var(--center) - 380px);
     margin: 0 auto;
 }
 
@@ -99,9 +106,15 @@ body {
     color: #f5f5f5;
 }
 
+/*  */
+.font-inter * {
+    font-family: var(--font-inter);
+    font-weight: 700;
+}
+
 /* BODY */
 header {
-    padding: var(--page-sides);
+    padding: 0 30px;
     background-color: #ffffff;
 }
 

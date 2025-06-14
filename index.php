@@ -1,5 +1,3 @@
-<?php include_once "index.env.php" ?>
-
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -7,9 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ocupacional</title>
     <?php include_once "global.php"; ?>
-    <link rel="stylesheet" href="<?php echo $_ENV["ROOT"]; ?>/styles/index_styles/main.index.css">
-    <link rel="stylesheet" href="<?php echo $_ENV["ROOT"]; ?>/styles/index_styles/main.index.slider.css">
-    <link rel="stylesheet" href="<?php echo $_ENV["ROOT"]; ?>/styles/index_styles/main.index.section.css">
+    <link rel="stylesheet" href="<?php echo $_ENV["STYLES"]; ?>/index/main.index.css">
+    <link rel="stylesheet" href="<?php echo $_ENV["STYLES"]; ?>/index/main.index.slider.css">
+    <link rel="stylesheet" href="<?php echo $_ENV["STYLES"]; ?>/index/main.index.section.css">
     <script src="main.js" defer></script>
 </head>
 <body>
@@ -22,8 +20,8 @@
                     <div class="content">
                         <p>monitoreo<br>de agentes<br>ocupacionales</p>
                         <div>
-                            <a href="https://wa.link/drs6v5" class="quote green-button" target="_blank">cotizar</a>
-                            <a href="https://wa.link/drs6v5" class="contact" target="_blank"><img src="recursos/Logos/slider-whatsapp.svg" alt="whatsapp"></a>
+                            <a href="<?php echo $_ENV["WHATSAPP_LINK"]; ?>" class="quote green-button" target="_blank">cotizar</a>
+                            <a href="<?php echo $_ENV["WHATSAPP_LINK"]; ?>" class="contact" target="_blank"><img src="recursos/Logos/slider-whatsapp.svg" alt="whatsapp"></a>
                         </div>
                     </div>
                 </div>
@@ -32,8 +30,8 @@
                     <div class="content">
                         <p>monitoreo<br>de calidad<br>ambiental</p>
                         <div>
-                            <a href="https://wa.link/drs6v5" class="quote green-button" target="_blank">cotizar</a>
-                            <a href="https://wa.link/drs6v5" class="contact" target="_blank"><img src="recursos/Logos/slider-whatsapp.svg" alt="whatsapp"></a>
+                            <a href="<?php echo $_ENV["WHATSAPP_LINK"]; ?>" class="quote green-button" target="_blank">cotizar</a>
+                            <a href="<?php echo $_ENV["WHATSAPP_LINK"]; ?>" class="contact" target="_blank"><img src="recursos/Logos/slider-whatsapp.svg" alt="whatsapp"></a>
                         </div>
                     </div>
                 </div>
@@ -42,8 +40,8 @@
                     <div class="content">
                         <p>capacitaciones</p>
                         <div>
-                            <a href="https://wa.link/drs6v5" class="quote green-button" target="_blank">cotizar</a>
-                            <a href="https://wa.link/drs6v5" class="contact" target="_blank"><img src="recursos/Logos/slider-whatsapp.svg" alt="whatsapp"></a>
+                            <a href="<?php echo $_ENV["WHATSAPP_LINK"]; ?>" class="quote green-button" target="_blank">cotizar</a>
+                            <a href="<?php echo $_ENV["WHATSAPP_LINK"]; ?>" class="contact" target="_blank"><img src="recursos/Logos/slider-whatsapp.svg" alt="whatsapp"></a>
                         </div>
                     </div>
                 </div>
