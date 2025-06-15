@@ -18,7 +18,7 @@
             </div>
         </div>
         <div class="contenedor-monitoreo">
-            <div class="contenedor-texto">
+            <div class="contenedor-texto" style="text-align:center">
                 <h2>MONITOREO DE AGENTES AMBIENTALES</h2>
             </div>
         </div>

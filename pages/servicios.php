@@ -8,15 +8,18 @@
     <!-- Enlace a tu CSS principal servicios -->
     <link rel="stylesheet" href="<?php echo $_ENV["STYLES"]; ?>\main.servicios.css"> 
     <!-- CONTAINER SERVICIOS -->
+     <link rel="stylesheet" href="<?php echo $_ENV["STYLES"]; ?>/main.nosotros.css">
     <link rel="stylesheet" href="<?php echo $_ENV["STYLES"]; ?>/index/main.index.section.css">
 </head>
 <body>
     <?php include_once "../header.php"; ?>
     <main>
         <!-- Encabezado con imagen -->
-        <div class="banner center">
-            <img src="<?php echo $_ENV["RESOURCES"]; ?>\Body\imagen_laboratorio.jpeg" alt="laboratorio">
-        </div>   
+        <div class="contenedor-banner">
+            <div class="contenedor-imagen">
+                <img src="<?php echo $_ENV["RESOURCES"]; ?>\Body\imagen_laboratorio.jpeg" alt="laboratorio">
+            </div>
+        </div> 
         <!-- Sección services -->
         <section class="sd-section">
             <h2>NUESTROS SERVICIOS</h2>

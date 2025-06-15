@@ -22,11 +22,13 @@ main > div {
 
 .monitoreo-content h3,
 .monitoreo-content ul li p {
+    
     font-family: var(--font-inter);
     font-size: 25px;
     font-weight: 700;
     text-transform: uppercase;
     color: #083d29;
+    padding: 20px;
 }
 
 .monitoreo-content ul {

@@ -38,13 +38,12 @@
     /* .header-wrapper */
     .menu-container  {
         width: 50vw;
-        /* height: calc(100dvh - var(--hw-height)); */
+        height: calc(100vh - var(--hw-height));
         display: none;
         position: absolute;
         top: 100%;
         left: 0;
         background-color: #ffffff;
-        z-index: 2; /* TEMP */
     }
 
     .menu-container::after {

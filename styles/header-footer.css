@@ -106,7 +106,6 @@
     list-style-type: none;
     background-color: #ffffff;
     transition: height .3s ease-in-out;
-    z-index: 2; /* TEMP */
 
     & li a {
         padding-left: calc(var(--page-sides) / 2);

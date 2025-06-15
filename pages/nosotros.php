@@ -71,7 +71,7 @@
                     <strong>Prevención</strong>
                 </div>
                 <div class="valor">
-            
+    
                      <img src="../recursos/Body/Confianza.png" alt="confianza">
                     <strong>Confianza</strong>
                 </div>

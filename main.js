@@ -6,6 +6,26 @@ const totalSlides = 3;
 
 let currentActive = document.querySelector(".indicators .active");
 
+const css$media = window.matchMedia("(max-width: 1030px)");
+const input$menu_toggle = document.getElementById("menu-toggle");
+
+css$media.addEventListener("change", function(evt) {
+    if (!evt.matches && input$menu_toggle.checked) {
+        input$menu_toggle.checked = false;
+        document.body.style.overflow = "initial";
+    }
+})
+
+input$menu_toggle.addEventListener("click", function(evt) {
+    console.log(this.checked)
+    if (!css$media.matches) {
+        evt.preventDefault();
+        return;
+    }
+
+    document.body.style.overflow = this.checked ? "hidden" : "initial";
+})
+
 /* SLIDER: arrows */
 function getCurrentSlide() {
     const hash = window.location.hash;
