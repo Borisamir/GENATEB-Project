@@ -4,8 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <?php include_once "../global.php"; ?>
-    <link rel="stylesheet" href="<?php echo $_ENV["STYLES"]; ?>/ambiental_styles/banner.rs.css">
-    <link rel="stylesheet" href="<?php echo $_ENV["STYLES"]; ?>/ambiental_styles/h-f.css">
     <link rel="stylesheet" href="<?php echo $_ENV["STYLES"]; ?>/index/main.index.section.css">
     <link rel="stylesheet" href="<?php echo $_ENV["STYLES"]; ?>/main.nosotros.css">
 <!-- ejem -->
@@ -26,7 +24,7 @@
             <p>En Genateb ofrece soluciones especializadas en gestíon ambiental, monitoreo ocupaciones y seguridad. Elaboramos instrumentos técnicos adaptables a cada sector productivo.Nuestro enfoque cambia sostenibilidad, cumplimineto normativo y bienestar laboral. Acompañamos a nuestros clientes en el desarrollo de proyectos responsables.</p>
             <a href="https://wa.link/drs6v5" target="_blank" class="green-button">cotiza aqui</a>
         </section>
-        <!-- Video (placeholder) -->
+        <!-- Video -->
         <div class="video-placeholder">
             <video src="https://www.youtube.com/watch?v=Zp0zpM02KmI" preload></video>
         </div>
@@ -73,7 +71,7 @@
                     <strong>Prevención</strong>
                 </div>
                 <div class="valor">
-                    <!-- Confianza -->
+            
                      <img src="../recursos/Body/Confianza.png" alt="confianza">
                     <strong>Confianza</strong>
                 </div>
