@@ -1,15 +1,15 @@
 <header>
     <div class="header-wrapper center-r font-inter">
-        <div class="brand">
+        <input id="menu-toggle" type="checkbox" hidden>
+        <label class="brand" for="menu-toggle" style="--touch-image: url(<?php echo $_ENV["RESOURCES"]; ?>/touch.svg)">
             <img src="<?php echo $_ENV["RESOURCES"]; ?>/Logos/brand.png" alt="genateb">
-        </div>
+        </label>
         <div>
-            <input id="menu-toggle" type="checkbox" hidden>
-            <label class="menu-icon" for="menu-toggle">
+            <!-- <label class="menu-icon" for="menu-toggle">
                 <span></span>
                 <span></span>
                 <span></span>
-            </label>
+            </label> -->
             <nav class="menu-container">
                 <ul>
                     <li><a href="<?php echo $_ENV["ROOT"]; ?>">INICIO</a></li>

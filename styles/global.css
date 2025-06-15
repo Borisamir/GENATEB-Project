@@ -117,6 +117,27 @@ html {
     text-transform: uppercase;
     color: #f5f5f5;
 }
+/*celular*/
+@media (max-width: 768px) {
+    .sd-section h2 {
+        font-size: 28px;
+    }
+
+    .sd-section p {
+        font-size: 16px;
+        padding: 0 225px;
+        
+    }
+
+    .sd-section {
+        padding: 50px 16px 20px;
+    }
+
+    .sd-section a {
+        width: 100%;
+        max-width: 200px;
+    }
+}
 
 /*  */
 .font-inter * {

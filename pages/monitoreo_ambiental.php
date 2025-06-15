@@ -4,16 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <?php include_once "../global.php"; ?>
-    <link rel="stylesheet" href="<?php echo $_ENV["STYLES"]; ?>/index/main.index.section.css">
     <link rel="stylesheet" href="<?php echo $_ENV["STYLES"]; ?>/ambiental_styles/banner.rs.css">
     <link rel="stylesheet" href="<?php echo $_ENV["STYLES"]; ?>/ambiental_styles/h-f.css">
+    <link rel="stylesheet" href="<?php echo $_ENV["STYLES"]; ?>/index/main.index.section.css">
     <title>Monitoreo Ambiental</title>
 </head>
 <body>
     <?php include_once "../header.php"; ?>
     <main>
-        <div class="banner center">
+        <div class="contenedor-banner">
+            <div class="contenedor-imagen">
             <img src="<?php echo $_ENV["RESOURCES"]; ?>\Imagenes_Monitoreo_Ambiental\Banner_Monitoreo.png" alt="monitoreo ambiental">
+            </div>
         </div>
         <div class="contenedor-monitoreo">
             <div class="contenedor-texto">
@@ -131,6 +133,6 @@
             </div>
         </section>
     </main>
-    <?php include_once "../footer.php"; ?>
+ <?php include_once "../footer.php"; ?>
 </body>
 </html>

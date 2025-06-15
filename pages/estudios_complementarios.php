@@ -4,7 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <?php include_once "../global.php"; ?>
-    <link rel="stylesheet" href="<?php echo $_ENV["STYLES"]; ?>\index_styles\main.index.section.css">
+    <link rel="stylesheet" href="<?php echo $_ENV["STYLES"]; ?>/index/main.index.section.css">
+    <link rel="stylesheet" href="<?php echo $_ENV["STYLES"]; ?>/ambiental_styles/banner.rs.css">
+    <link rel="stylesheet" href="<?php echo $_ENV["STYLES"]; ?>/ambiental_styles/h-f.css">
     <title>Estudios Complementarios</title>
 </head>
 <body>
@@ -22,7 +24,7 @@
         </div>
         <div class="contenedor-monitoreo">
             <div class="contenedor-parrafo" >
-                <h2>Realizamos estudios tecnicos adicionales que<br>complementan los instrumentos de gestion ambiental.</h2>
+                <p>Realizamos estudios tecnicos adicionales que<br>complementan los instrumentos de gestion ambiental.</p>
             </div>
         </div>
         <div class="contenedor-monitoreo">
@@ -35,37 +37,37 @@
         <div class="contenedor-imagen-texto">
             <div class="imagen-texto" style="width: 400px;margin-top:50px">
                 <img src="..\recursos\Imagenes_Estudios_Complementarios\Lupa.png" style="width: 137px;height: 131px;">
-                <h2>Respuestas ante emergencias y<br>conflictos socioambientales</h2>
+                <p>Respuestas ante emergencias y<br>conflictos socioambientales</p>
             </div>
             <div class="imagen-texto" style="width: 400px;margin-top:65px">
                 <img src="..\recursos\Imagenes_Estudios_Complementarios\Gotas.png" style="width: 117px;height: 117px;" >
-                <h2>Acreditacion de disponibilidad<br>hidrica y derechos de uso de agua</h2>
+                <p>Acreditacion de disponibilidad<br>hidrica y derechos de uso de agua</p>
             </div>
         </div>
         <div class="contenedor-imagen-texto">
             <div class="imagen-texto" style="width: 400px;margin-top:50px">
                 <img src="..\recursos\Imagenes_Estudios_Complementarios\Planeta.png" style="width: 128px;height: 128px;">
-                <h2>Expendientes para la Declaracion<br>de Compatibilidad y de<br>Investigaciones dentro de<br>un ANP SERNANP</h2>
+                <p>Expendientes para la Declaracion<br>de Compatibilidad y de<br>Investigaciones dentro de<br>un ANP SERNANP</p>
             </div>
             <div class="imagen-texto" style="width: 400px;margin-top:45px">
                 <img src="..\recursos\Imagenes_Estudios_Complementarios\Hojas.png" style="width: 107px;height: 132px;" >
-                <h2>Modificacion y actualizacion<br>de Estudio de Impacto <br>Ambiental</h2>
+                <p>Modificacion y actualizacion<br>de Estudio de Impacto <br>Ambiental</p>
             </div>
         </div>
         <div class="contenedor-imagen-texto">
             <div class="imagen-texto" style="width: 400px;margin-top:50px">
                 <img src="..\recursos\Imagenes_Estudios_Complementarios\Toxico.png" style="width: 102px;height: 129px;">
-                <h2>Inscripcion en el Registro<br>Autoritativo de Empresas<br>Operadoras de Residuos Solidos</h2>
+                <p>Inscripcion en el Registro<br>Autoritativo de Empresas<br>Operadoras de Residuos Solidos</p>
             </div>
             <div class="imagen-texto" style="width: 400px;margin-top:60px">
                 <img src="..\recursos\Imagenes_Estudios_Complementarios\Flechas.png" style="width: 131px;height: 121px;" >
-                <h2>Estudios de Impacto<br>Vial(EIV)</h2>
+                <p>Estudios de Impacto<br>Vial(EIV)</p>
             </div>
         </div>
         <div class="contenedor-imagen-texto">
             <div class="imagen-texto" style="width: 300px;margin-top:-10px">
                 <img src="..\recursos\Imagenes_Estudios_Complementarios\Peligro.png" style="width: 143px;height: 143px;">
-                <h2>Estudio de evaluacion<br>de riesgos(EVAR)</h2>
+                <p>Estudio de evaluacion<br>de riesgos(EVAR)</p>
             </div>
         </div>
         <section class="container-servicios center-r" style="height:802px">

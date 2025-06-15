@@ -2,19 +2,7 @@ main {
     background-color: #ffffff;
 }
 
-/* Video simulación 
-.video-placeholder {
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    margin-bottom: 1000px;
-}
 
-.video-placeholder video {
-    width: 1220px;
-    height: 100%;
-}
-*/
 /* Sección Pilares */
 .pilares {
     padding: 85px 0 ;
@@ -127,27 +115,7 @@ main {
     font-size: 15px;
     margin: 10px 0;
     }
-    /*text-align: left;
-    /*color: #fbf6f0;
-}
-/*
-.pilares-content .pilar p {
-    font-size: 20px;
-    text-align: justify;
-    color: #fbf6f0;
-}*/
-    /*
-    .pilares-content .pilar h4 {
-        margin-left: 0;
-        margin-bottom: 10px;
-        font-size: 20px;
-        text-align: left;
-    }
-    .pilares-content .pilar p {
-        font-size: 13px;
-        text-align: left;
-    }
-    */
+
     /*valores*/
     .valores-content .valor img {
     

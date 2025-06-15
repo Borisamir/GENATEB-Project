@@ -16,7 +16,7 @@
         <section class="slider-container center">
             <div class="slider">
                 <div class="slide" id="slide-1">
-                    <img src="recursos/Body/Slider_1.png" alt="slider-1">
+                    <img src="<?php echo $_ENV["RESOURCES"]; ?>/Body/Slider_1.png" alt="slider-1">
                     <div class="content">
                         <p>monitoreo<br>de agentes<br>ocupacionales</p>
                         <div>

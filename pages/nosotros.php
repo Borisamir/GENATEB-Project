@@ -4,16 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <?php include_once "../global.php"; ?>
+    <link rel="stylesheet" href="<?php echo $_ENV["STYLES"]; ?>/ambiental_styles/banner.rs.css">
+    <link rel="stylesheet" href="<?php echo $_ENV["STYLES"]; ?>/ambiental_styles/h-f.css">
+    <link rel="stylesheet" href="<?php echo $_ENV["STYLES"]; ?>/index/main.index.section.css">
     <link rel="stylesheet" href="<?php echo $_ENV["STYLES"]; ?>/main.nosotros.css">
+<!-- ejem -->
+    
     <title>Nosotros</title>
 </head>
 <body>
     <?php include_once "../header.php"; ?>
     <main>
-        <div class="banner center">
-            <img src="<?php echo $_ENV["RESOURCES"]; ?>\Body\imagen_señor_2.jpeg" alt="banner-nosotros">
+        <div class="contenedor-banner">
+            <div class="contenedor-imagen">
+                <img src="<?php echo $_ENV["RESOURCES"]; ?>\Body\imagen_señor_2.jpeg" alt="banner-nosotros">
+            </div>
         </div>
-        <!-- Sección Nosotros -->
+        <!-- Seccion Nosotros -->
         <section class="sd-section">
             <h2>NOSOTROS</h2>
             <p>En Genateb ofrece soluciones especializadas en gestíon ambiental, monitoreo ocupaciones y seguridad. Elaboramos instrumentos técnicos adaptables a cada sector productivo.Nuestro enfoque cambia sostenibilidad, cumplimineto normativo y bienestar laboral. Acompañamos a nuestros clientes en el desarrollo de proyectos responsables.</p>
@@ -23,7 +30,7 @@
         <div class="video-placeholder">
             <video src="https://www.youtube.com/watch?v=Zp0zpM02KmI" preload></video>
         </div>
-        <!-- Sección Nuestros Pilares -->
+        <!-- Seccion Nuestros Pilares -->
         <section class="pilares">
             <div class="pilares-content center-r">
                 <h3>NUESTROS PILARES</h3>

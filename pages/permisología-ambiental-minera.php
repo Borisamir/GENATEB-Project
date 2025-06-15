@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <?php include_once "../global.php"; ?>
+    <link rel="stylesheet" href="<?php echo $_ENV["STYLES"]; ?>/ambiental_styles/banner.rs.css">
+    <link rel="stylesheet" href="<?php echo $_ENV["STYLES"]; ?>/ambiental_styles/h-f.css">
     <link rel="stylesheet" href="<?php echo $_ENV["STYLES"]; ?>/index/main.index.section.css">
     <title>Permisología ambiental minera</title>
 </head>
@@ -33,23 +35,23 @@
             </div>
         </div>
         <div class="contenedor-imagen-texto" >
-            <div class="imagen-texto" style="width: 500x;margin-left:100px">
-                <img src="..\recursos\Imagenes_Permisologia_Ambiental\Estadistica.png" style="width: 163px;height: 130px;margin-bottom:20px">
+            <div class="imagen-texto ancho-400">
+                <img src="..\recursos\Imagenes_Permisologia_Ambiental\Estadistica.png" style="width: 163px;height: 130px;margin-bottom:20px;margin-right:-15px">
                 <p>Inicio de actividades de<br>Exploracion y Explotacion</p>
             </div>
-            <div class="imagen-texto" style="width: 500px;">
-                <img src="..\recursos\Imagenes_Permisologia_Ambiental\Logro.png" style="width: 131px;height: 131px;margin-bottom:20px">
+            <div class="imagen-texto" style="width:500px">
+                <img src="..\recursos\Imagenes_Permisologia_Ambiental\Logro.png" style="width: 131px;height: 131px;margin-bottom:20px;margin-right:-15px">
                 <p>Certificado de inexistencia de restos<br>arqueologicos, (CIRA)Diagnosticos<br>arqueologicos superficiales</p>
             </div>
         </div>
         <div class="contenedor-imagen-texto">
-            <div class="imagen-texto" style="width: 400x;margin-left:200px">
-                <img src="..\recursos\Imagenes_Permisologia_Ambiental\Sello.png" style="width: 142px;height: 142px;margin-bottom:20px">
+            <div class="imagen-texto ancho-400">
+                <img src="..\recursos\Imagenes_Permisologia_Ambiental\Sello.png" style="width: 142px;height: 142px;margin-bottom:20px;margin-right:-28px">
                 <p>Autorizaciones de uso de aguas,<br>licencia de uso de agua,<br>autorizaciones de vertimiento</p>
             </div>
-            <div class="imagen-texto" style="width: 400px;margin-right:200px;margin-top:12px">
-                <img src="..\recursos\Imagenes_Permisologia_Ambiental\Mina.png" style="width: 132px;height: 132px;margin-bottom:20px">
-                <p>Conseciones de beneficio,<br>procesamiento y transporte de<br>mineral.</p>
+            <div class="imagen-texto ancho-500" style="margin-top:10px">
+                <img src="..\recursos\Imagenes_Permisologia_Ambiental\Mina.png" style="width: 132px;height: 132px;margin-bottom:20px;margin-left:11px">
+                <p>Conseciones de beneficio,<br>procesamiento y transporte de<br>mineral.</>
             </div>
         </div>
         <section class="container-servicios center-r" style="height:802px">

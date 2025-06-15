@@ -1,0 +1,76 @@
+/* estilos.css */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #fff;
+}
+
+.container {
+  max-width: 430px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0 0 0;
+}
+
+.logo {
+  height: 50px;
+}
+
+.redes img {
+  height: 28px;
+  margin-left: 10px;
+}
+
+.imagen-principal img {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 20px 0;
+  border-radius: 10px;
+}
+
+.nosotros {
+  text-align: center;
+  padding: 20px 0;
+}
+
+.nosotros h2 {
+  color: #179c5a;
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.nosotros p {
+  color: #333;
+  font-size: 1rem;
+  margin-bottom: 20px;
+}
+
+.boton-cotiza {
+  background: #179c5a;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  padding: 12px 24px;
+  font-size: 1rem;
+  cursor: pointer;
+  width: 100%;
+  max-width: 200px;
+  margin: 0 auto;
+  display: block;
+}
+
+@media (max-width: 600px) {
+  .container {
+    padding: 0 4px;
+  }
+  .nosotros h2 {
+    font-size: 1.3rem;
+  }
+}
