@@ -242,3 +242,23 @@ body{
     height: 802px;
 }
 
+
+.contenedor-boton-what{
+    position:relative;
+    background-color: white;
+}
+
+.contenedor-boton-what a{
+    position: absolute;
+    right: 100px;
+    top:-50px;
+}
+
+.salto-celular{
+    display: none;
+}
+
+.salto-celular-net{
+    display: inline;
+}
+

@@ -292,7 +292,7 @@
     }
     .contenedor-logros img {
         width: 100%;
-        max-width: 220px; /* O el valor que prefieras */
+        max-width: 220px;
         height: auto;
         display: block;
         margin: 0 auto;

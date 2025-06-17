@@ -17,14 +17,17 @@
             <img src="<?php echo $_ENV["RESOURCES"]; ?>\Imagenes_Monitoreo_Ambiental\Banner_Monitoreo.png" alt="monitoreo ambiental">
             </div>
         </div>
+        <div class="contenedor-boton-what">
+            <a class="contact" href="<?php echo $_ENV["WHATSAPP_LINK"]; ?>" target="_blank"><img src="<?php echo $_ENV["RESOURCES"]; ?>/Logos/slider-whatsapp.svg" alt="whatsapp"></a>
+        </div>
         <div class="contenedor-monitoreo">
             <div class="contenedor-texto" style="text-align:center">
-                <h2>MONITOREO DE AGENTES AMBIENTALES</h2>
+                <h2>MONITOREO DE AGENTES<span class="salto-celular"><br></span> AMBIENTALES</h2>
             </div>
         </div>
         <div class="contenedor-monitoreo">
             <div class="contenedor-parrafo" >
-                <p>Realizaremos monitoreos especializados para evaluar la calidad del aire, agua,<br>suelo y ruido ambiental, asegurando el cumplimiento de<br>la normativa vigente y la protección del entorno.</p>
+                <p>Realizaremos monitoreos especializados para evaluar la calidad del aire, agua,<span class="salto-celular-net"><br></span>suelo y ruido ambiental, asegurando el cumplimiento de<span class="salto-celular-net"><br></span> la normativa vigente y la protección del entorno.</p>
             </div>
         </div>
         <div class="contenedor-monitoreo">

@@ -106,14 +106,15 @@
     100% {
         transform:translateX(-101.5%);
     }
+    
 }
 /* END-CONTAINER CLIENTES */
 
 
 /*cel*/
-/*
 
-    .container-ayuda {
+@media screen and (max-width: 768px) {
+    /*.container-ayuda {
         padding: 20px 12px; 
     }
 
@@ -170,4 +171,5 @@
     min-width: 120px;
     align-self: center;
     text-align: center;
+}
 }
