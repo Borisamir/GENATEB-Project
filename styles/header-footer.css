@@ -120,13 +120,7 @@
     height: 20px;
 
     & img {
-        filter:
-            invert(53%)
-            sepia(28%)
-            saturate(927%)
-            hue-rotate(92deg)
-            brightness(86%)
-            contrast(87%);
+        filter: invert(51%) sepia(83%) saturate(4827%) hue-rotate(132deg) brightness(88%) contrast(103%);
     }
 }
 
@@ -194,6 +188,7 @@
     & img {
         width: 24px;
         height: 29px;
+        filter: invert(51%) sepia(83%) saturate(4827%) hue-rotate(132deg) brightness(88%) contrast(103%);
     }
 }
 

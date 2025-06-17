@@ -22,11 +22,11 @@
                     <h3>Sedes</h3>
                     <ul class="font-inter">
                         <li>
-                            <img src="<?php echo $_ENV["RESOURCES"]; ?>\Logos\Logo_Mapa.svg" alt="mapa">
+                            <img src="<?php echo $_ENV["RESOURCES"]; ?>\Logos\map.svg" alt="mapa">
                             <p>Huaraz:<br>MIc. Nor. Este Rio Quilcay Lote 14 Apv. Sagrado Corazón de Jesús (Pasando Torreros Núñez).</p>
                         </li>
                         <li>
-                            <img src="<?php echo $_ENV["RESOURCES"]; ?>\Logos\Logo_Mapa.svg" alt="mapa">
+                            <img src="<?php echo $_ENV["RESOURCES"]; ?>\Logos\map.svg" alt="mapa">
                             <p>Lima:<br><a href="<?php echo $_ENV["LOCATION_LINK"]; ?>" target="_blank">Jr. Fitzcarrald 1504, Los Olivos.</a></p>
                         </li>
                     </ul>
@@ -39,7 +39,7 @@
                             <a href="<?php echo $_ENV["WHATSAPP_LINK"]; ?>" target="_blank">933 257 830</a>
                         </li>
                         <li>
-                            <img src="<?php echo $_ENV["RESOURCES"]; ?>\Logos\Logo_Correo.svg" alt="correo">
+                            <img src="<?php echo $_ENV["RESOURCES"]; ?>\Logos\mail.svg" alt="correo">
                             <a href="#" target="_blank">comercial@genateb.com</a>
                         </li>
                     </ul>

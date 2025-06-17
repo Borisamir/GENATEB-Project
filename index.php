@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="<?php echo $_ENV["STYLES"]; ?>/index/main.index.slider.css">
     <link rel="stylesheet" href="<?php echo $_ENV["STYLES"]; ?>/index/main.index.slider-rs.css">
     <link rel="stylesheet" href="<?php echo $_ENV["STYLES"]; ?>/index/main.index.section.css">
+    <link rel="stylesheet" href="<?php echo $_ENV["STYLES"]; ?>/index/main.index.section-rs.css">
     <script src="main.js" defer></script>
 </head>
 <body>
@@ -69,11 +70,11 @@
         <div class="container-informacion">
             <div class="grupo-informacion font-inter">
                 <div class="informacion">
-                    <img src="<?php echo $_ENV["RESOURCES"]; ?>/Logos\Logo_Mapa.svg" alt="mapa">
+                    <img src="<?php echo $_ENV["RESOURCES"]; ?>/Logos\map.svg" alt="mapa">
                     <h3>Jr. Fitzcarrald 1504, Los Olivos.</h3>
                 </div>
                 <div class="informacion">
-                    <img src="<?php echo $_ENV["RESOURCES"]; ?>\Logos\Logo_Correo.svg" alt="correo">
+                    <img src="<?php echo $_ENV["RESOURCES"]; ?>\Logos\mail.svg" alt="correo">
                     <h3>comercial@genateb.com</h3>
                 </div>
                 <div class="informacion">
@@ -83,44 +84,46 @@
             </div>
             <a class="green-button" href="<?php echo $_ENV["WHATSAPP_LINK"]; ?>" target="_blank">COTIZA AQUI</a>
         </div>
-        <section class="contenedor-logros center-r">
-            <div>
-                <div class="logros-texto">
-                    <h3>NUESTROS LOGROS</h3>
-                    <h2>Vamos 7 años asesorando en permisos ambientales y sociales<br>a lo largo y ancho del Peru brindado.</h2>
+        <section class="contenedor-logros">
+            <div class="center-r">
+                <div>
+                    <div class="logros-texto">
+                        <h3>NUESTROS LOGROS</h3>
+                        <h2>Vamos 7 años asesorando en permisos ambientales y sociales<br>a lo largo y ancho del Peru brindado.</h2>
+                    </div>
+                    <div class="logros-cifras">
+                        <div class="logro">
+                            <img src="<?php echo $_ENV["RESOURCES"]; ?>/Body\imagen_pulgar_arriba.png" alt=logro">
+                            <div class="logro-texto">
+                                <h3>+7</h3>
+                                <h2>Años de experiencia</h2>
+                            </div>
+                        </div>
+                        <div class="logro">
+                            <img src="<?php echo $_ENV["RESOURCES"]; ?>\Body\imagen_edificio.png" alt="logro">
+                            <div class="logro-texto">
+                                <h3>+100</h3>
+                                <h2>Empresas atendidas</h2>
+                            </div>
+                        </div>
+                        <div class="logro">
+                            <img src="<?php echo $_ENV["RESOURCES"]; ?>/Body\imagen_hombre_estrella.png" alt="logro">
+                            <div class="logro-texto">
+                                <h3>+30</h3>
+                                <h2>Capacitaciones tecnicas</h2>
+                            </div>
+                        </div>
+                        <div class="logro">
+                            <img src="<?php echo $_ENV["RESOURCES"]; ?>/Body\imagen_estrella_pulgar.png" alt="logro">
+                            <div class="logro-texto">
+                                <h3>100%</h3>
+                                <h2>Satisfaccion</h2>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="logros-cifras">
-                    <div class="logro">
-                        <img src="<?php echo $_ENV["RESOURCES"]; ?>/Body\imagen_pulgar_arriba.png" alt=logro">
-                        <div class="logro-texto">
-                            <h3>+7</h3>
-                            <h2>Años de experiencia</h2>
-                        </div>
-                    </div>
-                    <div class="logro">
-                        <img src="<?php echo $_ENV["RESOURCES"]; ?>\Body\imagen_edificio.png" alt="logro">
-                        <div class="logro-texto">
-                            <h3>+100</h3>
-                            <h2>Empresas atendidas</h2>
-                        </div>
-                    </div>
-                    <div class="logro">
-                        <img src="<?php echo $_ENV["RESOURCES"]; ?>/Body\imagen_hombre_estrella.png" alt="logro">
-                        <div class="logro-texto">
-                            <h3>+30</h3>
-                            <h2>Capacitaciones tecnicas</h2>
-                        </div>
-                    </div>
-                    <div class="logro">
-                        <img src="<?php echo $_ENV["RESOURCES"]; ?>/Body\imagen_estrella_pulgar.png" alt="logro">
-                        <div class="logro-texto">
-                            <h3>100%</h3>
-                            <h2>Satisfaccion</h2>
-                        </div>
-                    </div>
-                </div>
+                <img src="<?php echo $_ENV["RESOURCES"]; ?>\Body\imagen_señor_3.png" alt="logro">
             </div>
-            <img src="<?php echo $_ENV["RESOURCES"]; ?>\Body\imagen_señor_3.png">
         </section>
         <div class="container-ayuda">
             <div class="ayuda-content center-r">
