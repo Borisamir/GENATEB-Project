@@ -1,21 +1,21 @@
 <header>
     <div class="header-wrapper center-r font-inter">
-        <input id="menu-toggle" type="checkbox" hidden>
-        <label class="brand" for="menu-toggle" style="--touch-image: url(<?php echo $_ENV["RESOURCES"]; ?>/touch.svg)">
+        <div class="brand" for="menu-toggle">
             <img src="<?php echo $_ENV["RESOURCES"]; ?>/Logos/brand.png" alt="genateb">
-        </label>
+        </div>
         <div>
-            <!-- <label class="menu-icon" for="menu-toggle">
+            <input id="menu-toggle" type="checkbox" hidden>
+            <label class="menu-icon" for="menu-toggle">
                 <span></span>
                 <span></span>
                 <span></span>
-            </label> -->
+            </label>
             <nav class="menu-container">
                 <ul>
                     <li><a href="<?php echo $_ENV["ROOT"]; ?>">INICIO</a></li>
                     <li><a href="<?php echo $_ENV["PAGES"]; ?>/nosotros.php">NOSOTROS</a></li>
                     <li>
-                        <a href="<?php echo $_ENV["PAGES"]; ?>/servicios.php">SERVICIO</a>
+                        <a href="#">SERVICIO</a>
                         <ul class="submenu">
                             <li><a href="<?php echo $_ENV["PAGES"]; ?>">Monitoreo de agentes ocupacionales</a></li>
                             <li><a href="<?php echo $_ENV["PAGES"]; ?>">Monitoreo de agentes ambientales</a></li>
@@ -37,4 +37,24 @@
             </ul>
         </div>
     </div>
+    <script>
+        const css$media = window.matchMedia("(max-width: 1030px)");
+        const input$menu_toggle = document.getElementById("menu-toggle");
+
+        css$media.addEventListener("change", function(evt) {
+            if (!evt.matches && input$menu_toggle.checked) {
+                input$menu_toggle.checked = false;
+                document.body.style.overflow = "initial";
+            }
+        })
+
+        input$menu_toggle.addEventListener("click", function(evt) {
+            if (!css$media.matches) {
+                evt.preventDefault();
+                return;
+            }
+
+            document.body.style.overflow = this.checked ? "hidden" : "initial";
+        })
+    </script>
 </header>

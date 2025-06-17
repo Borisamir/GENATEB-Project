@@ -24,7 +24,7 @@
         </div>
         <div class="contenedor-monitoreo">
             <div class="contenedor-parrafo" >
-                <p>Realizamos estudios tecnicos adicionales que<br>complementan los instrumentos de gestion ambiental.</p>
+                <p>Realizamos estudios técnicos adicionales que<br>complementan los instrumentos de gestión ambiental.</p>
             </div>
         </div>
         <div class="contenedor-monitoreo">
@@ -41,23 +41,23 @@
             </div>
             <div class="imagen-texto" style="width: 400px;margin-top:65px">
                 <img src="..\recursos\Imagenes_Estudios_Complementarios\Gotas.png" style="width: 117px;height: 117px;" >
-                <p>Acreditacion de disponibilidad<br>hidrica y derechos de uso de agua</p>
+                <p>Acreditación de disponibilidad<br>hidrica y derechos de uso de agua</p>
             </div>
         </div>
         <div class="contenedor-imagen-texto">
             <div class="imagen-texto" style="width: 400px;margin-top:50px">
                 <img src="..\recursos\Imagenes_Estudios_Complementarios\Planeta.png" style="width: 128px;height: 128px;">
-                <p>Expendientes para la Declaracion<br>de Compatibilidad y de<br>Investigaciones dentro de<br>un ANP SERNANP</p>
+                <p>Expendientes para la Declaración<br>de Compatibilidad y de<br>Investigaciones dentro de<br>un ANP SERNANP</p>
             </div>
             <div class="imagen-texto" style="width: 400px;margin-top:45px">
                 <img src="..\recursos\Imagenes_Estudios_Complementarios\Hojas.png" style="width: 107px;height: 132px;" >
-                <p>Modificacion y actualizacion<br>de Estudio de Impacto <br>Ambiental</p>
+                <p>Modificacion y actualización<br>de Estudio de Impacto <br>Ambiental</p>
             </div>
         </div>
         <div class="contenedor-imagen-texto">
             <div class="imagen-texto" style="width: 400px;margin-top:50px">
                 <img src="..\recursos\Imagenes_Estudios_Complementarios\Toxico.png" style="width: 102px;height: 129px;">
-                <p>Inscripcion en el Registro<br>Autoritativo de Empresas<br>Operadoras de Residuos Solidos</p>
+                <p>Inscripcion en el Registro<br>Autoritativo de Empresas<br>Operadoras de Residuos Sólidos</p>
             </div>
             <div class="imagen-texto" style="width: 400px;margin-top:60px">
                 <img src="..\recursos\Imagenes_Estudios_Complementarios\Flechas.png" style="width: 131px;height: 121px;" >
@@ -67,10 +67,10 @@
         <div class="contenedor-imagen-texto">
             <div class="imagen-texto" style="width: 300px;margin-top:-10px">
                 <img src="..\recursos\Imagenes_Estudios_Complementarios\Peligro.png" style="width: 143px;height: 143px;">
-                <p>Estudio de evaluacion<br>de riesgos(EVAR)</p>
+                <p>Estudio de evaluación<br>de riesgos(EVAR)</p>
             </div>
         </div>
-        <section class="container-servicios center-r" style="height:802px">
+        <section class="container-servicios center-r">
             <h2 class="texto-servicio">OTROS SERVICIOS</h2>
             <div class="services">
                 <div class="servicio-item">

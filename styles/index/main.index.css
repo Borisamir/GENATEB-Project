@@ -4,39 +4,36 @@
     align-items: center;
     justify-content: center;
     gap: 50px;
-    background-color: #083d29;
     padding: var(--page-sides);
-    padding-block: 15px;
+    background-color: #083d29;
+
+    & > a {
+        width: 137px;
+    }
 }
 
 .grupo-informacion {
     display: flex;
-    gap: 30px;    
+    gap: 30px;
 }
 
 .grupo-informacion .informacion {
     display: flex;
     align-items: center;
     gap: 6px;
-}
 
-.grupo-informacion .informacion:first-child {
-    text-transform: capitalize;
-}
+    & img {
+        width: 28px;
+        height: 28px;
+    }
 
-.grupo-informacion .informacion img {
-    width: 28px;
-    height: 28px;
-}
+    & h3, a {
+        color: #ffffff;
+    }
 
-.grupo-informacion .informacion h3 {
-    font-family: var(--font-inter);
-    font-weight: 700;
-    color: #ffffff;
-}
-
-.container-informacion a {
-    width: 137px;
+    & a {
+        text-decoration: none;
+    }
 }
 /* END-CONTAINER INFORMACION */
 
@@ -111,3 +108,66 @@
     }
 }
 /* END-CONTAINER CLIENTES */
+
+
+/*cel*/
+/*
+
+    .container-ayuda {
+        padding: 20px 12px; 
+    }
+
+    .ayuda-content {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 18px; 
+    }
+
+    .ayuda-content .estilo-texto-ayuda {
+        font-size: 18px; 
+    }
+
+    .ayuda-content .estilo-texto-nosotros {
+        font-size: 11px;
+        display: block;
+        white-space: pre-line;
+    }
+
+    .ayuda-content > a {
+        width: 180px;
+        min-width: 120px;
+        align-self: center; /* Centra verticalmente el botón *//*
+        text-align: center;
+        
+    }    
+*/
+.ayuda-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 24px;
+}
+
+.ayuda-content .estilo-texto-ayuda,
+.ayuda-content .estilo-texto-nosotros {
+    text-align: left;
+}
+
+.ayuda-content .estilo-texto-ayuda {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+
+.ayuda-content .estilo-texto-nosotros {
+    font-size: 15px;
+    color: #3C995A;
+    margin: 0;
+}
+
+.ayuda-content > a {
+    width: 160px;
+    min-width: 120px;
+    align-self: center;
+    text-align: center;
+}

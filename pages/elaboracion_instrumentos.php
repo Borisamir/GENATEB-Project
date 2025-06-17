@@ -24,7 +24,7 @@
         </div>
         <div class="contenedor-monitoreo">
             <div class="contenedor-parrafo" >
-                <p>Desarrollamos estudios y documentos tecnicos requeridos por la<br> normativa ambiental peruana</p>
+                <p>Desarrollamos estudios y documentos técnicos requeridos por la<br> normativa ambiental peruana</p>
             </div>
         </div>
         <div class="contenedor-monitoreo">
@@ -41,28 +41,28 @@
             </div>
             <div class="imagen-texto" style="width: 300px;margin-top:50px">
                 <img src="/GENATE_WEB/recursos\Imagenes_Elaboracion_Instrumentos\Hoja_Estadistica.png" style="width: 109px;height: 109px;margin-left:-19px">
-                <p>Evaluacion Ambiental<br>Preliminar y Planes de<br>Manejo(EVAP Y PMA)</p>
+                <p>Evaluación Ambiental<br>Preliminar y Planes de<br>Manejo(EVAP Y PMA)</p>
             </div>
             <div class="imagen-texto" style="width: 300px;margin-top:50px">
                 <img src="/GENATE_WEB/recursos\Imagenes_Elaboracion_Instrumentos\Hoja_Planta.png" style="width: 116px;height: 115px;margin-right:-21px">
-                <p>Declaracion de Impacto<br>y Adecuacion Ambiental<br>(DIA,DAA)</p>
+                <p>Declaración de Impacto<br>y Adecuacion Ambiental<br>(DIA,DAA)</p>
             </div>
         </div>
         <div class="contenedor-imagen-texto">
             <div class="imagen-texto" style="width: 300px;margin-top:50px">
                 <img src="/GENATE_WEB/recursos\Imagenes_Elaboracion_Instrumentos\Hoja_Logro.png" style="width: 118px;height: 118px;margin-right:-21px">
-                <p>Instrumentos Tecnicos<br>Sustentatorios<br>(ITS)</p>
+                <p>Instrumentos Técnicos<br>Sustentatorios<br>(ITS)</p>
             </div>
             <div class="imagen-texto" style="width: 300px;margin-top:50px">
                 <img src="/GENATE_WEB/recursos\Imagenes_Elaboracion_Instrumentos\Hoja_Mas.png" style="width: 93px;height: 118px;" >
-                <p>Ficha Tecnica<br>Sociambiental<br>(FITSA)</p>
+                <p>Ficha Técnica<br>Sociambiental<br>(FITSA)</p>
             </div>
             <div class="imagen-texto" style="width: 300px;margin-top:50px;">
                 <img src="/GENATE_WEB/recursos\Imagenes_Elaboracion_Instrumentos\Hoja_Check.png" style="width: 128px;height: 128px;margin-right:-30px">
-                <p>Informe de gestion<br>ambiental<br>(IGA)</p>
+                <p>Informe de gestión<br>ambiental<br>(IGA)</p>
             </div>
         </div>
-        <section class="container-servicios center-r" style="height:802px">
+        <section class="container-servicios center-r">
             <h2 class="texto-servicio">OTROS SERVICIOS</h2>
             <div class="services">
                 <div class="servicio-item">

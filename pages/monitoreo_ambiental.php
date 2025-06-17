@@ -73,27 +73,25 @@
                 <h2>MONITOREO BIOLOGICO E HIDROBIOLOGICO</h2>
             </div>
         </div>
-        <div class="contenedor-imagen-texto">
-            <div class="imagen-texto ancho-300">
+        <div class="contenedor-imagen-texto-cap" style="border-bottom:3px #083D29 dotted">
+            <div class="imagen-texto-cap ancho-400 rana">
                 <img src="../recursos/Imagenes_Monitoreo_Ambiental/Monitoreo_Biologico/Rana.png" style="width: 125px;height: 74.34px;margin-top:25px">
                 <p>Anfibios y<br>reptiles</p>
             </div>
-            <div class="imagen-texto ancho-300">
+            <div class="imagen-texto-cap ancho-400 ballena">
                 <img src="../recursos/Imagenes_Monitoreo_Ambiental/Monitoreo_Biologico/Ballena.png" style="width: 103px;height: 103px;">
                 <p>Mamiferos mayores<br>y menores</p>
             </div>
-            <div class="imagen-texto ancho-300">
+            <div class="imagen-texto-cap ancho-400 paloma ">
                 <img src="../recursos/Imagenes_Monitoreo_Ambiental/Monitoreo_Biologico/Paloma.png" style="width: 100px;height: 88px;margin-top:15px">
                 <p>Ornitofauna</p>
             </div>
-        </div>
-        <div class="contenedor-imagen-texto" style="border-bottom:3px #083D29 dotted">
-            <div class="imagen-texto ancho-300">
+            <div class="imagen-texto-cap ancho-400 flora">
                 <img src="../recursos/Imagenes_Monitoreo_Ambiental/Monitoreo_Biologico/Planta.png" style="width: 78px;height: 121px;">
                 <p>Flora</p>
             </div>
-            <div class="imagen-texto ancho-300">
-                <img src="../recursos/Imagenes_Monitoreo_Ambiental/Monitoreo_Biologico/Elefante.png" style="width: 109px;height: 109px;margin-top:15px">
+            <div class="imagen-texto-cap ancho-400 fauna">
+                <img src="../recursos/Imagenes_Monitoreo_Ambiental/Monitoreo_Biologico/Elefante.png" style="width: 109px;height: 109px;margin-top:15px;">
                 <p>Fauna</p>
             </div>
         </div>
@@ -103,16 +101,16 @@
             </div>
         </div>
         <div class="contenedor-imagen-texto" style="border-bottom:3px #083D29 dotted">
-            <div class="imagen-texto ancho-300">
+            <div class="imagen-texto ancho-400">
                 <img src="../recursos/Imagenes_Monitoreo_Ambiental/Monitoreo_Agua/Gota.png" style="width: 122px;height: 120px;margin-top:25px;">
                 <p>Análisis de parámetros físicos,<br>químicos,orgánicos,inorgánicos,<br>microbiológicos,parasitolícos y<br>organolépticos</p>
             </div>
-            <div class="imagen-texto ancho-300">
+            <div class="imagen-texto ancho-400">
                 <img src="../recursos/Imagenes_Monitoreo_Ambiental/Monitoreo_Agua/Tubo.png" style="width: 125px;height: 123px;margin-top:25px">
                 <p>Aguas superficiales,<br>subterránea,consumo<br>humano y efluentes.</p>
             </div>
         </div>
-        <section class="container-servicios center-r" style="height:802px">
+        <section class="container-servicios center-r" >
             <h2 class="texto-servicio">OTROS SERVICIOS</h2>
             <div class="services">
                 <div class="servicio-item">

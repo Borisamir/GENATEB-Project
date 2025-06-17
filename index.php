@@ -6,7 +6,9 @@
     <title>Ocupacional</title>
     <?php include_once "global.php"; ?>
     <link rel="stylesheet" href="<?php echo $_ENV["STYLES"]; ?>/index/main.index.css">
+    <link rel="stylesheet" href="<?php echo $_ENV["STYLES"]; ?>/index/main.index-rs.css">
     <link rel="stylesheet" href="<?php echo $_ENV["STYLES"]; ?>/index/main.index.slider.css">
+    <link rel="stylesheet" href="<?php echo $_ENV["STYLES"]; ?>/index/main.index.slider-rs.css">
     <link rel="stylesheet" href="<?php echo $_ENV["STYLES"]; ?>/index/main.index.section.css">
     <script src="main.js" defer></script>
 </head>
@@ -15,41 +17,47 @@
     <main>
         <section class="slider-container center">
             <div class="slider">
-                <div class="slide" id="slide-1">
+                <div id="slide-1" class="slide">
                     <img src="<?php echo $_ENV["RESOURCES"]; ?>/Body/Slider_1.png" alt="slider-1">
                     <div class="content">
-                        <p>monitoreo<br>de agentes<br>ocupacionales</p>
-                        <div>
-                            <a href="<?php echo $_ENV["WHATSAPP_LINK"]; ?>" class="quote green-button" target="_blank">cotizar</a>
-                            <a href="<?php echo $_ENV["WHATSAPP_LINK"]; ?>" class="contact" target="_blank"><img src="recursos/Logos/slider-whatsapp.svg" alt="whatsapp"></a>
+                        <div class="center-r">
+                            <p>MONITOREO<br>DE AGENTES<br>OCUPACIONALES</p>
+                            <div>
+                                <a class="quote green-button" href="<?php echo $_ENV["WHATSAPP_LINK"]; ?>" target="_blank">cotizar</a>
+                                <a class="contact" href="<?php echo $_ENV["WHATSAPP_LINK"]; ?>" target="_blank"><img src="<?php echo $_ENV["RESOURCES"]; ?>/Logos/slider-whatsapp.svg" alt="whatsapp"></a>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="slide" id="slide-2">
-                    <img src="recursos/Body/Slider_2.png" alt="slider-2">
+                <div id="slide-2" class="slide">
+                    <img src="<?php echo $_ENV["RESOURCES"]; ?>/Body/Slider_2.png" alt="slider-2">
                     <div class="content">
-                        <p>monitoreo<br>de calidad<br>ambiental</p>
-                        <div>
-                            <a href="<?php echo $_ENV["WHATSAPP_LINK"]; ?>" class="quote green-button" target="_blank">cotizar</a>
-                            <a href="<?php echo $_ENV["WHATSAPP_LINK"]; ?>" class="contact" target="_blank"><img src="recursos/Logos/slider-whatsapp.svg" alt="whatsapp"></a>
+                        <div class="center-r">
+                            <p>MONITOREO<br>DE CALIDAD<br>AMBIENTAL</p>
+                            <div>
+                                <a class="quote green-button" href="<?php echo $_ENV["WHATSAPP_LINK"]; ?>" target="_blank">cotizar</a>
+                                <a class="contact" href="<?php echo $_ENV["WHATSAPP_LINK"]; ?>" target="_blank"><img src="<?php echo $_ENV["RESOURCES"]; ?>/Logos/slider-whatsapp.svg" alt="whatsapp"></a>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="slide" id="slide-3">
-                    <img src="recursos/Body/Slider_3.png" alt="slider-3">
+                <div id="slide-3" class="slide">
+                    <img src="<?php echo $_ENV["RESOURCES"]; ?>/Body/Slider_3.png" alt="slider-3">
                     <div class="content">
-                        <p>capacitaciones</p>
-                        <div>
-                            <a href="<?php echo $_ENV["WHATSAPP_LINK"]; ?>" class="quote green-button" target="_blank">cotizar</a>
-                            <a href="<?php echo $_ENV["WHATSAPP_LINK"]; ?>" class="contact" target="_blank"><img src="recursos/Logos/slider-whatsapp.svg" alt="whatsapp"></a>
+                        <div class="center-r">
+                            <p>CAPACITACIONES</p>
+                            <div>
+                                <a class="quote green-button" href="<?php echo $_ENV["WHATSAPP_LINK"]; ?>" target="_blank">cotizar</a>
+                                <a class="contact" href="<?php echo $_ENV["WHATSAPP_LINK"]; ?>" target="_blank"><img src="<?php echo $_ENV["RESOURCES"]; ?>/Logos/slider-whatsapp.svg" alt="whatsapp"></a>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="nav-buttons">
                 <div class="directions">
-                    <a href="#" id="left-arrow"><img src="recursos/Body/Flecha_Izquierda.png" alt="left-arrow"></a>
-                    <a href="#" id="right-arrow"><img src="recursos/Body/Flecha_Izquierda.png" alt="right-arrow"></a>
+                    <a href="#" id="left-arrow"><img src="<?php echo $_ENV["RESOURCES"]; ?>/Body/Flecha_Izquierda.png" alt="left-arrow"></a>
+                    <a href="#" id="right-arrow"><img src="<?php echo $_ENV["RESOURCES"]; ?>/Body/Flecha_Izquierda.png" alt="right-arrow"></a>
                 </div>
                 <div class="indicators">
                     <a href="#slide-1" class="ind-1 active"></a>
@@ -59,21 +67,21 @@
             </div>
         </section>
         <div class="container-informacion">
-            <div class="grupo-informacion">
+            <div class="grupo-informacion font-inter">
                 <div class="informacion">
-                    <img src="recursos\Logos\mapa_blanco.png">
-                    <h3>jr. fitzcarrald 1504, los olivos.</h3>
+                    <img src="<?php echo $_ENV["RESOURCES"]; ?>/Logos\Logo_Mapa.svg" alt="mapa">
+                    <h3>Jr. Fitzcarrald 1504, Los Olivos.</h3>
                 </div>
                 <div class="informacion">
-                    <img src="recursos\Logos\mensaje_blanco.png">
+                    <img src="<?php echo $_ENV["RESOURCES"]; ?>\Logos\Logo_Correo.svg" alt="correo">
                     <h3>comercial@genateb.com</h3>
                 </div>
                 <div class="informacion">
-                    <img src="recursos\Logos\whatsapp_blanco.png">
-                    <h3>933 257 830</h3>
+                    <img src="<?php echo $_ENV["RESOURCES"]; ?>\Logos\logo-whatsapp.svg" alt="whatsapp">
+                    <a href="<?php echo $_ENV["WHATSAPP_LINK"]; ?>" target="_blank">933 257 830</a>
                 </div>
             </div>
-            <a href="https://wa.link/drs6v5" class="green-button" target="_blank">COTIZA AQUI</a>
+            <a class="green-button" href="<?php echo $_ENV["WHATSAPP_LINK"]; ?>" target="_blank">COTIZA AQUI</a>
         </div>
         <section class="contenedor-logros center-r">
             <div>
@@ -83,28 +91,28 @@
                 </div>
                 <div class="logros-cifras">
                     <div class="logro">
-                        <img src="recursos\Body\imagen_pulgar_arriba.png">
+                        <img src="<?php echo $_ENV["RESOURCES"]; ?>/Body\imagen_pulgar_arriba.png" alt=logro">
                         <div class="logro-texto">
                             <h3>+7</h3>
                             <h2>Años de experiencia</h2>
                         </div>
                     </div>
                     <div class="logro">
-                        <img src="recursos\Body\imagen_edificio.png">
+                        <img src="<?php echo $_ENV["RESOURCES"]; ?>\Body\imagen_edificio.png" alt="logro">
                         <div class="logro-texto">
                             <h3>+100</h3>
                             <h2>Empresas atendidas</h2>
                         </div>
                     </div>
                     <div class="logro">
-                        <img src="recursos\Body\imagen_hombre_estrella.png">
+                        <img src="<?php echo $_ENV["RESOURCES"]; ?>/Body\imagen_hombre_estrella.png" alt="logro">
                         <div class="logro-texto">
                             <h3>+30</h3>
                             <h2>Capacitaciones tecnicas</h2>
                         </div>
                     </div>
                     <div class="logro">
-                        <img src="recursos\Body\imagen_estrella_pulgar.png">
+                        <img src="<?php echo $_ENV["RESOURCES"]; ?>/Body\imagen_estrella_pulgar.png" alt="logro">
                         <div class="logro-texto">
                             <h3>100%</h3>
                             <h2>Satisfaccion</h2>
@@ -112,7 +120,7 @@
                     </div>
                 </div>
             </div>
-            <img src="recursos\Body\imagen_señor_3.png">
+            <img src="<?php echo $_ENV["RESOURCES"]; ?>\Body\imagen_señor_3.png">
         </section>
         <div class="container-ayuda">
             <div class="ayuda-content center-r">

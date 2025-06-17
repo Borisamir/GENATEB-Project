@@ -15,7 +15,7 @@
     <main>
         <div class="contenedor-banner">
             <div class="contenedor-imagen">
-                <img src="<?php echo $_ENV["RESOURCES"]; ?>\Body\imagen_señor_2.jpeg" alt="banner-nosotros">
+                <img src="<?php echo $_ENV["RESOURCES"]; ?>\Body\imagen_señor_2.png" alt="banner-nosotros">
             </div>
         </div>
         <!-- Seccion Nosotros -->

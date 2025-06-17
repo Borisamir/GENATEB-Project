@@ -3,7 +3,7 @@
 
 :root {
     --center: 1440px;
-    --page-sides: 30px;
+    --page-sides: 20px;
     --font-inter: "Inter", sans-serif;
     --font-cal-sans: "Cal Sans", sans-serif;
 }
@@ -27,7 +27,7 @@ html {
     margin: 0 auto;
 }
 
-.center > .slider > .slide > .content,
+/* .center > .slider > .slide > .content, */
 .center-r {
     max-width: calc(var(--center) - 380px);
     margin: 0 auto;
@@ -106,12 +106,14 @@ html {
 
 /* BUTTON */
 .green-button {
+    --gb-height: 40px;
+    /* --- */
     display: block;
-    height: 40px;
+    height: var(--gb-height);
     border-radius: 8px;
     background-color: #009951;
     border: 1px solid #02542D;
-    line-height: 40px;
+    line-height: var(--gb-height);
     font-family: var(--font-inter);
     text-align: center;
     text-decoration: none;
@@ -147,7 +149,8 @@ html {
 
 
 /*  */
-.font-inter * {
+.font-inter a,
+.font-inter p {
     font-family: var(--font-inter);
     font-weight: 700;
 }

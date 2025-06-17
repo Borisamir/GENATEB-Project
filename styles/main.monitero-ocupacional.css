@@ -28,8 +28,39 @@ main > div {
     font-weight: 700;
     text-transform: uppercase;
     color: #083d29;
-    padding: 20px;
 }
+
+@media (max-width: 480px) {
+    .monitoreo-content ul {
+        justify-content: center;
+    }
+
+    .monitoreo-content ul li {
+        width: 45%;
+        margin: 0 2.5% 30px 2.5%;
+    }
+
+
+    .monitoreo-content ul li,
+    .monitoreo-content.mc-1 ul li,
+    .monitoreo-content.mc-2 ul li,
+    .monitoreo-content.mc-5 ul li {
+        width: 45%;
+        margin: 0 2.5% 30px 2.5%;
+    }
+
+    .monitoreo-content ul li img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .monitoreo-content ul li p {
+        font-size: 14px;
+        text-align: center;
+    }
+}
+
+
 
 .monitoreo-content ul {
     display: flex;
@@ -65,11 +96,11 @@ main > div {
 
 .monitoreo-content.mc-3 ul,
 .monitoreo-content.mc-4 ul {
-    gap: 100px;
+    gap: 50px;
 }
 
 .monitoreo-content.mc-2 ul li,
 .monitoreo-content.mc-5 ul li {
-    width: 33%;
+    width: 30%;
 }
 /* END-MONITOREOS */

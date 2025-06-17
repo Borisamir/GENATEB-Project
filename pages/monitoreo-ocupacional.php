@@ -13,14 +13,15 @@
 <body>
     <?php include_once "../header.php"; ?>
     <main>
-        <div>
-            <div class="banner center">
-                <img src="<?php echo $_ENV["RESOURCES"]; ?>\Body\banner-ocupacional.png" alt="banner-ocupacional">
+        <div class="contenedor-banner">
+            <div class="contenedor-imagen">
+            <img src="<?php echo $_ENV["RESOURCES"]; ?>\Body\Monitoreo_Ocupacional.png" alt="monitoreo ambiental">
             </div>
+        </div>
             <section class="monitoreos">
                 <div class="sd-section">
                     <h2>monitoreo de agentes ocupacionales</h2>
-                    <p>realizamos el monitoreo y evaluación, de aquellos factores/agentes de riesgo que pueden llegar a perjudicar la salud de los trabajadores.</p>
+                    <p>Realizamos el monitoreo y evaluación, de aquellos factores/agentes de riesgo que pueden llegar a perjudicar la salud de los trabajadores.</p>
                     <a href="https://wa.link/drs6v5" class="green-button">cotiza aqui</a>
                 </div>
                 <div>

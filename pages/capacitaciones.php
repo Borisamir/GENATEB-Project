@@ -24,7 +24,7 @@
         </div>
         <div class="contenedor-monitoreo">
             <div class="contenedor-parrafo" >
-                <p>Formacion especializada y adaptable,diseñada para<br>fortalecer competencias clave en tu equipo sin<br>Interrumpir su productividad.</p>
+                <p>Formación especializada y adaptable,diseñada para<br>fortalecer competencias clave en tu equipo sin<br>Interrumpir su productividad.</p>
             </div>
         </div>
         <div class="contenedor-monitoreo">
@@ -60,19 +60,19 @@
             <div class="fila" style="margin-top:50px;width:300px">
                 <img src="../recursos/Imagenes_Capacitaciones/Uno.png" style="width:31px;height:81px">
                 <div>
-                <p>Definicion de la ruta de<br>aprendizaje y estaciones<br>de conocimiento
+                <p>Definición de la ruta de<br>aprendizaje y estaciones<br>de conocimiento
                 </div>
             </div>
             <div class="fila" style="margin-top:50px;width:300px">
                 <img src="../recursos/Imagenes_Capacitaciones/Segundo.png" style="width:57px;height:81px">
                 <div>
-                <p>Elaboracion del contenido<br>de la capacitacion<br>Servicio adicional:<br>Grabaciones en<br>instalaciones del cliente
+                <p>Elaboración del contenido<br>de la capacitación<br>Servicio adicional:<br>Grabaciones en<br>instalaciones del cliente
                 </div>
             </div>
             <div class="fila" style="margin-top:50px;width:300px">
                 <img src="../recursos/Imagenes_Capacitaciones/Tres.png" style="width:62px;height:88px">
                 <div>
-                <p>Validacion del cliente del<br>contenido de la<br>capacitacion
+                <p>Validación del cliente del<br>contenido de la<br>capacitacion
                 </div>
             </div>
         </div>
@@ -80,19 +80,19 @@
             <div class="fila" style="width:300px;margin-top:50px">
                 <img src="../recursos/Imagenes_Capacitaciones/Cuatro.png" style="width:69px;height:89px">
                 <div>
-                <p>Grabacion / Dictado<br>de capacitacion<br>en vivo
+                <p>Grabación / Dictado<br>de capacitacion<br>en vivo
                 </div>
             </div>
             <div class="fila" style="width:300px;margin-top:50px">
                 <img src="../recursos/Imagenes_Capacitaciones/Cinco.png" style="width:62px;height:89px" >
                 <div>
-                <p>Animacion del <br>material educativo<br>grabado
+                <p>Animación del <br>material educativo<br>grabado
                 </div>
             </div>
             <div class="fila" style="width:300px;margin-top:50px">
                 <img src="../recursos/Imagenes_Capacitaciones/Seis.png" style="width:60px;height:89px">
                 <div>
-                <p>Validacion<br>final del<br>cliente
+                <p>Validación<br>final del<br>cliente
                 </div>
             </div>
         </div>
@@ -157,7 +157,7 @@
                 <p>Taller de<br>feedback</p>
             </div>
         </div>
-        <section class="container-servicios center-r" style="height:802px">
+        <section class="container-servicios center-r">
             <h2 class="texto-servicio">OTROS SERVICIOS</h2>
             <div class="services">
                 <div class="servicio-item">

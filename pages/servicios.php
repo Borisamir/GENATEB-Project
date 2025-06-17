@@ -17,7 +17,7 @@
         <!-- Encabezado con imagen -->
         <div class="contenedor-banner">
             <div class="contenedor-imagen">
-                <img src="<?php echo $_ENV["RESOURCES"]; ?>\Body\imagen_laboratorio.jpeg" alt="laboratorio">
+                <img src="<?php echo $_ENV["RESOURCES"]; ?>\Body\imagen_laboratorio.png" alt="laboratorio">
             </div>
         </div> 
         <!-- Sección services -->

@@ -24,7 +24,7 @@
         </div>
         <div class="contenedor-monitoreo">
             <div class="contenedor-parrafo" >
-                <p>Ejecutamos una supervision eficiente cumpliendo con<br>los requisitos legales en los sectores de:construccion,<br>mineria e industria</p>
+                <p>Ejecutamos una supervisión eficiente cumpliendo con<br>los requisitos legales en los sectores de:construcción,<br>mineria e industria</p>
             </div>
         </div>
         <div class="contenedor-monitoreo">
@@ -42,7 +42,7 @@
         <div class="contenedor-imagen-texto">
             <div class="imagen-texto" style="width: 400px;">
                 <img src="..\recursos\Imagenes_Seguridad_Salud\Archivo.png" style="width: 158px;height: 151px;">
-                <p>Elaboracion y actualizacion<br>de documentacion</p>
+                <p>Elaboración y actualización<br>de documentacion</p>
             </div>
             <div class="imagen-texto" style="width: 400px;">
                 <img src="..\recursos\Imagenes_Seguridad_Salud\Cronometro.png" style="width: 159px;height: 159px;" >
@@ -52,7 +52,7 @@
         <div class="contenedor-imagen-texto" style="border-bottom:3px #083D29 dotted">
             <div class="imagen-texto" style="width: 400px;">
                 <img src="..\recursos\Imagenes_Seguridad_Salud\Pregunta.png" style="width: 168px;height: 151px;">
-                <p>Asesoria<br>personalizada</p>
+                <p>Asesoría<br>personalizada</p>
             </div>
             <div class="imagen-texto" style="width: 400px;">
                 <img src="..\recursos\Imagenes_Seguridad_Salud\Checks.png" style="width: 174px;height: 151px;" >
@@ -65,34 +65,32 @@
             </div>
         </div>
         <div class="contenedor-imagen-texto">
-            <div class="imagen-texto" style="width: 300px;">
+            <div class="imagen-texto ancho-300">
                 <img src="..\recursos\Imagenes_Seguridad_Salud\Mas.png" style="width: 129px;height: 144px;">
                 <p>Valores agregados<br>incorporados</p>
             </div>
-            <div class="imagen-texto" style="width: 300px;">
+            <div class="imagen-texto ancho-300">
                 <img src="..\recursos\Imagenes_Seguridad_Salud\Flecha_arriba.png" style="width: 145px;height: 145px;" >
                 <p>Personal experto<br>y capacitado</p>
             </div>
-            <div class="imagen-texto" style="width: 300px;">
-                <img src="..\recursos\Imagenes_Seguridad_Salud\Lapiz.png" style="width: 124px;height: 137px;" >
-                <p>Verificacion y<br>capacitacion de<br>estandares del cliente</p>
+            <div class="imagen-texto ancho-300">
+                <img src="..\recursos\Imagenes_Seguridad_Salud\Lapiz.png" style="width: 124px;height: 137px;margin-top:-10px;" >
+                <p>Verificación y<br>capacitación de<br>estandares del cliente</p>
             </div>
-        </div>
-        <div class="contenedor-imagen-texto">
-            <div class="imagen-texto" style="width: 300px;">
+            <div class="imagen-texto ancho-300">
                 <img src="..\recursos\Imagenes_Seguridad_Salud\Escudo.png" style="width: 112px;height: 130px;">
                 <p>Mantenimiento y<br>actualizacion de la<br>documentacion SSOMA</p>
             </div>
-            <div class="imagen-texto" style="width: 300px;">
+            <div class="imagen-texto ancho-300">
                 <img src="..\recursos\Imagenes_Seguridad_Salud\Calendario.png" style="width: 152px;height: 153px;" >
                 <p>Reportes semanales<br>y/o mensuales</p>
             </div>
-            <div class="imagen-texto" style="width: 300px;">
+            <div class="imagen-texto ancho-300">
                 <img src="..\recursos\Imagenes_Seguridad_Salud\Audit.png" style="width: 139px;height: 144px;" >
                 <p>Auditorias y/o<br>homologaciones<br>vigentes</p>
             </div>
         </div>
-        <section class="container-servicios center-r" style="height:802px">
+        <section class="container-servicios center-r">
             <h2 class="texto-servicio">OTROS SERVICIOS</h2>
             <div class="services">
                 <div class="servicio-item">
