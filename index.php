@@ -134,38 +134,40 @@
                 <a class="green-button" href="<?php echo $_ENV["WHATSAPP_LINK"]; ?>" target="_blank">ESCRÍBENOS</a>
             </div>
         </div>
-        <section class="container-servicios center-r">
-            <h2 class="texto-servicio">NUESTROS SERVICIOS</h2>
-            <div class="services">
-                <div class="servicio-item">
-                    <img src="recursos\Servicios_Imagenes\imagen_monitoreo_ocupacionales.png" alt="Ocupacional">
-                    <p class="texto-sobre-imagen">Monitoreo de agentes ocupacionales</p>
-                    <a href="pages\monitoreo-ocupacional.php" class="green-button boton-sobre-imagen">ver más</a>
-                </div>
-                <div class="servicio-item">
-                    <img src="recursos\Servicios_Imagenes\imagen_monitoreo_ambientales.png" alt="Ambiental">
-                    <p class="texto-sobre-imagen">Monitero de agentes<br>ambientales</p>
-                    <a href="pages\monitoreo_ambiental.php" class="green-button boton-sobre-imagen">ver más</a>
-                </div>
-                <div class="servicio-item">
-                    <img src="recursos\Servicios_Imagenes\imagen_elaboracion_ambiental.png" alt="Elaboracion">
-                    <p class="texto-sobre-imagen">Elaboracion de instrumentos<br>de gestion ambiental</p>
-                    <a href="pages\elaboracion_instrumentos.php" class="green-button boton-sobre-imagen">ver más</a>
-                </div>
-                <div class="servicio-item">
-                    <img src="recursos\Servicios_Imagenes\imagen_permisologia_minera.png" alt="Minera">
-                    <p class="texto-sobre-imagen">Permisologia ambiental<br>minera</p>
-                    <a href="pages\permisología-ambiental-minera.php" class="green-button boton-sobre-imagen">ver más</a>
-                </div>
-                <div class="servicio-item">
-                    <img src="recursos\Servicios_Imagenes\imagen_seguridad_salud.png" alt="Seguridad">
-                    <p class="texto-sobre-imagen">Seguridad y salud<br> en el trabajo</p>
-                    <a href="pages\sst.php" class="green-button boton-sobre-imagen">ver más</a>
-                </div>
-                <div class="servicio-item">
-                    <img src="recursos\Servicios_Imagenes\imagen_capacitaciones.png" alt="Capacitacion">
-                    <p class="texto-sobre-imagen">Capacitaciones</p>
-                    <a href="pages\capacitaciones.php" class="green-button boton-sobre-imagen">ver más</a>
+        <section class="container-servicios">
+            <div class="center-r">
+                <h2 class="texto-servicio">NUESTROS SERVICIOS</h2>
+                <div class="services font-inter">
+                    <div class="servicio-item">
+                        <img src="<?php echo $_ENV["RESOURCES"]; ?>/Servicios_Imagenes\imagen_monitoreo_ocupacionales.png" alt="ocupacional">
+                        <p class="texto-sobre-imagen">Monitoreo de agentes ocupacionales</p>
+                        <a class="green-button boton-sobre-imagen" href="<?php echo $_ENV["PAGES"]; ?>/monitoreo-ocupacional.php">VER MÁS</a>
+                    </div>
+                    <div class="servicio-item">
+                        <img src="<?php echo $_ENV["RESOURCES"]; ?>/Servicios_Imagenes\imagen_monitoreo_ambientales.png" alt="ambiental">
+                        <p class="texto-sobre-imagen">Monitero de agentes<br>ambientales</p>
+                        <a class="green-button boton-sobre-imagen" href="<?php echo $_ENV["PAGES"]; ?>/monitoreo_ambiental.php">VER MÁS</a>
+                    </div>
+                    <div class="servicio-item">
+                        <img src="<?php echo $_ENV["RESOURCES"]; ?>/Servicios_Imagenes\imagen_elaboracion_ambiental.png" alt="elaboracion">
+                        <p class="texto-sobre-imagen">Elaboracion de instrumentos<br>de gestion ambiental</p>
+                        <a class="green-button boton-sobre-imagen" href="<?php echo $_ENV["PAGES"]; ?>/elaboracion_instrumentos.php">VER MÁS</a>
+                    </div>
+                    <div class="servicio-item">
+                        <img src="<?php echo $_ENV["RESOURCES"]; ?>/Servicios_Imagenes\imagen_permisologia_minera.png" alt="minera">
+                        <p class="texto-sobre-imagen">Permisologia ambiental<br>minera</p>
+                        <a class="green-button boton-sobre-imagen" href="<?php echo $_ENV["PAGES"]; ?>/permisología-ambiental-minera.php">VER MÁS</a>
+                    </div>
+                    <div class="servicio-item">
+                        <img src="<?php echo $_ENV["RESOURCES"]; ?>/Servicios_Imagenes\imagen_seguridad_salud.png" alt="seguridad">
+                        <p class="texto-sobre-imagen">Seguridad y salud<br> en el trabajo</p>
+                        <a class="green-button boton-sobre-imagen" href="<?php echo $_ENV["PAGES"]; ?>/sst.php">VER MÁS</a>
+                    </div>
+                    <div class="servicio-item">
+                        <img src="<?php echo $_ENV["RESOURCES"]; ?>/Servicios_Imagenes\imagen_capacitaciones.png" alt="capacitacion">
+                        <p class="texto-sobre-imagen">Capacitaciones</p>
+                        <a class="green-button boton-sobre-imagen" href="<?php echo $_ENV["PAGES"]; ?>/capacitaciones.php">VER MÁS</a>
+                    </div>
                 </div>
             </div>
         </section>
@@ -173,23 +175,23 @@
             <div class="clientes-content center-r">
                 <h2 class="texto-cliente">NUESTROS CLIENTES</h2>
                 <div class="slider">
-                    <img src="recursos\Logos\Aenor.png" alt="Aenor">
-                    <img src="recursos\Logos\Applus.png" alt="Appplus">
-                    <img src="recursos\Logos\Abz.png" alt="Abz">
-                    <img src="recursos\Logos\Contugas.png" alt="Confugas">
-                    <img src="recursos\Logos\Oss.png" alt="Oss">
-                    <img src="recursos\Logos\Abai.png" alt="Abai">
-                    <img src="recursos\Logos\Aenor.png" alt="Aenor">
-                    <img src="recursos\Logos\Applus.png" alt="Appplus">
-                    <img src="recursos\Logos\Abz.png" alt="Abz">
-                    <img src="recursos\Logos\Contugas.png" alt="Confugas">
-                    <img src="recursos\Logos\Oss.png" alt="Oss">
-                    <img src="recursos\Logos\Abai.png" alt="Abai">
+                    <img src="<?php echo $_ENV["RESOURCES"]; ?>/Logos\Aenor.png" alt="Aenor">
+                    <img src="<?php echo $_ENV["RESOURCES"]; ?>/Logos\Applus.png" alt="Appplus">
+                    <img src="<?php echo $_ENV["RESOURCES"]; ?>/Logos\Abz.png" alt="Abz">
+                    <img src="<?php echo $_ENV["RESOURCES"]; ?>/Logos\Contugas.png" alt="Confugas">
+                    <img src="<?php echo $_ENV["RESOURCES"]; ?>/Logos\Oss.png" alt="Oss">
+                    <img src="<?php echo $_ENV["RESOURCES"]; ?>/Logos\Abai.png" alt="Abai">
+                    <img src="<?php echo $_ENV["RESOURCES"]; ?>/Logos\Aenor.png" alt="Aenor">
+                    <img src="<?php echo $_ENV["RESOURCES"]; ?>/Logos\Applus.png" alt="Appplus">
+                    <img src="<?php echo $_ENV["RESOURCES"]; ?>/Logos\Abz.png" alt="Abz">
+                    <img src="<?php echo $_ENV["RESOURCES"]; ?>/Logos\Contugas.png" alt="Confugas">
+                    <img src="<?php echo $_ENV["RESOURCES"]; ?>/Logos\Oss.png" alt="Oss">
+                    <img src="<?php echo $_ENV["RESOURCES"]; ?>/Logos\Abai.png" alt="Abai">
                 </div>
             </div>
         </div>
         <section class="container-formulario center">
-            <img src="recursos/Body/señor3_fondo.png" alt="Trabajador">
+            <img src="<?php echo $_ENV["RESOURCES"]; ?>/Body/señor3_fondo.png" alt="Trabajador">
             <div class="form-content center-r">
                 <div class="formulario-texto">
                     <h2 class="titulo-contacto" >CONTACTANOS</h2>
