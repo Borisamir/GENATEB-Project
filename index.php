@@ -128,10 +128,10 @@
         <div class="container-ayuda">
             <div class="ayuda-content center-r">
                 <div class="container-texto">
-                    <h2 class="estilo-texto-ayuda">¿Necesitas Ayuda?</h2>
-                    <h3 class="estilo-texto-nosotros">Nuestros especialistas se comunicaran los mas pronto contigo.</h3>
+                    <h2>¿Necesitas Ayuda?</h2>
+                    <h3>Nuestros especialistas se comunicaran los mas pronto contigo.</h3>
                 </div>
-                <a href="https://wa.link/drs6v5" target="_blank" class="green-button">escríbenos</a>
+                <a class="green-button" href="<?php echo $_ENV["WHATSAPP_LINK"]; ?>" target="_blank">ESCRÍBENOS</a>
             </div>
         </div>
         <section class="container-servicios center-r">

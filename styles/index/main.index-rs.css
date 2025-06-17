@@ -20,6 +20,25 @@
             font-size: 10px;
         }
     }
+
+    /* CONTAINER AYUDA*/
+    .ayuda-content {
+        & .container-texto h2 {
+            font-size: 25px;
+        }
+
+        & .container-texto h3 {
+            font-size: 14px;
+        }
+
+        & > a {
+            --gb-height: 30px;
+            /* --- */
+            width: 156px;
+            font-size: 10px;
+        }
+    }
+    /* END-CONTAINER AYUDA*/
 }
 
 @media (max-width: 624px) {
@@ -48,4 +67,23 @@
             font-size: 7px;
         }
     }
+
+    /* CONTAINER AYUDA*/
+    .ayuda-content {
+        & .container-texto h2 {
+            font-size: 18px;
+        }
+
+        & .container-texto h3 {
+            font-size: 11px;
+        }
+
+        & > a {
+            --gb-height: 22px;
+            /* --- */
+            width: 86px;
+            font-size: 8px;
+        }
+    }
+    /* END-CONTAINER AYUDA*/
 }
