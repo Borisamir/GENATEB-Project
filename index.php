@@ -174,19 +174,19 @@
         <div class="container-clientes">
             <div class="clientes-content center-r">
                 <h2 class="texto-cliente">NUESTROS CLIENTES</h2>
-                <div class="slider">
-                    <img src="<?php echo $_ENV["RESOURCES"]; ?>/Logos\Aenor.png" alt="Aenor">
-                    <img src="<?php echo $_ENV["RESOURCES"]; ?>/Logos\Applus.png" alt="Appplus">
-                    <img src="<?php echo $_ENV["RESOURCES"]; ?>/Logos\Abz.png" alt="Abz">
-                    <img src="<?php echo $_ENV["RESOURCES"]; ?>/Logos\Contugas.png" alt="Confugas">
-                    <img src="<?php echo $_ENV["RESOURCES"]; ?>/Logos\Oss.png" alt="Oss">
-                    <img src="<?php echo $_ENV["RESOURCES"]; ?>/Logos\Abai.png" alt="Abai">
-                    <img src="<?php echo $_ENV["RESOURCES"]; ?>/Logos\Aenor.png" alt="Aenor">
-                    <img src="<?php echo $_ENV["RESOURCES"]; ?>/Logos\Applus.png" alt="Appplus">
-                    <img src="<?php echo $_ENV["RESOURCES"]; ?>/Logos\Abz.png" alt="Abz">
-                    <img src="<?php echo $_ENV["RESOURCES"]; ?>/Logos\Contugas.png" alt="Confugas">
-                    <img src="<?php echo $_ENV["RESOURCES"]; ?>/Logos\Oss.png" alt="Oss">
-                    <img src="<?php echo $_ENV["RESOURCES"]; ?>/Logos\Abai.png" alt="Abai">
+                <div class="slider center-r">
+                    <img src="<?php echo $_ENV["RESOURCES"]; ?>/Logos\Aenor.png" alt="aenor">
+                    <img src="<?php echo $_ENV["RESOURCES"]; ?>/Logos\Applus.png" alt="applus">
+                    <img src="<?php echo $_ENV["RESOURCES"]; ?>/Logos\Abz.png" alt="abz">
+                    <img src="<?php echo $_ENV["RESOURCES"]; ?>/Logos\Contugas.png" alt="confugas">
+                    <img src="<?php echo $_ENV["RESOURCES"]; ?>/Logos\Oss.png" alt="oss">
+                    <img src="<?php echo $_ENV["RESOURCES"]; ?>/Logos\Abai.png" alt="abai">
+                    <img src="<?php echo $_ENV["RESOURCES"]; ?>/Logos\Aenor.png" alt="aenor">
+                    <img src="<?php echo $_ENV["RESOURCES"]; ?>/Logos\Applus.png" alt="applus">
+                    <img src="<?php echo $_ENV["RESOURCES"]; ?>/Logos\Abz.png" alt="abz">
+                    <img src="<?php echo $_ENV["RESOURCES"]; ?>/Logos\Contugas.png" alt="confugas">
+                    <img src="<?php echo $_ENV["RESOURCES"]; ?>/Logos\Oss.png" alt="oss">
+                    <img src="<?php echo $_ENV["RESOURCES"]; ?>/Logos\Abai.png" alt="abai">
                 </div>
             </div>
         </div>

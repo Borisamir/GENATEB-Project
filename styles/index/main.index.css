@@ -66,35 +66,29 @@
 
 /* CONTAINER CLIENTES */
 .container-clientes {
-    height: 318px;
     background-color: #3c995a;
 }
 
 .clientes-content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 50px;
-    height: 100%;
+    padding: 64px 0 100px;
     overflow: hidden;
-    color: #083d29;
-}
-
-.clientes-content .texto-cliente {
-    font-size: 40px;
+    
+    & .texto-cliente {
+        font-size: 40px;
+        color: #083d29;
+        text-align: center;
+    }
 }
 
 .clientes-content .slider {
     display: flex;
     gap: 16px;
-    width: 100%;
+    margin-top: 38px;
     animation: scroll 10s linear infinite;
-}
-
-.clientes-content .slider img {
-    width: 163px;
-    height: 73px;
+    & img {
+        width: 163px;
+        height: 73px;
+    }
 }
 
 @keyframes scroll {
