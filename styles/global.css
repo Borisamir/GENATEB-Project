@@ -78,16 +78,12 @@ html {
 /* END-BANNER */
 
 /* SERVICES DESCRIPTION  */
-section .sd {
-    padding: 51px var(--page-sides);
-}
-
 .sd-section {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 22px;
-    text-align: center;
+    margin-bottom: 20px;
 
     & h2 {
         font-size: 35px;

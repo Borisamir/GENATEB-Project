@@ -5,14 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <?php include_once "../global.php"; ?>
     <title>Servicios</title>
-    <link rel="stylesheet" href="<?php echo $_ENV["STYLES"]; ?>\main.servicios.css"> 
-     <link rel="stylesheet" href="<?php echo $_ENV["STYLES"]; ?>/main.nosotros.css">
     <link rel="stylesheet" href="<?php echo $_ENV["STYLES"]; ?>/index/main.index.section.css">
     <link rel="stylesheet" href="<?php echo $_ENV["STYLES"]; ?>/ambiental_styles/banner.rs.css">
 </head>
 <body>
     <?php include_once "../header.php"; ?>
-    <main>
+    <main style="background-color: #ffffff;">
         <!-- Encabezado con imagen -->
         <div class="contenedor-banner">
             <div class="contenedor-imagen">
@@ -23,17 +21,13 @@
             <a class="contact" href="<?php echo $_ENV["WHATSAPP_LINK"]; ?>" target="_blank"><img src="<?php echo $_ENV["RESOURCES"]; ?>/Logos/slider-whatsapp.svg" alt="whatsapp"></a>
         </div> 
         <!-- Sección services -->
-        <section>
-            <div class="sd">
+        <section class="container-servicios">
+            <div class="center-r">
                 <div class="sd-section">
                     <h2 class="font-inter-tag">NUESTROS SERVICIOS</h2>
                     <p>En GENATEB, ofrecemos una amplia gama de servicios especializados en los sectores ambiental, de construcción, social y de higiene y seguridad ocupacional. Nuestro compromiso es brindar soluciones integrales y sostenibles que se adapten a las necesidades específicas de cada cliente.</p>
-                    <a href="<?php echo $_ENV["WHATSAPP_LINK"]; ?>" class="green-button">COTIZA AQUI</a>
+                    <a class="green-button" href="<?php echo $_ENV["WHATSAPP_LINK"]; ?>" target="_blank">COTIZA AQUI</a>
                 </div>
-            </div>
-        </section>
-        <section class="container-servicios">
-            <div class="center-r">
                 <div class="services font-inter">
                     <div class="servicio-item">
                         <img src="<?php echo $_ENV["RESOURCES"]; ?>/Servicios_Imagenes\imagen_monitoreo_ocupacionales.png" alt="ocupacional">
