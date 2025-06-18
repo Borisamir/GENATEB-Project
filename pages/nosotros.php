@@ -7,8 +7,6 @@
     <link rel="stylesheet" href="<?php echo $_ENV["STYLES"]; ?>/index/main.index.section.css">
     <link rel="stylesheet" href="<?php echo $_ENV["STYLES"]; ?>/main.nosotros.css">
     <link rel="stylesheet" href="<?php echo $_ENV["STYLES"]; ?>/ambiental_styles/banner.rs.css">
-<!-- ejem -->
-    
     <title>Nosotros</title>
 </head>
 <body>
@@ -24,21 +22,17 @@
         </div> 
         <!-- Seccion Nosotros -->
         <section class="sd-section">
-            <h2 style="margin-top:50px">NOSOTROS</h2>
+            <h2>NOSOTROS</h2>
             <p>En Genateb ofrece soluciones especializadas en gestíon ambiental, monitoreo ocupaciones y seguridad. Elaboramos instrumentos técnicos adaptables a cada sector productivo.Nuestro enfoque cambia sostenibilidad, cumplimineto normativo y bienestar laboral. Acompañamos a nuestros clientes en el desarrollo de proyectos responsables.</p>
             <a href="https://wa.link/drs6v5" target="_blank" class="green-button">cotiza aqui</a>
         </section>
-        <!-- Video -->
-        <div class="video-placeholder">
-            <video src="https://www.youtube.com/watch?v=Zp0zpM02KmI" preload></video>
-        </div>
         <!-- Seccion Nuestros Pilares -->
         <section class="pilares">
             <div class="pilares-content center-r">
                 <h3>NUESTROS PILARES</h3>
                 <div class="pilar">
                     <div class="pilar-image">
-                        <img src="../recursos/Body/Mision.png" alt="mision">
+                        <img src="<?php echo $_ENV["RESOURCES"]; ?>/Body/Mision.png" alt="mision">
                     </div>
                     <div>
                         <h4>Misión:</h4>
@@ -47,7 +41,7 @@
                 </div>
                 <div class="pilar">
                     <div class="pilar-image">
-                        <img src="../recursos/Body/Vision.png" alt="vision">
+                        <img src="<?php echo $_ENV["RESOURCES"]; ?>/Body/Vision.png" alt="vision">
                     </div>
                     <div>
                         <h4>Visión:</h4>
@@ -61,22 +55,22 @@
                 <h3>NUESTROS VALORES</h3>
                 <div class="valor">
                     <!-- Compromiso -->
-                    <img src="../recursos/Body/Compromiso.png" alt="compromiso">
+                    <img src="<?php echo $_ENV["RESOURCES"]; ?>/Body/Compromiso.png" alt="compromiso">
                     <strong>Compromiso</strong>
                 </div>
                 <div class="valor">
                     <!-- Profesionalismo -->
-                    <img src="../recursos/Body/Profesionalismo.png" alt="profesionalismo">
+                    <img src="<?php echo $_ENV["RESOURCES"]; ?>/Body/Profesionalismo.png" alt="profesionalismo">
                     <strong>Profesionalismo</strong>
                 </div>
                 <div class="valor">
                     <!-- Prevención -->
-                    <img src="../recursos/Body/Prevencion.png" alt="prevencion">
+                    <img src="<?php echo $_ENV["RESOURCES"]; ?>/Body/Prevencion.png" alt="prevencion">
                     <strong>Prevención</strong>
                 </div>
                 <div class="valor">
     
-                     <img src="../recursos/Body/Confianza.png" alt="confianza">
+                     <img src="<?php echo $_ENV["RESOURCES"]; ?>/Body/Confianza.png" alt="confianza">
                     <strong>Confianza</strong>
                 </div>
             </div>
