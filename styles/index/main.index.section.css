@@ -278,7 +278,18 @@
         display: none;
     }
     .contenedor-logros .logros-texto h3 {
-        font-size: 28px;
+        font-size: 20px;
+    }
+
+    .container-servicios .center-r {
+    margin-top: 90px;
+    padding-bottom: 112px;
+
+    & .texto-servicio {
+        font-size: 20px;
+        text-align: center;
+        color: #083d29;
+    }
     }
 
     .contenedor-logros .logros-texto h2 {
@@ -327,17 +338,16 @@
     }
 
     .container-formulario img {
-        width: 90%;
+        width: 100%;
         /*max-width: 100px;*/
         height: 658px;
         /*margin: 400px auto 0 auto;*/
         object-fit: contain;
         box-shadow: none;
         position: absolute;
-        top:790px
+        top:735px
         
     }
-    
 
     .formulario-texto {
         width: 100%;
@@ -345,7 +355,7 @@
     }
 
     .formulario-texto .titulo-contacto {
-        font-size: 28px;
+        font-size: 20px;
     }
 
     .formulario-texto .form {
@@ -359,5 +369,36 @@
         left: 50%;
         transform: translateX(-50%);
     }
-}
 
+    .services .servicio-item {
+    width: 270px;
+    height: 288px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 20px;
+    position: relative;
+    border-radius: 16px;
+    overflow: hidden;
+
+    & img {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+    }
+
+    & .texto-sobre-imagen {
+        font-size: 16px;
+        text-align: center;
+        color: #ffffff;
+    }
+
+    & .boton-sobre-imagen {
+        width: 79px;
+        margin-bottom: 45px;
+        color: #1e1e1e;
+        transition: transform .2s ease-in-out;
+    } 
+    }
+ }

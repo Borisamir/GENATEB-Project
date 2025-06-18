@@ -166,4 +166,14 @@
     align-self: center;
     text-align: center;
 }
+.clientes-content {
+    padding: 64px 0 100px;
+    overflow: hidden;
+    
+    & .texto-cliente {
+        font-size: 20px;
+        color: #083d29;
+        text-align: center;
+    }
+}
 }
