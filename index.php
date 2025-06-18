@@ -191,45 +191,48 @@
             </div>
         </div>
         <section class="container-formulario center">
-            <img src="<?php echo $_ENV["RESOURCES"]; ?>/Body/señor3_fondo.png" alt="Trabajador">
-            <div class="form-content center-r">
-                <div class="formulario-texto">
-                    <h2 class="titulo-contacto" >CONTACTANOS</h2>
-                    <form class="form" action="contact.php" method="post" onsubmit="return Validar()">
-                        <label for="nombre">
-                            Nombre y Apellidos
-                            <input type="text" id="nombre" name="name">
-                        </label>
-                        <label for="correo_electronico">
-                            Correo Electronico
-                            <input type="text" id="correo_electronico" name="email">
-                        </label>
-                        <label for="telefono">
-                            Numero de telefono
-                            <input type="number" id="telefono" name="phone">
-                        </label>
-                        <label for="tipo_servicio">
-                            Tipo de servicio que le interesa
-                            <select id="tipo_servicio" name="service">
-                                <option value="Monitoreo de agentes ocupacionales">Monitoreo de agentes ocupacionales</option>
-                                <option value="Monitoreo de calidad ambiental">Monitoreo de calidad ambiental</option>
-                                <option value="Elaboración de instrumentos de Gestión Ambiental">Elaboracion de Instrumentos de Gestion Ambiental</option>
-                                <option value="Permisología Ambiental Minera">Permisologia Ambiental Minera</option>
-                                <option value="Estudios Complementarios">Estudios Complementarios</option>
-                                <option value="Seguridad y Salud en el Trabajo">Seguridad y Salud en el trabajo</option>
-                                <option value="Capacitaciones">Capacitaciones</option>
-                            </select>
-                        </label>
-                        <label for="mensaje">
-                            Mensaje o consulta
-                            <input type="text" id="mensaje" name="message">
-                        </label>
-                        <label class="terms">
-                            <input type="checkbox" name="terms">Acepto terminos y condiciones
-                        </label>
-                        <button type="submit">enviar</button>
-                        <div id="mensaje-error" style="color: red; margin-top: 10px;font-size:20px"></div>
-                    </form>
+            <img src="<?php echo $_ENV["RESOURCES"]; ?>/Body/señor3_fondo.png" alt="trabajador">
+            <div>
+                <div class="form-content center-r">
+                    <div class="formulario-texto">
+                        <h2 class="titulo-contacto" >CONTÁCTANOS</h2>
+                        <form class="form font-inter" action="contact.php" method="post" onsubmit="return Validar()">
+                            <label for="nombre">
+                                Nombre y Apellidos
+                                <input id="nombre" type="text" name="name">
+                            </label>
+                            <label for="correo_electronico">
+                                Correo Electronico
+                                <input id="correo_electronico" type="email" name="email">
+                            </label>
+                            <label for="telefono">
+                                Número de teléfono
+                                <input id="telefono" type="number" name="phone">
+                            </label>
+                            <label for="tipo_servicio">
+                                Tipo de servicio que le interesa
+                                <select id="tipo_servicio" name="service">
+                                    <option value="Monitoreo de agentes ocupacionales">Monitoreo de agentes ocupacionales</option>
+                                    <option value="Monitoreo de calidad ambiental">Monitoreo de calidad ambiental</option>
+                                    <option value="Elaboración de instrumentos de Gestión Ambiental">Elaboración de instrumentos de Gestión Ambiental</option>
+                                    <option value="Permisología Ambiental Minera">Permisologia Ambiental Minera</option>
+                                    <option value="Estudios Complementarios">Estudios Complementarios</option>
+                                    <option value="Seguridad y Salud en el Trabajo">Seguridad y Salud en el trabajo</option>
+                                    <option value="Capacitaciones">Capacitaciones</option>
+                                </select>
+                            </label>
+                            <label for="mensaje">
+                                Mensaje o consulta
+                                <input id="mensaje" type="text" name="message">
+                            </label>
+                            <label class="terms">
+                                <input type="checkbox" name="terms">
+                                Acepto término y condiciones
+                            </label>
+                            <p id="mensaje-error"></p>
+                            <button type="submit">Enviar</button>
+                        </form>
+                    </div>
                 </div>
             </div>
         </section>
