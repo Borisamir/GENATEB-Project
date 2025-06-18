@@ -17,14 +17,17 @@
                 <img src="<?php echo $_ENV["RESOURCES"]; ?>\Imagenes_Estudios_Complementarios\Banner_Estudios.png">
             </div>
         </div>
+        <div class="contenedor-boton-what">
+            <a class="contact" href="<?php echo $_ENV["WHATSAPP_LINK"]; ?>" target="_blank"><img src="<?php echo $_ENV["RESOURCES"]; ?>/Logos/slider-whatsapp.svg" alt="whatsapp"></a>
+        </div>
         <div class="contenedor-monitoreo">
             <div class="contenedor-texto" style="text-align:center">
-                <h2>ESTUDIOS COMPLEMENTARIOS</h2>
+                <h2>ESTUDIOS<br class="salto-celular"> COMPLEMENTARIOS</h2>
             </div>
         </div>
         <div class="contenedor-monitoreo">
             <div class="contenedor-parrafo" >
-                <p>Realizamos estudios técnicos adicionales que<br>complementan los instrumentos de gestión ambiental.</p>
+                <p>Realizamos estudios técnicos adicionales<br class="salto-celular-net"> que <br class="salto-celular">complementan los instrumentos de <br class="salto-celular">gestión ambiental.</p>
             </div>
         </div>
         <div class="contenedor-monitoreo">
@@ -70,23 +73,25 @@
                 <p>Estudio de evaluación<br>de riesgos(EVAR)</p>
             </div>
         </div>
-        <section class="container-servicios center-r">
-            <h2 class="texto-servicio">OTROS SERVICIOS</h2>
-            <div class="services">
-                <div class="servicio-item">
-                    <img src="..\recursos\Servicios_Imagenes\imagen_monitoreo_ocupacionales.png" alt="Ocupacional">
-                    <p class="texto-sobre-imagen">Monitoreo de agentes ocupacionales</p>
-                    <a href="..\pages\monitoreo-ocupacional.php" class="green-button boton-sobre-imagen">ver más</a>
-                </div>
-                <div class="servicio-item">
-                    <img src="..\recursos\Servicios_Imagenes\imagen_monitoreo_ambientales.png" alt="Elaboracion">
-                    <p class="texto-sobre-imagen">Monitoreo de agentes<br>ambientales</p>
-                    <a href="..\pages\monitoreo_ambiental.php" class="green-button boton-sobre-imagen">ver más</a>
-                </div>
-                <div class="servicio-item">
-                    <img src="..\recursos\Servicios_Imagenes\imagen_elaboracion_ambiental.png" alt="Minera">
-                    <p class="texto-sobre-imagen">Elaboracion de instrumentos<br>de gestion ambiental</p>
-                    <a href="..\pages\elaboracion_instrumentos.php" class="green-button boton-sobre-imagen">ver más</a>
+        <section class="container-servicios" style="padding-bottom: 70px;">
+            <div class="center-r">
+                <h2 class="texto-servicio">OTROS SERVICIOS</h2>
+                <div class="services font-inter">
+                    <div class="servicio-item">
+                        <img src="<?php echo $_ENV["RESOURCES"]; ?>/Servicios_Imagenes\imagen_monitoreo_ocupacionales.png" alt="ocupacional">
+                        <p class="texto-sobre-imagen">Monitoreo de agentes ocupacionales</p>
+                        <a class="green-button boton-sobre-imagen" href="<?php echo $_ENV["PAGES"]; ?>/monitoreo-ocupacional.php">VER MÁS</a>
+                    </div>
+                    <div class="servicio-item">
+                        <img src="<?php echo $_ENV["RESOURCES"]; ?>/Servicios_Imagenes\imagen_monitoreo_ambientales.png" alt="ambiental">
+                        <p class="texto-sobre-imagen">Monitero de agentes<br>ambientales</p>
+                        <a class="green-button boton-sobre-imagen" href="<?php echo $_ENV["PAGES"]; ?>/monitoreo_ambiental.php">VER MÁS</a>
+                    </div>
+                    <div class="servicio-item">
+                        <img src="<?php echo $_ENV["RESOURCES"]; ?>/Servicios_Imagenes\imagen_permisologia_minera.png" alt="minera">
+                        <p class="texto-sobre-imagen">Permisologia ambiental<br>minera</p>
+                        <a class="green-button boton-sobre-imagen" href="<?php echo $_ENV["PAGES"]; ?>/permisología-ambiental-minera.php">VER MÁS</a>
+                    </div>
                 </div>
             </div>
         </section>

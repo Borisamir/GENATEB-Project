@@ -6,6 +6,7 @@
     <?php include_once "../global.php"; ?>
     <link rel="stylesheet" href="<?php echo $_ENV["STYLES"]; ?>/index/main.index.section.css">
     <link rel="stylesheet" href="<?php echo $_ENV["STYLES"]; ?>/main.nosotros.css">
+    <link rel="stylesheet" href="<?php echo $_ENV["STYLES"]; ?>/ambiental_styles/banner.rs.css">
 <!-- ejem -->
     
     <title>Nosotros</title>
@@ -18,6 +19,9 @@
                 <img src="<?php echo $_ENV["RESOURCES"]; ?>\Body\imagen_señor_2.png" alt="banner-nosotros">
             </div>
         </div>
+        <div class="contenedor-boton-what-nos">
+            <a class="contact" href="<?php echo $_ENV["WHATSAPP_LINK"]; ?>" target="_blank"><img src="<?php echo $_ENV["RESOURCES"]; ?>/Logos/slider-whatsapp.svg" alt="whatsapp"></a>
+        </div> 
         <!-- Seccion Nosotros -->
         <section class="sd-section">
             <h2>NOSOTROS</h2>

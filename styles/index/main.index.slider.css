@@ -60,6 +60,11 @@
         width: 137px;
         border: none;
     }
+
+
+    & .quote, .contact {
+        z-index: 1;
+    }
 }
 
 .slider-container .slider .slide .content .center-r > div .contact {

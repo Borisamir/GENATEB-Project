@@ -5,29 +5,59 @@
         display: grid;
     }
 
+    .bg-menu {
+        width: 0;
+        height: 100%;
+        position: absolute;
+        top: var(--hw-height);
+        right: 0;
+        background-color: #0000006a;
+        opacity: 0;
+        transition-property: width, opacity;
+        transition-duration: .2s;
+        transition-timing-function: ease-in-out;
+        z-index: 2;
+    }
+
+    #menu-toggle:checked ~ .bg-menu {
+        width: 100%;
+        opacity: 1;
+    }
+
+    #menu-toggle:checked ~ .menu-icon span {
+        background-color: #31955b;
+    }
+
+    #menu-toggle:checked ~ .menu-icon span:nth-child(1) {
+        transform: translateY(7.5px) rotate(45deg);
+    }
+
+    #menu-toggle:checked ~ .menu-icon span:nth-child(2) {
+        width: 0;
+    }
+
+    #menu-toggle:checked ~ .menu-icon span:nth-child(3) {
+        transform: translateY(-7.5px) rotate(-45deg);
+    }
+
+    #menu-toggle:checked ~ .menu-container {
+        left: 0;
+    }
+
     .menu-container  {
         width: 360px;
-        height: calc(100vh - var(--hw-height));
+        height: 100%;
         position: absolute;
-        top: 100%;
+        top: var(--hw-height);
         left: -100%;
         background-color: #ffffff;
         transition: left .3s ease-in-out;
         z-index: 2;
     }
 
-    .menu-container::after {
-        content: "";
-        /* width: 100dvw; */
-        height: 100%;
-        position: absolute;
-        top: 0;
-        left: 100%;
-        background: linear-gradient(-90deg,
-            rgba(255, 255, 255, 0) 8.65%,
-            rgba(8, 61, 41, 0.22) 28.41%,
-            rgba(8, 61, 41, 0.625) 56.45%,
-            rgba(8, 61, 41, 0.75) 79.59%);
+    .header-scroller {
+        position: fixed !important;
+        top: 0 !important;
     }
 
     .menu-container ul {

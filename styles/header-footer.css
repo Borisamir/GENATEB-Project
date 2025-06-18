@@ -41,26 +41,6 @@
 }
 
 /* .header-wrapper > div */
-#menu-toggle:checked ~ .menu-icon span {
-    background-color: #31955b;
-}
-
-#menu-toggle:checked ~ .menu-icon span:nth-child(1) {
-    transform: translateY(7.5px) rotate(45deg);
-}
-
-#menu-toggle:checked ~ .menu-icon span:nth-child(2) {
-    width: 0;
-}
-
-#menu-toggle:checked ~ .menu-icon span:nth-child(3) {
-    transform: translateY(-7.5px) rotate(-45deg);
-}
-
-#menu-toggle:checked ~ .menu-container {
-    left: 0;
-}
-
 .menu-icon {
     width: 30px;
     height: 30px;
@@ -105,6 +85,7 @@
     list-style-type: none;
     background-color: #ffffff;
     transition: height .3s ease-in-out;
+    z-index: 1;
 
     & li a {
         padding-left: calc(var(--page-sides) / 2);
@@ -123,7 +104,6 @@
         filter: invert(51%) sepia(83%) saturate(4827%) hue-rotate(132deg) brightness(88%) contrast(103%);
     }
 }
-
 /* END-HEADER */
 
 /* FOOTER */

@@ -10,20 +10,21 @@
                 <span></span>
                 <span></span>
             </label>
-            <nav class="menu-container">
+            <div id="bg-menu" class="bg-menu"></div>
+            <nav id="menu" class="menu-container">
                 <ul>
                     <li><a href="<?php echo $_ENV["ROOT"]; ?>">INICIO</a></li>
                     <li><a href="<?php echo $_ENV["PAGES"]; ?>/nosotros.php">NOSOTROS</a></li>
                     <li>
-                        <a href="#">SERVICIO</a>
+                        <a href="<?php echo $_ENV["PAGES"]; ?>/servicios.php">SERVICIO</a>
                         <ul class="submenu">
-                            <li><a href="<?php echo $_ENV["PAGES"]; ?>">Monitoreo de agentes ocupacionales</a></li>
-                            <li><a href="<?php echo $_ENV["PAGES"]; ?>">Monitoreo de agentes ambientales</a></li>
-                            <li><a href="<?php echo $_ENV["PAGES"]; ?>">Elaboración de instrumentos de gestión ambiental</a></li>
-                            <li><a href="<?php echo $_ENV["PAGES"]; ?>">Permisología ambiental minera</a></li>
-                            <li><a href="<?php echo $_ENV["PAGES"]; ?>">Estudios complementarios</a></li>
-                            <li><a href="<?php echo $_ENV["PAGES"]; ?>">Seguridad y salud en el trabajo</a></li>
-                            <li><a href="<?php echo $_ENV["PAGES"]; ?>">Capacitaciones</a></li>
+                            <li><a href="<?php echo $_ENV["PAGES"]; ?>/monitoreo-ocupacional.php">Monitoreo de agentes ocupacionales</a></li>
+                            <li><a href="<?php echo $_ENV["PAGES"]; ?>/monitoreo_ambiental.php">Monitoreo de agentes ambientales</a></li>
+                            <li><a href="<?php echo $_ENV["PAGES"]; ?>/elaboracion_instrumentos.php">Elaboración de instrumentos de gestión ambiental</a></li>
+                            <li><a href="<?php echo $_ENV["PAGES"]; ?>/permisología-ambiental-minera.php">Permisología ambiental minera</a></li>
+                            <li><a href="<?php echo $_ENV["PAGES"]; ?>/estudios_complementarios.php">Estudios complementarios</a></li>
+                            <li><a href="<?php echo $_ENV["PAGES"]; ?>/sst.php">Seguridad y salud en el trabajo</a></li>
+                            <li><a href="<?php echo $_ENV["PAGES"]; ?>/capacitaciones.php">Capacitaciones</a></li>
                         </ul>
                     </li>
                     <li><a href="#">BLOG</a></li>
@@ -38,23 +39,47 @@
         </div>
     </div>
     <script>
-        const css$media = window.matchMedia("(max-width: 1030px)");
+        const css$media = window.matchMedia("(max-width: 899px)");
+        const div$bg_menu = document.getElementById("bg-menu");
+        const nav$menu = document.getElementById("menu");
         const input$menu_toggle = document.getElementById("menu-toggle");
+
+        function headerScroll() {
+            div$bg_menu.classList.toggle("header-scroller", this.window.scrollY > 99)
+            nav$menu.classList.toggle("header-scroller", this.window.scrollY > 99)
+        }
 
         css$media.addEventListener("change", function(evt) {
             if (!evt.matches && input$menu_toggle.checked) {
-                input$menu_toggle.checked = false;
-                document.body.style.overflow = "initial";
-            }
-        })
-
-        input$menu_toggle.addEventListener("click", function(evt) {
-            if (!css$media.matches) {
-                evt.preventDefault();
+                window.removeEventListener("scroll", headerScroll);
                 return;
             }
 
-            document.body.style.overflow = this.checked ? "hidden" : "initial";
+            if (input$menu_toggle.checked) {
+                if (window.scrollY < 99) {
+                    div$bg_menu.classList.remove("header-scroller");
+                    nav$menu.classList.remove("header-scroller");
+                } else {
+                    div$bg_menu.classList.add("header-scroller");
+                    nav$menu.classList.add("header-scroller");
+                }
+
+                window.addEventListener("scroll", headerScroll);
+            }
+        })
+
+        input$menu_toggle.addEventListener("change", function() {
+            if (this.checked) {
+                window.addEventListener("scroll", headerScroll);
+            } else {
+                window.removeEventListener("scroll", headerScroll)
+            }
+        })
+
+        div$bg_menu.addEventListener("click", function() {
+            if (input$menu_toggle.checked) {
+                input$menu_toggle.checked = false;
+            }
         })
     </script>
 </header>

@@ -62,7 +62,7 @@ body{
 }
 
 .contenedor-texto h2{
-    font-family: 'Inter',sans-serif;
+    font-family: 'Inter','sans-serif';
     color:#083D29;
     font-size: 35px;
     font-weight: bold;
@@ -75,7 +75,6 @@ body{
 }
 
 .contenedor-texto-cap h2{
-    font-family: 'Inter',sans-serif;
     color:#083D29;
     font-size: 25px;
     font-weight: bold;
@@ -91,7 +90,6 @@ body{
 }
 
 .contenedor-parrafo p{
-    font-family: 'Inter',sans-serif;
     color:#3E4851;
     font-size:20px;
     font-weight:100;
@@ -106,7 +104,6 @@ body{
 }
 
 .contenedor-parrafo-cap p{
-    font-family: 'Inter',sans-serif;
     color:#3E4851;
     font-size:20px;
     font-weight:100;
@@ -148,7 +145,7 @@ body{
 }
 
 .contenedor-texto-aire h2{
-    font-family: 'Inter',sans-serif;
+    font-family: 'Inter','sans-serif';
     color:#083D29;
     font-size: 25px;
     font-weight: bold;
@@ -185,7 +182,6 @@ body{
 }
 
 .imagen-texto p{
-    font-family: 'Inter',sans-serif;
     color:#757575;
     font-size: 25px;
     line-height: 1;
@@ -202,7 +198,6 @@ body{
 }
 
 .imagen-texto-cap p{
-    font-family: 'Inter',sans-serif;
     color:#757575;
     font-size: 25px;
     line-height: 1;
@@ -211,9 +206,14 @@ body{
 
 }
 
+.imagen-texto-cap.flora img{
+    width: 78px;
+    height:115px;
+    margin-top:10px
+}
+
 .imagen-texto-cap.fauna{
     order: 5;
-
 }
 
 .fila{
@@ -254,11 +254,28 @@ body{
     top:-50px;
 }
 
+.contenedor-boton-what-nos{
+    position:relative;
+    background-color: white;
+}
+
+.contenedor-boton-what-nos a{
+    position: absolute;
+    right: 100px;
+    top:150px;
+}
+
 .salto-celular{
+    line-height: 1;
     display: none;
+    margin:0;
+    padding: 0;
 }
 
 .salto-celular-net{
     display: inline;
+    line-height: 1;
+    margin:0;
+    padding: 0;
 }
 

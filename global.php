@@ -11,3 +11,4 @@ $dotenv -> safeLoad();
 <link rel="stylesheet" href="<?php echo $_ENV["STYLES"]; ?>/header-footer.css">
 <link rel="stylesheet" href="<?php echo $_ENV["STYLES"]; ?>/header-footer-rs.css">
 <link rel="stylesheet" href="<?php echo $_ENV["STYLES"]; ?>/ambiental_styles/banner.css">
+

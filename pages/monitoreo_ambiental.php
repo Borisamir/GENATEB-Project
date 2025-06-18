@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="<?php echo $_ENV["STYLES"]; ?>/ambiental_styles/banner.rs.css">
     <link rel="stylesheet" href="<?php echo $_ENV["STYLES"]; ?>/ambiental_styles/h-f.css">
     <link rel="stylesheet" href="<?php echo $_ENV["STYLES"]; ?>/index/main.index.section.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
     <title>Monitoreo Ambiental</title>
 </head>
 <body>
@@ -14,7 +15,7 @@
     <main>
         <div class="contenedor-banner">
             <div class="contenedor-imagen">
-            <img src="<?php echo $_ENV["RESOURCES"]; ?>\Imagenes_Monitoreo_Ambiental\Banner_Monitoreo.png" alt="monitoreo ambiental">
+                <img src="<?php echo $_ENV["RESOURCES"]; ?>\Imagenes_Monitoreo_Ambiental\Banner_Monitoreo.png" alt="monitoreo ambiental">
             </div>
         </div>
         <div class="contenedor-boton-what">
@@ -22,12 +23,12 @@
         </div>
         <div class="contenedor-monitoreo">
             <div class="contenedor-texto" style="text-align:center">
-                <h2>MONITOREO DE AGENTES<span class="salto-celular"><br></span> AMBIENTALES</h2>
+                <h2>MONITOREO DE AGENTES<br class="salto-celular"> AMBIENTALES</h2>
             </div>
         </div>
         <div class="contenedor-monitoreo">
             <div class="contenedor-parrafo" >
-                <p>Realizaremos monitoreos especializados para evaluar la calidad del aire, agua,<span class="salto-celular-net"><br></span>suelo y ruido ambiental, asegurando el cumplimiento de<span class="salto-celular-net"><br></span> la normativa vigente y la protección del entorno.</p>
+                <p>Realizaremos monitoreos especializados para evaluar la calidad del aire, agua,<br class="salto-celular-net">suelo y ruido ambiental, asegurando el cumplimiento de<br class="salto-celular-net"> la normativa vigente y la protección del entorno.</p>
             </div>
         </div>
         <div class="contenedor-monitoreo">
@@ -90,7 +91,7 @@
                 <p>Ornitofauna</p>
             </div>
             <div class="imagen-texto-cap ancho-400 flora">
-                <img src="../recursos/Imagenes_Monitoreo_Ambiental/Monitoreo_Biologico/Planta.png" style="width: 78px;height: 121px;">
+                <img src="../recursos/Imagenes_Monitoreo_Ambiental/Monitoreo_Biologico/Planta.png">
                 <p>Flora</p>
             </div>
             <div class="imagen-texto-cap ancho-400 fauna">
@@ -113,23 +114,25 @@
                 <p>Aguas superficiales,<br>subterránea,consumo<br>humano y efluentes.</p>
             </div>
         </div>
-        <section class="container-servicios center-r" >
-            <h2 class="texto-servicio">OTROS SERVICIOS</h2>
-            <div class="services">
-                <div class="servicio-item">
-                    <img src="../recursos/Servicios_Imagenes/imagen_monitoreo_ocupacionales.png" alt="Ocupacional">
-                    <p class="texto-sobre-imagen">Monitoreo de agentes ocupacionales</p>
-                    <a href="../pages/monitoreo-ocupacional.php" class="green-button boton-sobre-imagen">ver más</a>
-                </div>
-                <div class="servicio-item">
-                    <img src="../recursos/Servicios_Imagenes/imagen_elaboracion_ambiental.png" alt="Elaboracion">
-                    <p class="texto-sobre-imagen">Elaboracion de instrumentos<br>de gestion ambiental</p>
-                    <a href="../pages/elaboracion_instrumentos.php" class="green-button boton-sobre-imagen">ver más</a>
-                </div>
-                <div class="servicio-item">
-                    <img src="../recursos/Servicios_Imagenes/imagen_permisologia_minera.png" alt="Minera">
-                    <p class="texto-sobre-imagen">Permisologia ambiental<br>minera</p>
-                    <a href="../pages/permisología-ambiental-minera.php" class="green-button boton-sobre-imagen">ver más</a>
+        <section class="container-servicios" style="padding-bottom: 70px;">
+            <div class="center-r">
+                <h2 class="texto-servicio">OTROS SERVICIOS</h2>
+                <div class="services font-inter">
+                    <div class="servicio-item">
+                        <img src="<?php echo $_ENV["RESOURCES"]; ?>/Servicios_Imagenes\imagen_monitoreo_ocupacionales.png" alt="ocupacional">
+                        <p class="texto-sobre-imagen">Monitoreo de agentes ocupacionales</p>
+                        <a class="green-button boton-sobre-imagen" href="<?php echo $_ENV["PAGES"]; ?>/monitoreo-ocupacional.php">VER MÁS</a>
+                    </div>
+                    <div class="servicio-item">
+                        <img src="<?php echo $_ENV["RESOURCES"]; ?>/Servicios_Imagenes\imagen_elaboracion_ambiental.png" alt="elaboracion">
+                        <p class="texto-sobre-imagen">Elaboracion de instrumentos<br>de gestion ambiental</p>
+                        <a class="green-button boton-sobre-imagen" href="<?php echo $_ENV["PAGES"]; ?>/elaboracion_instrumentos.php">VER MÁS</a>
+                    </div>
+                    <div class="servicio-item">
+                        <img src="<?php echo $_ENV["RESOURCES"]; ?>/Servicios_Imagenes\imagen_permisologia_minera.png" alt="minera">
+                        <p class="texto-sobre-imagen">Permisologia ambiental<br>minera</p>
+                        <a class="green-button boton-sobre-imagen" href="<?php echo $_ENV["PAGES"]; ?>/permisología-ambiental-minera.php">VER MÁS</a>
+                    </div>
                 </div>
             </div>
         </section>
