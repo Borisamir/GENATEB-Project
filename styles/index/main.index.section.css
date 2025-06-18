@@ -153,7 +153,7 @@
 
     & img {
         width: 100%;
-        /* height: 100%; */
+        height: 880px;
         position: absolute;
     }
 }
@@ -252,9 +252,13 @@
     cursor: pointer;
 }
 
+.solo-celular{
+    display: none;
+}
+
 
 /* ===================== MEDIA QUERIES PARA CELULARES ===================== */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 844px) {
     /* Logros */
     .contenedor-logros {
         display: flex;
@@ -264,6 +268,14 @@
         text-align: left;
         box-sizing: border-box;
         height: auto;
+    }
+
+    .solo-celular{
+        display: block;
+    }
+
+    .solo-pc{
+        display: none;
     }
     .contenedor-logros .logros-texto h3 {
         font-size: 28px;
@@ -311,18 +323,18 @@
         display: flex;
         flex-direction: column;
         align-items: center;
+        position: relative;
     }
 
     .container-formulario img {
-        display: block;
-        width: 240%;
+        width: 90%;
         /*max-width: 100px;*/
-        height: auto;
+        height: 658px;
         /*margin: 400px auto 0 auto;*/
         object-fit: contain;
         box-shadow: none;
-        padding: 110px;
-        margin: 650px 0 0 -390px;
+        position: absolute;
+        top:790px
         
     }
     
@@ -348,3 +360,4 @@
         transform: translateX(-50%);
     }
 }
+
