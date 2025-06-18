@@ -24,7 +24,7 @@
         </div> 
         <!-- Seccion Nosotros -->
         <section class="sd-section">
-            <h2>NOSOTROS</h2>
+            <h2 style="margin-top:50px">NOSOTROS</h2>
             <p>En Genateb ofrece soluciones especializadas en gestíon ambiental, monitoreo ocupaciones y seguridad. Elaboramos instrumentos técnicos adaptables a cada sector productivo.Nuestro enfoque cambia sostenibilidad, cumplimineto normativo y bienestar laboral. Acompañamos a nuestros clientes en el desarrollo de proyectos responsables.</p>
             <a href="https://wa.link/drs6v5" target="_blank" class="green-button">cotiza aqui</a>
         </section>

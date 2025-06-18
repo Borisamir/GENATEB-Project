@@ -105,6 +105,8 @@ section .sd {
     }
 }
 
+
+
 /* BUTTON */
 .green-button {
     --gb-height: 40px;
@@ -150,3 +152,23 @@ footer {
 }
 
 /* END-BODY */
+
+
+@media(max-width:768px){
+    .sd-section{
+        display: flex;
+
+
+    & p{
+        font-size: 12px;
+        line-height: 1.2;
+
+    }
+
+    & h2{
+        font-size: 17px;
+
+    }
+    }
+
+}
