@@ -72,7 +72,7 @@
   }
 
   .imagen-texto p {
-    font-size: 17px;
+    font-size: 15px;
   }
 
   .ancho-300{
@@ -90,8 +90,8 @@
   }
 
   .imagen-texto img{
-    height: 100px;
-    width: 100px;
+    height: 70px !important;
+    width: 70px !important;
   }
 
   
@@ -99,6 +99,10 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+  }
+
+  .imagen-texto{
+    margin-top: 0 !important;
   }
 
   
@@ -113,21 +117,31 @@
     max-width: 100%;
   }
 
+  .imagen-texto-cap.rana img{
+    width: 81px !important;
+    height: 48px !important;
+  }
+
+  .imagen-texto-cap img{
+    height: 65px !important;
+    width: 70px !important;
+
+  }
+
   .imagen-texto.rana{order:1;}
   .imagen-texto.ballena{ order:2;}
   .imagen-texto.paloma{order:3;}
   .imagen-texto.flora{order: 4;}
 
   .contenedor-boton-what {
-    position: relative;
+    position: fixed;
+    left:710px;
+    top:280px;
   }
 
   .contenedor-boton-what a img{
     width: 57px;
     height: 59px;
-    right: -70px;
-    top:10px;
-    position: absolute;
 
   }
 
@@ -154,7 +168,22 @@
 
   .imagen-texto-cap.flora img{
     height: 100px;
-    margin-top: 2px;
+    margin-top: 13px;
+  }
+
+  .paj img{
+    width: 119px !important;
+    height: 63px !important;
+  }
+
+  .fit img{
+    width: 58px !important;
+    height: 75px !important;
+  }
+
+  .iac img{
+    width:95px !important;
+    height:75px !important;
   }
 
 
@@ -178,6 +207,12 @@
   .imagen-texto-cap.flora img{
     height: 100px;
     margin-top: 2px;
+  }
+
+  .contenedor-boton-what {
+    position: fixed;
+    left:310px;
+    top:280px;
   }
 
   

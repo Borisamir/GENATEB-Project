@@ -14,11 +14,11 @@ if ($_SERVER["REQUEST_METHOD"] !== "POST") {
     exit;
 }
 
-$form_name = $_POST["name"];
-$form_email = $_POST["email"];
-$form_phone = $_POST["phone"];
-$form_service = $_POST["service"];
-$form_message = $_POST["message"];
+$form_name = htmlspecialchars(trim($_POST["name"] ?? ''), ENT_QUOTES, 'UTF-8');
+$form_email = filter_var(trim($_POST["email"] ?? ''), FILTER_SANITIZE_EMAIL);
+$form_phone = htmlspecialchars(trim($_POST["phone"] ?? ''), ENT_QUOTES, 'UTF-8');
+$form_service = htmlspecialchars(trim($_POST["service"] ?? ''), ENT_QUOTES, 'UTF-8');
+$form_message = htmlspecialchars(trim($_POST["message"] ?? ''), ENT_QUOTES, 'UTF-8');
 
 $body = "
 <b>Nombre y Apellido:</b> $form_name<br>
@@ -39,21 +39,28 @@ try {
     $mail -> SMTPAuth = true;
     $mail -> Username = $_ENV["MAIL_USERNAME"]; // SMTP username
     $mail -> Password = $_ENV["MAIL_PASSWORD"]; // SMTP password
-    $mail -> SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;
+
+    if ($_ENV["MAIL_SECURE"] === "SSL") {
+        $mail -> SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;
+    } else if ($_ENV["MAIL_SECURE"] === "TSL") {
+        $mail -> SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
+    } else {
+        $mail -> SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;
+    }
+
     $mail -> Port = $_ENV["MAIL_PORT"]; // TCP port to connect to; use 587 if you have set `SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS`
 
     // Recipients
-    $mail -> setFrom($form_email, $form_name);
-    $mail -> addAddress($mail -> Username, "Genateb");
+    $mail -> setFrom($form_email, "Consulta");
+    $mail -> addAddress($mail -> Username, $form_name);
 
     // Content
     $mail -> isHTML(true);
-    $mail -> Subject = $form_service;
+    $mail -> Subject = "Consulta: " . $form_service;
     $mail -> Body = $body;
-
     $mail -> send();
 
-    header("Location: " . $_ENV["ROOT"] . "/index.php");
+    header("Location: " . $_ENV["ROOT"]);
 } catch (Exception $err) {
     echo "Message could not be sent. Mailer Error: {$mail -> ErrorInfo}";
 }

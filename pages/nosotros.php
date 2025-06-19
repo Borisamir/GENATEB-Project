@@ -21,10 +21,15 @@
             <a class="contact" href="<?php echo $_ENV["WHATSAPP_LINK"]; ?>" target="_blank"><img src="<?php echo $_ENV["RESOURCES"]; ?>/Logos/slider-whatsapp.svg" alt="whatsapp"></a>
         </div> 
         <!-- Seccion Nosotros -->
-        <section class="sd-section">
-            <h2>NOSOTROS</h2>
-            <p>En Genateb ofrece soluciones especializadas en gestíon ambiental, monitoreo ocupaciones y seguridad. Elaboramos instrumentos técnicos adaptables a cada sector productivo.Nuestro enfoque cambia sostenibilidad, cumplimineto normativo y bienestar laboral. Acompañamos a nuestros clientes en el desarrollo de proyectos responsables.</p>
-            <a href="https://wa.link/drs6v5" target="_blank" class="green-button">cotiza aqui</a>
+        <section class="us">
+            <div class="sd-section">
+                <h2>NOSOTROS</h2>
+                <p>En Genateb ofrece soluciones especializadas en gestíon ambiental, monitoreo ocupaciones y seguridad. Elaboramos instrumentos técnicos adaptables a cada sector productivo.Nuestro enfoque cambia sostenibilidad, cumplimineto normativo y bienestar laboral. Acompañamos a nuestros clientes en el desarrollo de proyectos responsables.</p>
+                <a class="green-button" href="<?php echo $_ENV["WHATSAPP_LINK"]; ?>" target="_blank">COTIZA AQUI</a>
+            </div>
+            <div class="video-placeholder">
+                <video src="<?php echo $_ENV["VIDEO_LINK"]; ?>" preload></video>
+            </div>
         </section>
         <!-- Seccion Nuestros Pilares -->
         <section class="pilares">

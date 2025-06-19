@@ -1,0 +1,31 @@
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fzf-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* gap: 30px; */
+    margin: 50px 0;
+    padding: 0 var(--page-sides);
+
+    & h1 {
+        font-size: 60px;
+        color: #083d29;
+    }
+
+    & p {
+        margin-bottom: 40px;
+        color: #757575;
+    }
+}

@@ -1,6 +1,7 @@
 main {
     background-color: #ffffff;
 }
+/*que paso */
 
 .us {
     display: flex;
@@ -109,8 +110,14 @@ main {
 /*adaptable*/
 
 @media (max-width: 900px) {
+    .pilares-content h3 {
+        grid-column: 1 / -1;
+        font-size: 20px;
+        color: #009951;
+        text-align: center;
+    }
     .pilares-content {
-        padding: 20px;
+        padding: 30px;
         grid-template-columns: 1fr; 
         gap: 30px;
     }
@@ -120,6 +127,22 @@ main {
         gap: 50px;                
         margin-bottom: 30px;
     }
+    .pilares-content .pilar p {
+        font-size: 12px;
+        text-align: justify;
+        color: #fbf6f0;
+    }
+    .valores {
+    padding: 77px 40px 100px 40px;
+    background-color: #f6f6ee;
+    }
+
+    .valores-content h3 {
+    width: 100%;
+    font-size: 20px;
+    text-align: center;
+    color: #083d29;
+    }
     .pilares-content .pilar-image {
         width: 70px;
         height: 70px;
@@ -127,11 +150,14 @@ main {
         flex-shrink: 0;
         margin-right: 20px;
     }
-    .pilares-content .pilar h4,
+    /*.pilares-content .pilar h4,
     .pilares-content .pilar p {
-    font-size: 15px;
-    margin: 10px 0;
-    }
+        font-size: 12px;
+        text-align: justify;
+        color: #fbf6f0;
+
+    }*/
+    
 
     /*valores*/
     .valores-content .valor img {

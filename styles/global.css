@@ -84,6 +84,7 @@ html {
     align-items: center;
     gap: 22px;
     margin-bottom: 20px;
+    text-align: center;
 
     & h2 {
         font-size: 35px;
@@ -118,6 +119,11 @@ html {
     text-decoration: none;
     text-transform: uppercase;
     color: #f5f5f5;
+    transition: background-color 0.4s ease;
+}
+
+.green-button:hover{
+    background-color: #000000;
 }
 
 /* fonts class */
@@ -162,7 +168,7 @@ footer {
     }
 
     & h2{
-        font-size: 17px;
+        font-size: 20px;
 
     }
     }

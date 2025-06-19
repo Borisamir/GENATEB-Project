@@ -70,6 +70,8 @@
 .slider-container .slider .slide .content .center-r > div .contact {
     width: 84px;
     height: 84px;
+    position: fixed;
+    top: 650px;
 
     & img {
         width: 100%;

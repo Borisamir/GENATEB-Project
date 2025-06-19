@@ -38,7 +38,7 @@
             </div>
         </div>
         <div class="contenedor-imagen-texto">
-            <div class="imagen-texto" style="width: 300px;margin-top:55px">
+            <div class="imagen-texto paj" style="width: 300px;margin-top:55px">
                 <img src="/GENATE_WEB/recursos\Imagenes_Elaboracion_Instrumentos\Eia.png" style="width: 187px;height: 100px;">
                 <p>Estudios de Impacto<br>Ambiental<br>(EIA)</p>
             </div>
@@ -47,21 +47,21 @@
                 <p>Evaluación Ambiental<br>Preliminar y Planes de<br>Manejo(EVAP Y PMA)</p>
             </div>
             <div class="imagen-texto" style="width: 300px;margin-top:50px">
-                <img src="/GENATE_WEB/recursos\Imagenes_Elaboracion_Instrumentos\Hoja_Planta.png" style="width: 116px;height: 115px;margin-right:-21px">
+                <img src="/GENATE_WEB/recursos\Imagenes_Elaboracion_Instrumentos\Hoja_Planta.png" style="width: 116px;height: 115px;">
                 <p>Declaración de Impacto<br>y Adecuacion Ambiental<br>(DIA,DAA)</p>
             </div>
         </div>
         <div class="contenedor-imagen-texto">
             <div class="imagen-texto" style="width: 300px;margin-top:50px">
-                <img src="/GENATE_WEB/recursos\Imagenes_Elaboracion_Instrumentos\Hoja_Logro.png" style="width: 118px;height: 118px;margin-right:-21px">
+                <img src="/GENATE_WEB/recursos\Imagenes_Elaboracion_Instrumentos\Hoja_Logro.png" style="width: 118px;height: 118px;margin-right:-10px">
                 <p>Instrumentos Técnicos<br>Sustentatorios<br>(ITS)</p>
             </div>
-            <div class="imagen-texto" style="width: 300px;margin-top:50px">
+            <div class="imagen-texto fit" style="width: 300px;margin-top:50px">
                 <img src="/GENATE_WEB/recursos\Imagenes_Elaboracion_Instrumentos\Hoja_Mas.png" style="width: 93px;height: 118px;" >
                 <p>Ficha Técnica<br>Sociambiental<br>(FITSA)</p>
             </div>
             <div class="imagen-texto" style="width: 300px;margin-top:50px;">
-                <img src="/GENATE_WEB/recursos\Imagenes_Elaboracion_Instrumentos\Hoja_Check.png" style="width: 128px;height: 128px;margin-right:-30px">
+                <img src="/GENATE_WEB/recursos\Imagenes_Elaboracion_Instrumentos\Hoja_Check.png" style="width: 128px;height: 128px;margin-right:-10px">
                 <p>Informe de gestión<br>ambiental<br>(IGA)</p>
             </div>
         </div>

@@ -240,14 +240,18 @@ body{
 
 
 .contenedor-boton-what{
-    position:relative;
     background-color: white;
+    position:fixed;
+    right: 150px;
+    top:540px;
+    z-index: 4;
+    
 }
 
 .contenedor-boton-what a{
-    position: absolute;
-    right: 100px;
-    top:-50px;
+    position: fixed;
+    
+    
 }
 
 .contenedor-boton-what-nos{

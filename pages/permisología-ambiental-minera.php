@@ -38,7 +38,7 @@
             </div>
         </div>
         <div class="contenedor-imagen-texto" >
-            <div class="imagen-texto ancho-400">
+            <div class="imagen-texto ancho-400 iac">
                 <img src="..\recursos\Imagenes_Permisologia_Ambiental\Estadistica.png" style="width: 163px;height: 130px;margin-bottom:20px;margin-right:-15px">
                 <p>Inicio de actividades de<br>Exploración y Explotación</p>
             </div>

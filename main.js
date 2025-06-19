@@ -71,28 +71,51 @@ indicators.forEach(function(ind) {
 
 /*Verificacion datos */
 function Validar(){
-    const nombre_apellido=document.getElementById("nombre").value.trim();
-    const correo=document.getElementById("correo_electronico").value.trim();
-    const telefono=document.getElementById("telefono").value.trim();
+    const nombre_apellido=document.getElementById("nombre");
+    const correo=document.getElementById("correo_electronico");
+    const telefono=document.getElementById("telefono");
+    const terms = document.getElementById("terms");
+
+    const message = document.getElementById("mensaje-error");
 
     const Letras=/^[a-zA-ZÁÉÍÓÚáéíóúÑñ\s]+$/;
     const correoValido=/^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
-    document.getElementById("mensaje-error").innerText="";
+    message.innerText="";
 
-    if(!Letras.test(nombre_apellido)){
-       document.getElementById("mensaje-error").innerText="Error: Nombre y Apellido solo deben contener Letras.";
+    if (nombre_apellido.value.trim() === "") {
+        message.innerText = "Nombre y apellidos esta vacio.";
+        return false;
+    }
+
+    if(!Letras.test(nombre_apellido.value.trim())){
+       message.innerText="Nombre y Apellido solo deben contener Letras.";
        return false;
     }
 
-    if(!correoValido.test(correo)){
-       document.getElementById("mensaje-error").innerText="Error: Ingrese un correo valido.";
+    if (correo.value.trim() === "") {
+        message.innerText = "Correo esta vacio.";
+        return false;
+    }
+
+    if(!correoValido.test(correo.value.trim())){
+       message.innerText = "Ingrese un correo valido.";
        return false;
     }
 
-    if(telefono && !/^\d{7,9}$/.test(telefono)){
-       document.getElementById("mensaje-error").innerText="Error: El numero debe tener entre 7 y 9 digitos.";/* no me deja ver los cambios bowis estoy q hago monitorio ocupacional pero no me deja realizar cambios */
+    if (telefono.value.trim() === "") {
+        message.innerText = "Ingrese un numero de contacto.";
+        return false;
+    }
+
+    if(telefono.value.trim() && !/^\d{7,9}$/.test(telefono.value.trim())) {
+       message.innerText="El numero debe tener entre 7 y 9 digitos.";/* no me deja ver los cambios bowis estoy q hago monitorio ocupacional pero no me deja realizar cambios */
        return false;
+    }
+
+    if (!terms.checked) {
+        message.innerText="Debe aceptar término y condiciones";
+        return false;
     }
 
     alert("El Formulario ha sido enviado correctamente");

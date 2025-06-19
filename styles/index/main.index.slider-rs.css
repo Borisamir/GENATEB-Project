@@ -19,8 +19,9 @@
         }
 
         & > div .contact {
-            width: 60px;
-            height: 60px;
+            width: 90px;
+            height: 90px;
+            top:265px;
         }
     }
 
@@ -79,7 +80,9 @@
         }
 
         & > div .contact {
-            display: none;
+            top:250px;
+            width:50px;
+            height: 59px;
         }
     }
 
