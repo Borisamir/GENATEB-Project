@@ -53,6 +53,7 @@
         background-color: #ffffff;
         transition: left .3s ease-in-out;
         z-index: 2;
+        overflow-y: scroll;
     }
 
     .header-scroller {

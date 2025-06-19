@@ -32,7 +32,7 @@
         </div>
         <div class="contenedor-monitoreo">
             <div class="contenedor-boton">
-                <a href="https://wa.link/drs6v5" class="boton-verde">
+                <a href="<?php echo $_ENV["WHATSAPP_LINK"]; ?>" class="boton-verde" target="_blank">
                     COTIZA AQUI
                 </a>
             </div>
@@ -49,7 +49,7 @@
         </div>
         <div class="contenedor-monitoreo-cap" >
             <div class="contenedor-boton-cap">
-                <a class="boton-verde" style="margin-top:-25px">
+                <a class="boton-verde" href="<?php echo $_ENV["WHATSAPP_LINK"]; ?>" style="margin-top:-25px" target="_blank">
                     COTIZAR SERVICIO
                 </a>
             </div>
@@ -130,7 +130,7 @@
         </div>
         <div class="contenedor-monitoreo-cap" >
             <div class="contenedor-boton-cap">
-                <a class="boton-verde" style="margin-top:-25px">
+                <a class="boton-verde" href="<?php echo $_ENV["WHATSAPP_LINK"]; ?>" style="margin-top:-25px" target="_blank">
                     COTIZAR SERVICIO
                 </a>
             </div>

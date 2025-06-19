@@ -32,36 +32,36 @@
         </div>
         <div class="contenedor-monitoreo">
             <div class="contenedor-boton">
-                <a href="https://wa.link/drs6v5" class="boton-verde">
+                <a href="<?php echo $_ENV["WHATSAPP_LINK"]; ?>" class="boton-verde" target="_blank">
                     COTIZA AQUI
                 </a>
             </div>
         </div>
         <div class="contenedor-imagen-texto">
             <div class="imagen-texto paj" style="width: 300px;margin-top:55px">
-                <img src="/GENATE_WEB/recursos\Imagenes_Elaboracion_Instrumentos\Eia.png" style="width: 187px;height: 100px;">
+                <img src="<?php echo $_ENV["RESOURCES"]; ?>/Imagenes_Elaboracion_Instrumentos\Eia.png" style="width: 187px;height: 100px;">
                 <p>Estudios de Impacto<br>Ambiental<br>(EIA)</p>
             </div>
             <div class="imagen-texto" style="width: 300px;margin-top:50px">
-                <img src="/GENATE_WEB/recursos\Imagenes_Elaboracion_Instrumentos\Hoja_Estadistica.png" style="width: 109px;height: 109px;margin-left:-19px">
+                <img src="<?php echo $_ENV["RESOURCES"]; ?>/Imagenes_Elaboracion_Instrumentos\Hoja_Estadistica.png" style="width: 109px;height: 109px;margin-left:-19px">
                 <p>Evaluación Ambiental<br>Preliminar y Planes de<br>Manejo(EVAP Y PMA)</p>
             </div>
             <div class="imagen-texto" style="width: 300px;margin-top:50px">
-                <img src="/GENATE_WEB/recursos\Imagenes_Elaboracion_Instrumentos\Hoja_Planta.png" style="width: 116px;height: 115px;">
+                <img src="<?php echo $_ENV["RESOURCES"]; ?>/Imagenes_Elaboracion_Instrumentos\Hoja_Planta.png" style="width: 116px;height: 115px;">
                 <p>Declaración de Impacto<br>y Adecuacion Ambiental<br>(DIA,DAA)</p>
             </div>
         </div>
         <div class="contenedor-imagen-texto">
             <div class="imagen-texto" style="width: 300px;margin-top:50px">
-                <img src="/GENATE_WEB/recursos\Imagenes_Elaboracion_Instrumentos\Hoja_Logro.png" style="width: 118px;height: 118px;margin-right:-10px">
+                <img src="<?php echo $_ENV["RESOURCES"]; ?>/Imagenes_Elaboracion_Instrumentos\Hoja_Logro.png" style="width: 118px;height: 118px;margin-right:-10px">
                 <p>Instrumentos Técnicos<br>Sustentatorios<br>(ITS)</p>
             </div>
             <div class="imagen-texto fit" style="width: 300px;margin-top:50px">
-                <img src="/GENATE_WEB/recursos\Imagenes_Elaboracion_Instrumentos\Hoja_Mas.png" style="width: 93px;height: 118px;" >
+                <img src="<?php echo $_ENV["RESOURCES"]; ?>/Imagenes_Elaboracion_Instrumentos\Hoja_Mas.png" style="width: 93px;height: 118px;" >
                 <p>Ficha Técnica<br>Sociambiental<br>(FITSA)</p>
             </div>
             <div class="imagen-texto" style="width: 300px;margin-top:50px;">
-                <img src="/GENATE_WEB/recursos\Imagenes_Elaboracion_Instrumentos\Hoja_Check.png" style="width: 128px;height: 128px;margin-right:-10px">
+                <img src="<?php echo $_ENV["RESOURCES"]; ?>/Imagenes_Elaboracion_Instrumentos\Hoja_Check.png" style="width: 128px;height: 128px;margin-right:-10px">
                 <p>Informe de gestión<br>ambiental<br>(IGA)</p>
             </div>
         </div>

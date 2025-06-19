@@ -35,7 +35,7 @@
                     <h3>Contacto</h3>
                     <ul class="font-inter">
                         <li>
-                            <img src="<?php echo $_ENV["RESOURCES"]; ?>\Logos\Logo_Telefono.svg" alt="telefono">
+                            <img class="no-filter" src="<?php echo $_ENV["RESOURCES"]; ?>\Logos\Logo_Telefono.svg" alt="telefono">
                             <a href="<?php echo $_ENV["WHATSAPP_LINK"]; ?>" target="_blank">933 257 830</a>
                         </li>
                         <li>

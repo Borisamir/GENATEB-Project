@@ -32,7 +32,7 @@
         </div>
         <div class="contenedor-monitoreo">
             <div class="contenedor-boton">
-                <a href="<?php echo $_ENV["WHATSAPP_LINK"]; ?>" class="boton-verde">
+                <a href="<?php echo $_ENV["WHATSAPP_LINK"]; ?>" class="boton-verde" target="_blank">
                     COTIZA AQUI
                 </a>
             </div>

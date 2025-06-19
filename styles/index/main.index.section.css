@@ -174,7 +174,7 @@
 }
 
 .formulario-texto {
-    width: 611px;
+    max-width: 611px;
     position: relative;
 
     & .titulo-contacto {

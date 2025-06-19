@@ -165,7 +165,7 @@
     display: flex;
     gap: 5px;
 
-    & img {
+    & img:not(.no-filter) {
         width: 24px;
         height: 29px;
         filter: invert(51%) sepia(83%) saturate(4827%) hue-rotate(132deg) brightness(88%) contrast(103%);
