@@ -191,8 +191,6 @@
             </div>
         </div>
         <section class="container-formulario center">
-            <img src="<?php echo $_ENV["RESOURCES"];?>/Body/imagen_señor_movil.jpeg" class="solo-celular">
-            <img src="<?php echo $_ENV["RESOURCES"]; ?>/Body/señor3_fondo.png" alt="trabajador" class="solo-pc">
             <div>
                 <div class="form-content center-r">
                     <div class="formulario-texto">
@@ -235,6 +233,9 @@
                         </form>
                     </div>
                 </div>
+            </div>
+            <div class="cf-img">
+                <img src="<?php echo $_ENV["RESOURCES"]; ?>/Body/señor3_fondo.png" alt="trabajador" class="solo-pc">
             </div>
         </section>
     </main>

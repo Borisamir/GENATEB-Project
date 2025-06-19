@@ -152,16 +152,25 @@
     height: 1217px;
     position: relative;
 
+}
+
+.container-formulario .cf-img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+
     & img {
         width: 100%;
         height: 100%;
         object-fit: cover;
-        position: absolute;
     }
 }
 
-.container-formulario > div {
+.container-formulario > div:first-child {
+    position: relative;
     padding: 120px var(--page-sides) 43px;
+    z-index: 1;
 }
 
 .formulario-texto {
@@ -178,6 +187,7 @@
 .formulario-texto .form {
     display: grid;
     gap: 24px;
+    margin-top: 22px;
     padding: 24px;
     background-color: #009951;
     border-radius: 8px;
@@ -292,17 +302,14 @@
         box-sizing: border-box;
         height: auto;
     }
-    .container-formulario > div {
-    padding: 12px var(--page-sides) 43px;
+    .container-formulario > div:first-child {
+        padding: 0 var(--page-sides);
     }
 
     .solo-celular{
         display: block;
     }
 
-    .solo-pc{
-        display: none;
-    }
     .contenedor-logros .logros-texto h3 {
         font-size: 20px;
     }
@@ -356,38 +363,35 @@
 
     /* Formulario */
     .container-formulario {
-        /*height: auto;*/
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+        height: auto;
+    }
+
+    .container-formulario .cf-img {
+        width: 100%;
+        /* height: 809px; */
         position: relative;
-        margin-bottom: 130px;
+
+        & img {
+            width: 200%;
+            /* height: 100%; */
+            display: block;
+            object-fit: cover;
+            transform: translateX(-50%);
+        }
     }
 
-    .container-formulario img {
+    .container-formulario .cf-img::before {
+        content: "";
         width: 100%;
-        /*max-width: 100px;*/
-        height: 750px;
-        /*margin: 400px auto 0 auto;*/
-        box-shadow: none;
+        height: 100px;
         position: absolute;
-        top:605px
-        
+        top: 0;
+        background: linear-gradient(to top, transparent 60%, #f6f6ee 100%);
+        z-index: 1;
     }
 
-    .formulario-texto {
-        width: 100%;
-        padding: 20px;
-        margin-top: -15px;
-    }
-
-    .formulario-texto .titulo-contacto {
-        font-size: 20px;
-    }
-
-    .formulario-texto .form {
-        padding: 16px;
-        margin-bottom: 600px;
+    .container-formulario .formulario-texto {
+        margin: 62px auto 0;
     }
 
     /* Botón flotante footer */

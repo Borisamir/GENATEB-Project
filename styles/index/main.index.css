@@ -81,6 +81,7 @@
 }
 
 .clientes-content .slider {
+    min-width: max-content;
     display: flex;
     gap: 16px;
     margin-top: 38px;
@@ -98,7 +99,7 @@
     }
 
     100% {
-        transform:translateX(-101.5%);
+        transform:translateX(-50.5%);
     }
     
 }
