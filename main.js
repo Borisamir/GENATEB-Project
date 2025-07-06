@@ -1,72 +1,53 @@
 const leftArrow = document.getElementById("left-arrow");
 const rightArrow = document.getElementById("right-arrow");
-const indicators = document.querySelectorAll(".indicators a");
-
-const totalSlides = 3;
-
-let currentActive = document.querySelector(".indicators .active");
+const indicators = document.querySelectorAll(".indicators div");
 
 /* SLIDER: arrows */
-function getCurrentSlide() {
-    const hash = window.location.hash;
-    const match = hash.match(/slide-(\d+)/);
+document.addEventListener('DOMContentLoaded', function () {
+    const slider = document.querySelector('.slider-container .slider');
+    const slides = Array.from(slider.querySelectorAll('.slide'));
+    let current = 0;
 
-    if (match) {
-        return parseInt(match[1]);
+    function goToSlide(index) {
+        if (index < 0) index = slides.length - 1;
+        if (index >= slides.length) index = 0;
+        current = index;
+        slider.scrollTo({
+            left: slides[index].offsetLeft,
+            behavior: 'smooth'
+        });
+        indicators.forEach((ind, i) => {
+            ind.classList.toggle('active', i === index);
+        });
     }
 
-    return 1;
-}
-
-leftArrow.addEventListener("click", function(evt) {
-    evt.preventDefault();
-
-    let current = getCurrentSlide();
-    let prev = current - 1;
-
-    if (prev < 1) {
-        prev = totalSlides
-    }
-
-    window.location.hash = "#slide-" + prev;
-
-    currentActive.classList.remove("active");
-    currentActive = indicators[prev - 1];
-
-    indicators[prev - 1].classList.add("active");
-});
-
-rightArrow.addEventListener("click", function(evt) {
-    evt.preventDefault();
-
-    let current = getCurrentSlide();
-    let next = current + 1;
-
-    if (next > totalSlides) {
-        next = 1;
-    }
-
-    window.location.hash = "#slide-" + next;
-
-    currentActive.classList.remove("active");
-    currentActive = indicators[next - 1];
-
-    indicators[next - 1].classList.add("active");
-});
-
-/* SLIDER: indicators */
-indicators.forEach(function(ind) {
-    ind.addEventListener("click", function(evt) {
-        if (currentActive === this) {
-            return;
-        }
-
-        currentActive.classList.remove("active");
-        currentActive = this
-
-        this.classList.add("active");
+    leftArrow.addEventListener('click', () => {
+        goToSlide(current - 1);
     });
-})
+
+    rightArrow.addEventListener('click', () => {
+        goToSlide(current + 1);
+    });
+
+    indicators.forEach((ind, i) => {
+        ind.addEventListener('click', (e) => {
+            e.preventDefault();
+            goToSlide(i);
+        });
+    });
+
+    // Opcional: sincronizar el slide actual al hacer scroll manual
+    slider.addEventListener('scroll', () => {
+        const scrollLeft = slider.scrollLeft;
+        let found = 0;
+        slides.forEach((slide, i) => {
+            if (scrollLeft >= slide.offsetLeft - 10) found = i;
+        });
+        if (found !== current) {
+            current = found;
+        }
+    });
+});
 
 
 /*Verificacion datos */

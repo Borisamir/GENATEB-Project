@@ -1,8 +1,8 @@
 <header>
     <div class="header-wrapper center-r font-inter">
-        <div class="brand" for="menu-toggle">
+        <a class="brand" href="<?php echo $_ENV["ROOT"]; ?>">
             <img src="<?php echo $_ENV["RESOURCES"]; ?>/Logos/brand.png" alt="genateb">
-        </div>
+        </a>
         <div>
             <input id="menu-toggle" type="checkbox" hidden>
             <label class="menu-icon" for="menu-toggle">
@@ -14,17 +14,17 @@
             <nav id="menu" class="menu-container">
                 <ul>
                     <li><a href="<?php echo $_ENV["ROOT"]; ?>">INICIO</a></li>
-                    <li><a href="<?php echo $_ENV["PAGES"]; ?>/nosotros.php">NOSOTROS</a></li>
+                    <li><a href="<?php echo $_ENV["ROOT"]; ?>/nosotros.php">NOSOTROS</a></li>
                     <li>
-                        <a href="<?php echo $_ENV["PAGES"]; ?>/servicios.php">SERVICIO</a>
+                        <a href="<?php echo $_ENV["ROOT"]; ?>/servicio.php">SERVICIO</a>
                         <ul class="submenu">
-                            <li><a href="<?php echo $_ENV["PAGES"]; ?>/monitoreo-ocupacional.php">Monitoreo de agentes ocupacionales</a></li>
-                            <li><a href="<?php echo $_ENV["PAGES"]; ?>/monitoreo_ambiental.php">Monitoreo de agentes ambientales</a></li>
-                            <li><a href="<?php echo $_ENV["PAGES"]; ?>/elaboracion_instrumentos.php">Elaboración de instrumentos de gestión ambiental</a></li>
-                            <li><a href="<?php echo $_ENV["PAGES"]; ?>/permisología-ambiental-minera.php">Permisología ambiental minera</a></li>
-                            <li><a href="<?php echo $_ENV["PAGES"]; ?>/estudios_complementarios.php">Estudios complementarios</a></li>
-                            <li><a href="<?php echo $_ENV["PAGES"]; ?>/sst.php">Seguridad y salud en el trabajo</a></li>
-                            <li><a href="<?php echo $_ENV["PAGES"]; ?>/capacitaciones.php">Capacitaciones</a></li>
+                            <li><a href="<?php echo $_ENV["SERVICES"]; ?>/monitoreo-de-agentes-ocupacionales.php">Monitoreo de agentes ocupacionales</a></li>
+                            <li><a href="<?php echo $_ENV["SERVICES"]; ?>/monitoreo-de-calidad-ambiental.php">Monitoreo de calidad ambiental</a></li>
+                            <li><a href="<?php echo $_ENV["SERVICES"]; ?>/elaboracion-de-instrumentos-de-gestion-ambiental.php">Elaboración de instrumentos de gestión ambiental</a></li>
+                            <li><a href="<?php echo $_ENV["SERVICES"]; ?>/permisologia-ambiental-minera.php">Permisología ambiental minera</a></li>
+                            <li><a href="<?php echo $_ENV["SERVICES"]; ?>/estudios-complementarios.php">Estudios complementarios</a></li>
+                            <li><a href="<?php echo $_ENV["SERVICES"]; ?>/seguridad-y-salud-en-el-trabajo.php">Seguridad y salud en el trabajo</a></li>
+                            <li><a href="<?php echo $_ENV["SERVICES"]; ?>/capacitaciones.php">Capacitaciones</a></li>
                         </ul>
                     </li>
                     <li><a href="#">BLOG</a></li>

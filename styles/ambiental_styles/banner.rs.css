@@ -1,4 +1,4 @@
-@media (max-width: 896px) {
+@media (max-width: 933px) {
   .contenedor-banner{
     height: 215px;
   }
@@ -140,8 +140,12 @@
   }
 
   .contenedor-boton-what a img{
+    position: fixed;
     width: 57px;
     height: 59px;
+    left:85%;
+    top:278px;
+    z-index: 1;
 
   }
 
@@ -153,7 +157,7 @@
     width: 57px;
     height: 59px;
     right: -70px;
-    top:-230px;
+    top:-250px;
     position: absolute;
 
   }

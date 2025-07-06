@@ -43,6 +43,11 @@
     & p {
         text-align: center;
         color: #757575;
+        font-size: 25px;
+    }
+
+    & span{
+        font-size: 25px;
     }
 }
 
@@ -56,3 +61,61 @@
     width: 30%;
 }
 /* END-MONITOREOS */
+
+
+
+@media (max-width:431px){
+
+    .monitoreo-content .botella{
+        height: 90px !important;
+        width: 50px !important;
+    }
+
+    .monitoreo-content .reba{
+        height: 88px !important;
+        width: 41px !important;
+
+    }
+
+    .monitoreo-content .rula{
+        height: 86px !important;
+        width: 49px !important;
+
+    }
+
+
+    .monitoreo-content h3 {
+    margin: 40px 0;
+    font-size: 15px;
+    color: #083d29;
+    }
+
+
+    .monitoreo-content ul li {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    min-width: 25%;
+
+    & img {
+        margin: auto;
+        width: 70px;
+        height: 70px;
+    }
+
+    & p {
+        text-align: center;
+        color: #757575;
+        font-size: 15px;
+    }
+
+    & span{
+        font-size: 15px;
+    }
+}
+
+
+
+
+
+}

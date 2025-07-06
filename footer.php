@@ -9,13 +9,13 @@
                 <div>
                     <h3>Servicios</h3>
                     <ul class="font-inter">
-                        <li><a href="<?php echo $_ENV["PAGES"]; ?>/monitoreo-ocupacional.php">Monitoreo de agentes ocupacionales</a></li>
-                        <li><a href="<?php echo $_ENV["PAGES"]; ?>/monitoreo_ambiental.php">Monitoreo de calidad ambiental</a></li>
-                        <li><a href="<?php echo $_ENV["PAGES"]; ?>/elaboracion_instrumentos.php">Elaboración de instrumentos de gestión ambiental</a></li>
-                        <li><a href="<?php echo $_ENV["PAGES"]; ?>/permisología-ambiental-minera.php">Permisología ambiental minera</a></li>
-                        <li><a href="<?php echo $_ENV["PAGES"]; ?>/estudios_complementarios.php">Estudios complementarios</a></li>
-                        <li><a href="<?php echo $_ENV["PAGES"]; ?>/sst.php">Seguridad y salud en el trabajo</a></li>
-                        <li><a href="<?php echo $_ENV["PAGES"]; ?>/capacitaciones.php">Capacitaciones</a></li>
+                        <li><a href="<?php echo $_ENV["SERVICES"]; ?>/monitoreo-de-agentes-ocupacionales.php">Monitoreo de agentes ocupacionales</a></li>
+                        <li><a href="<?php echo $_ENV["SERVICES"]; ?>/monitoreo-de-calidad-ambiental.php">Monitoreo de calidad ambiental</a></li>
+                        <li><a href="<?php echo $_ENV["SERVICES"]; ?>/elaboracion-de-instrumentos-de-gestion-ambiental.php">Elaboración de instrumentos de gestión ambiental</a></li>
+                        <li><a href="<?php echo $_ENV["SERVICES"]; ?>/permisologia-ambiental-minera.php">Permisología ambiental minera</a></li>
+                        <li><a href="<?php echo $_ENV["SERVICES"]; ?>/estudios-complementarios.php">Estudios complementarios</a></li>
+                        <li><a href="<?php echo $_ENV["SERVICES"]; ?>/seguridad-y-salud-en-el-trabajo.php">Seguridad y salud en el trabajo</a></li>
+                        <li><a href="<?php echo $_ENV["SERVICES"]; ?>/capacitaciones.php">Capacitaciones</a></li>
                     </ul>
                 </div>
                 <div class="mod">
@@ -40,7 +40,7 @@
                         </li>
                         <li>
                             <img src="<?php echo $_ENV["RESOURCES"]; ?>\Logos\mail.svg" alt="correo">
-                            <a href="#" target="_blank">comercial@genateb.com</a>
+                            <a href="#formulario">comercial@genateb.com</a>
                         </li>
                     </ul>
                 </div>

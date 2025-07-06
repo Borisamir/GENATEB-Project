@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
 :root {
-    --center: 1440px;
+    --center: 1950px;
     --page-sides: 20px;
     --font-cal-sans: "Cal Sans", sans-serif;
     --font-inter: "Inter", sans-serif;
@@ -29,7 +29,7 @@ html {
 
 /* .center > .slider > .slide > .content, */
 .center-r {
-    max-width: calc(var(--center) - 380px);
+    max-width: calc(var(--center) - 190px * 4);
     margin: 0 auto;
 }
 
@@ -115,6 +115,7 @@ html {
     border: 1px solid #02542D;
     line-height: var(--gb-height);
     font-family: var(--font-inter);
+    /* font-weight: 400 !important; */
     text-align: center;
     text-decoration: none;
     text-transform: uppercase;
@@ -160,25 +161,22 @@ footer {
     .sd-section{
         display: flex;
 
+        & p{
+            font-size: 12px;
+            line-height: 1.2;
 
-    & p{
-        font-size: 12px;
-        line-height: 1.2;
+        }
+
+        & h2{
+            font-size: 20px;
+
+        }
 
     }
-
-    & h2{
-        font-size: 20px;
-
-    }
-    }
-
-    .font-inter {
-    & a, button, label, input, p, select {
-        font-family: var(--font-inter);
-        font-weight: 700;
+    .monitoreos .sd-section a {
+        --gb-height: 30px;
         font-size: 10px;
+        width: 77px;
     }
 }
 
-}

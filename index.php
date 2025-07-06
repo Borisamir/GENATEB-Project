@@ -57,13 +57,13 @@
             </div>
             <div class="nav-buttons">
                 <div class="directions">
-                    <a href="#" id="left-arrow"><img src="<?php echo $_ENV["RESOURCES"]; ?>/Body/Flecha_Izquierda.png" alt="left-arrow"></a>
-                    <a href="#" id="right-arrow"><img src="<?php echo $_ENV["RESOURCES"]; ?>/Body/Flecha_Izquierda.png" alt="right-arrow"></a>
+                    <div id="left-arrow"><img src="<?php echo $_ENV["RESOURCES"]; ?>/Body/Flecha_Izquierda.png" alt="left-arrow"></div>
+                    <div id="right-arrow"><img src="<?php echo $_ENV["RESOURCES"]; ?>/Body/Flecha_Izquierda.png" alt="right-arrow"></div>
                 </div>
                 <div class="indicators">
-                    <a href="#slide-1" class="ind-1 active"></a>
-                    <a href="#slide-2" class="ind-2"></a>
-                    <a href="#slide-3" class="ind-3"></a>
+                    <div class="ind-1 active"></div>
+                    <div class="ind-2"></div>
+                    <div class="ind-3"></div>
                 </div>
             </div>
         </section>
@@ -71,11 +71,11 @@
             <div class="grupo-informacion font-inter">
                 <div class="informacion">
                     <img src="<?php echo $_ENV["RESOURCES"]; ?>/Logos\map.svg" alt="mapa">
-                    <h3>Jr. Fitzcarrald 1504, Los Olivos.</h3>
+                    <h3><a href="<?php echo $_ENV["LOCATION_LINK"]; ?>" target="_blank">Jr. Fitzcarrald 1504, Los Olivos.</a></h3>
                 </div>
                 <div class="informacion">
                     <img src="<?php echo $_ENV["RESOURCES"]; ?>\Logos\mail.svg" alt="correo">
-                    <h3>comercial@genateb.com</h3>
+                    <h3><a href="#formulario">comercial@genateb.com</a></h3>
                 </div>
                 <div class="informacion">
                     <img src="<?php echo $_ENV["RESOURCES"]; ?>\Logos\logo-whatsapp.svg" alt="whatsapp">
@@ -89,84 +89,84 @@
                 <div>
                     <div class="logros-texto">
                         <h3>NUESTROS LOGROS</h3>
-                        <h2>Vamos 7 años asesorando en permisos ambientales y sociales<br>a lo largo y ancho del Peru brindado.</h2>
+                        <h2>Vamos 7 años asesorando en permisos ambientales y sociales<br>a lo largo y ancho del Perú brindando</h2>
                     </div>
                     <div class="logros-cifras">
                         <div class="logro">
-                            <img src="<?php echo $_ENV["RESOURCES"]; ?>/Body\imagen_pulgar_arriba.png" alt=logro">
+                            <img src="<?php echo $_ENV["RESOURCES"]; ?>/Body\imagen_pulgar_arriba.png" alt="logro">
                             <div class="logro-texto">
                                 <h3>+7</h3>
                                 <h2>Años de experiencia</h2>
                             </div>
                         </div>
-                        <div class="logro">
+                        <div class="logro edificio">
                             <img src="<?php echo $_ENV["RESOURCES"]; ?>\Body\imagen_edificio.png" alt="logro">
                             <div class="logro-texto">
                                 <h3>+100</h3>
                                 <h2>Empresas atendidas</h2>
                             </div>
                         </div>
-                        <div class="logro">
+                        <div class="logro estrella">
                             <img src="<?php echo $_ENV["RESOURCES"]; ?>/Body\imagen_hombre_estrella.png" alt="logro">
                             <div class="logro-texto">
                                 <h3>+30</h3>
-                                <h2>Capacitaciones tecnicas</h2>
+                                <h2>Capacitaciones técnicas</h2>
                             </div>
                         </div>
                         <div class="logro">
                             <img src="<?php echo $_ENV["RESOURCES"]; ?>/Body\imagen_estrella_pulgar.png" alt="logro">
                             <div class="logro-texto">
                                 <h3>100%</h3>
-                                <h2>Satisfaccion</h2>
+                                <h2>Satisfacción</h2>
                             </div>
                         </div>
                     </div>
                 </div>
-                <img src="<?php echo $_ENV["RESOURCES"]; ?>\Body\imagen_señor_3.png" alt="logro">
+                <img src="<?php echo $_ENV["RESOURCES"]; ?>\Body\imagen_senor_3.png" alt="logro">
             </div>
         </section>
         <div class="container-ayuda">
             <div class="ayuda-content center-r">
                 <div class="container-texto">
                     <h2>¿Necesitas Ayuda?</h2>
-                    <h3>Nuestros especialistas se comunicaran los mas pronto contigo.</h3>
+                    <h3>Nuestros especialistas se comunicarán lo más pronto contigo.</h3>
                 </div>
                 <a class="green-button" href="<?php echo $_ENV["WHATSAPP_LINK"]; ?>" target="_blank">ESCRÍBENOS</a>
             </div>
         </div>
-        <section class="container-servicios">
+        <section class="container-servicios cs-pd">
             <div class="center-r">
                 <h2 class="texto-servicio">NUESTROS SERVICIOS</h2>
                 <div class="services font-inter">
                     <div class="servicio-item">
                         <img src="<?php echo $_ENV["RESOURCES"]; ?>/Servicios_Imagenes\imagen_monitoreo_ocupacionales.png" alt="ocupacional">
                         <p class="texto-sobre-imagen">Monitoreo de agentes ocupacionales</p>
-                        <a class="green-button boton-sobre-imagen" href="<?php echo $_ENV["PAGES"]; ?>/monitoreo-ocupacional.php">VER MÁS</a>
+                        <a class="green-button boton-sobre-imagen" href="<?php echo $_ENV["SERVICES"]; ?>/monitoreo-de-agentes-ocupacionales.php">VER MÁS</a>
                     </div>
                     <div class="servicio-item">
                         <img src="<?php echo $_ENV["RESOURCES"]; ?>/Servicios_Imagenes\imagen_monitoreo_ambientales.png" alt="ambiental">
-                        <p class="texto-sobre-imagen">Monitero de agentes<br>ambientales</p>
-                        <a class="green-button boton-sobre-imagen" href="<?php echo $_ENV["PAGES"]; ?>/monitoreo_ambiental.php">VER MÁS</a>
+                        <p class="texto-sobre-imagen">Monitoreo de<br>calidad ambiental</p>
+                        <a class="green-button boton-sobre-imagen" href="<?php echo $_ENV["SERVICES"]; ?>/monitoreo-de-calidad-ambiental.php">VER MÁS</a>
                     </div>
                     <div class="servicio-item">
                         <img src="<?php echo $_ENV["RESOURCES"]; ?>/Servicios_Imagenes\imagen_elaboracion_ambiental.png" alt="elaboracion">
-                        <p class="texto-sobre-imagen">Elaboracion de instrumentos<br>de gestion ambiental</p>
-                        <a class="green-button boton-sobre-imagen" href="<?php echo $_ENV["PAGES"]; ?>/elaboracion_instrumentos.php">VER MÁS</a>
+                        <p class="texto-sobre-imagen">Elaboración de instrumentos<br>de gestión ambiental</p>
+                        <a class="green-button boton-sobre-imagen" href="<?php echo $_ENV["SERVICES"]; ?>/elaboracion-de-instrumentos-de-gestion-ambiental.php">VER MÁS</a>
                     </div>
                     <div class="servicio-item">
                         <img src="<?php echo $_ENV["RESOURCES"]; ?>/Servicios_Imagenes\imagen_permisologia_minera.png" alt="minera">
-                        <p class="texto-sobre-imagen">Permisologia ambiental<br>minera</p>
-                        <a class="green-button boton-sobre-imagen" href="<?php echo $_ENV["PAGES"]; ?>/permisología-ambiental-minera.php">VER MÁS</a>
+                        <p class="texto-sobre-imagen">Permisología ambiental<br>minera</p>
+                        <a class="green-button boton-sobre-imagen" href="<?php echo $_ENV["SERVICES"]; ?>/permisologia-ambiental-minera.php">VER MÁS</a>
                     </div>
                     <div class="servicio-item">
                         <img src="<?php echo $_ENV["RESOURCES"]; ?>/Servicios_Imagenes\imagen_seguridad_salud.png" alt="seguridad">
                         <p class="texto-sobre-imagen">Seguridad y salud<br> en el trabajo</p>
-                        <a class="green-button boton-sobre-imagen" href="<?php echo $_ENV["PAGES"]; ?>/sst.php">VER MÁS</a>
+                        <a class="green-button boton-sobre-imagen" href="<?php echo $_ENV["SERVICES"]; ?>/seguridad-y-salud-en-el-trabajo.php">VER MÁS</a>
                     </div>
                     <div class="servicio-item">
                         <img src="<?php echo $_ENV["RESOURCES"]; ?>/Servicios_Imagenes\imagen_capacitaciones.png" alt="capacitacion">
                         <p class="texto-sobre-imagen">Capacitaciones</p>
-                        <a class="green-button boton-sobre-imagen" href="<?php echo $_ENV["PAGES"]; ?>/capacitaciones.php">VER MÁS</a>
+                        <a class="green-button boton-sobre-imagen" href="<?php echo $_ENV["SERVICES"]; ?>/capacitaciones.php">VER MÁS</a>
                     </div>
                 </div>
             </div>
@@ -181,21 +181,50 @@
                     <img src="<?php echo $_ENV["RESOURCES"]; ?>/Logos\Contugas.png" alt="confugas">
                     <img src="<?php echo $_ENV["RESOURCES"]; ?>/Logos\Oss.png" alt="oss">
                     <img src="<?php echo $_ENV["RESOURCES"]; ?>/Logos\Abai.png" alt="abai">
+                    <img src="<?php echo $_ENV["RESOURCES"]; ?>/Logos\Grafi.png" alt="grafi">
+                    <img src="<?php echo $_ENV["RESOURCES"]; ?>/Logos\Auna.png" alt="auna">
+                    <img src="<?php echo $_ENV["RESOURCES"]; ?>/Logos\Ochosur.png" alt="ochosur">
+                    <img src="<?php echo $_ENV["RESOURCES"]; ?>/Logos\ByV.png" alt="byv">
+                    <img src="<?php echo $_ENV["RESOURCES"]; ?>/Logos\Amphos.png" alt="amphis">
+                    <img src="<?php echo $_ENV["RESOURCES"]; ?>/Logos\MDH.png" alt="mdh">
+                    <img src="<?php echo $_ENV["RESOURCES"]; ?>/Logos\Vanguard.png" alt="vanguard">
+                    <img src="<?php echo $_ENV["RESOURCES"]; ?>/Logos\Proagro.png" alt="proagro">
+                    <img src="<?php echo $_ENV["RESOURCES"]; ?>/Logos\Typsa.png" alt="typsa">
+                    <img src="<?php echo $_ENV["RESOURCES"]; ?>/Logos\Promet.png" alt="promet">
+                    <img src="<?php echo $_ENV["RESOURCES"]; ?>/Logos\Usat.png" alt="usat">
+                    <img src="<?php echo $_ENV["RESOURCES"]; ?>/Logos\San_Luis.png" alt="san luis">
+                    <img src="<?php echo $_ENV["RESOURCES"]; ?>/Logos\San_Juan.png" alt="san juan">
+                    <img src="<?php echo $_ENV["RESOURCES"]; ?>/Logos\Covinca.png" alt="covinca">
                     <img src="<?php echo $_ENV["RESOURCES"]; ?>/Logos\Aenor.png" alt="aenor">
                     <img src="<?php echo $_ENV["RESOURCES"]; ?>/Logos\Applus.png" alt="applus">
                     <img src="<?php echo $_ENV["RESOURCES"]; ?>/Logos\Abz.png" alt="abz">
                     <img src="<?php echo $_ENV["RESOURCES"]; ?>/Logos\Contugas.png" alt="confugas">
                     <img src="<?php echo $_ENV["RESOURCES"]; ?>/Logos\Oss.png" alt="oss">
                     <img src="<?php echo $_ENV["RESOURCES"]; ?>/Logos\Abai.png" alt="abai">
+                    <img src="<?php echo $_ENV["RESOURCES"]; ?>/Logos\Grafi.png" alt="grafi">
+                    <img src="<?php echo $_ENV["RESOURCES"]; ?>/Logos\Auna.png" alt="auna">
+                    <img src="<?php echo $_ENV["RESOURCES"]; ?>/Logos\Ochosur.png" alt="ochosur">
+                    <img src="<?php echo $_ENV["RESOURCES"]; ?>/Logos\ByV.png" alt="byv">
+                    <img src="<?php echo $_ENV["RESOURCES"]; ?>/Logos\Amphos.png" alt="amphis">
+                    <img src="<?php echo $_ENV["RESOURCES"]; ?>/Logos\MDH.png" alt="mdh">
+                    <img src="<?php echo $_ENV["RESOURCES"]; ?>/Logos\Vanguard.png" alt="vanguard">
+                    <img src="<?php echo $_ENV["RESOURCES"]; ?>/Logos\Proagro.png" alt="proagro">
+                    <img src="<?php echo $_ENV["RESOURCES"]; ?>/Logos\Typsa.png" alt="typsa">
+                    <img src="<?php echo $_ENV["RESOURCES"]; ?>/Logos\Promet.png" alt="promet">
+                    <img src="<?php echo $_ENV["RESOURCES"]; ?>/Logos\Usat.png" alt="usat">
+                    <img src="<?php echo $_ENV["RESOURCES"]; ?>/Logos\San_Luis.png" alt="san luis">
+                    <img src="<?php echo $_ENV["RESOURCES"]; ?>/Logos\San_Juan.png" alt="san juan">
+                    <img src="<?php echo $_ENV["RESOURCES"]; ?>/Logos\Covinca.png" alt="covinca">
                 </div>
             </div>
         </div>
-        <section class="container-formulario center">
+        <section class="container-formulario center" id="formulario">
             <div>
                 <div class="form-content center-r">
                     <div class="formulario-texto">
                         <h2 class="titulo-contacto" >CONTÁCTANOS</h2>
                         <form class="form font-inter" action="contact.php" method="post" onsubmit="return Validar()">
+                          
                             <label for="nombre">
                                 Nombre y Apellidos
                                 <input id="nombre" type="text" name="name" required>
@@ -204,6 +233,7 @@
                                 Correo Electronico
                                 <input id="correo_electronico" type="email" name="email" required>
                             </label>
+                          
                             <label for="telefono">
                                 Número de teléfono
                                 <input id="telefono" type="number" name="phone" required>
@@ -222,7 +252,7 @@
                             </label>
                             <label for="mensaje">
                                 Mensaje o consulta
-                                <input id="mensaje" type="text" name="message" required>
+                                <textarea id="mensaje" type="text" name="message" required style="margin-top:10px"></textarea>
                             </label>
                             <label class="terms">
                                 <input id="terms" type="checkbox" name="terms" required>
@@ -235,7 +265,7 @@
                 </div>
             </div>
             <div class="cf-img">
-                <img src="<?php echo $_ENV["RESOURCES"]; ?>/Body/señor3_fondo.png" alt="trabajador" class="solo-pc">
+                <img src="<?php echo $_ENV["RESOURCES"]; ?>/Body/imagen_formulario.png" alt="trabajador" class="solo-pc">
             </div>
         </section>
     </main>
